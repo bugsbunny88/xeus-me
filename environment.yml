@@ -13,7 +13,6 @@ dependencies:
   - boost-histogram 
   - cftime 
   - click-default-group-wheel 
-  - dask 
   - datasette 
   - dill 
   - docutils 
