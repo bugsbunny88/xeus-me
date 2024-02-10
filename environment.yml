@@ -32,7 +32,6 @@ dependencies:
   - jupyter-cache 
   - jupyter-lsp 
   - jupyterlab 
-  - jupyterlite 
   - jupyter_bokeh 
   - logbook 
   - matplotlib 
