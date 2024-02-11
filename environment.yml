@@ -45,7 +45,7 @@ dependencies:
   - scikit-learn
   - scipy
   - seaborn
-#  - sqlalchemy
+  - sqlalchemy
   - sqlite
 #  - sqlite-utils
 #  - squarify
