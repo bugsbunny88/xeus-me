@@ -4,7 +4,7 @@ channels:
   - https://repo.mamba.pm/conda-forge
 dependencies:
   - xeus-python
-  - altair
+#  - altair
   - astropy
   - biopython
 #  - black
@@ -13,16 +13,16 @@ dependencies:
 #  - country_converter
 #  - dill
 #  - docutils
-  - folium
+#  - folium
 #  - geopy
-  - httpx
-  - ipycanvas
-  - ipydatagrid
-  - ipyleaflet
-  - ipympl
-  - ipywidgets
+#  - httpx
+#  - ipycanvas
+#  - ipydatagrid
+#  - ipyleaflet
+#  - ipympl
+#  - ipywidgets
 #  - isort
-  - itables
+#  - itables
 #  - lxml
   - matplotlib
 #  - missingno
@@ -30,17 +30,17 @@ dependencies:
   - openpyxl
   - pandas
   - peewee
-  - pillow
+#  - pillow
   - plotly
 #  - plotnine
-  - pycountry
-  - pyjanitor
+#  - pycountry
+#  - pyjanitor
 #  - python
 #  - python-dotenv
   - python-tzdata
 #  - pyviz_comms
   - pyxlsb
-  - requests
+#  - requests
   - scikit-image
   - scikit-learn
   - scipy
