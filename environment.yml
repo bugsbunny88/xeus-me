@@ -6,7 +6,6 @@ dependencies:
   - xeus-python
   - ipywidgets
   - ipycanvas
-  - altair
   - astropy
   - biopython
   - black
@@ -30,3 +29,38 @@ dependencies:
   - sqlalchemy
   - squarify
   - sweetviz
+  - altair
+  - black
+  - bokeh
+  - bqplot
+  - folium
+  - httpx
+  - ipycanvas
+  - ipydatagrid
+  - ipyleaflet
+  - ipympl
+  - ipywidgets
+  - lxml
+  - matplotlib
+  - numpy
+  - openpyxl
+  - pandas
+  - panel
+  - peewee
+  - pillow
+  - plotly
+  - plotnine
+  - python
+  - python-tzdata
+  - pyviz_comms
+  - requests
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - seaborn
+  - sqlalchemy
+  - sqlite
+  - statsmodels
+  - vega_datasets
+  - xarray
+
