@@ -4,6 +4,8 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
+  - jupyterlite-xeus>=0.1.5,<0.2
+  - ipywidgets==8.1.1
   - ipycanvas
   - altair
   - astropy
