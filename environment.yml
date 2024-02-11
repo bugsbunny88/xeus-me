@@ -15,7 +15,7 @@ dependencies:
 #  - docutils
 #  - folium
 #  - geopy
-#  - httpx
+  - httpx
 #  - ipycanvas
 #  - ipydatagrid
 #  - ipyleaflet
@@ -45,7 +45,7 @@ dependencies:
   - scikit-learn
   - scipy
   - seaborn
-  - sqlalchemy
+#  - sqlalchemy
   - sqlite
 #  - sqlite-utils
 #  - squarify
