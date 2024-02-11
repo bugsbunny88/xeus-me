@@ -4,7 +4,7 @@ channels:
   - https://repo.mamba.pm/conda-forge
 dependencies:
   - xeus-python
-  - black 
+ # - black 
   - country_converter 
   - geopy 
  # - hvplot 
