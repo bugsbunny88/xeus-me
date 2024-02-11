@@ -4,17 +4,25 @@ channels:
   - https://repo.mamba.pm/conda-forge
 dependencies:
   - xeus-python
-#  - altair
-#  - astropy
-  - biopython
-#  - black
-#  - bokeh
-#  - country_converter
-#  - docutils
-#  - folium
-#  - geopy
-  - httpx
-#  - ipycanvas
+  - black 
+  - country_converter 
+  - geopy 
+  - hvplot 
+  - isort 
+  - itables 
+  - jupytext 
+  - missingno 
+  - openpyxl 
+  - plotly 
+  - pycountry 
+  - pyjanitor 
+  - python-dotenv 
+  - pyxlsb 
+  - scikit-learn 
+  - sqlalchemy 
+  - squarify 
+  - sweetviz
+#  - httpx#  - ipycanvas
 #  - ipydatagrid
 #  - ipyleaflet
 #  - ipympl
@@ -22,33 +30,33 @@ dependencies:
 #  - isort
 #  - itables
 #  - lxml
-  - matplotlib
+#  - matplotlib
 #  - missingno
-  - numpy
-  - openpyxl
-  - pandas
-  - peewee
+#  - numpy
+#  - openpyxl
+#  - pandas
+#  - peewee
 #  - pillow
-  - plotly
+#  - plotly
 #  - pycountry
 #  - pyjanitor
 #  - python
 #  - python-dotenv
-  - python-tzdata
+#  - python-tzdata
 #  - pyviz_comms
-  - pyxlsb
+#  - pyxlsb
 #  - requests
-  - scikit-image
-  - scikit-learn
-  - scipy
-  - seaborn
-  - sqlalchemy
+#  - scikit-image
+#  - scikit-learn
+#  - scipy
+#  - seaborn
+#  - sqlalchemy
 #  - sqlite
 #  - sqlite-utils
 #  - squarify
 #  - statsmodels
 #  - sweetviz
 #  - vega_datasets
-  - xarray
+#  - xarray
   
 
