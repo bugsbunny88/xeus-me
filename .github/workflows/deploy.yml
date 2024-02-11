@@ -33,14 +33,10 @@ jobs:
           cp README.md content
           jupyter lite build --contents content --output-dir dist
 
-      - name: Zip the build directory
-        run: zip -r dist.zip dist
-
-      - name: Upload build directory ZIP as artifact
-        uses: actions/upload-artifact@v2
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: site-artifact
-          path: dist.zip
+          path: ./dist
 
   deploy:
     needs: build
