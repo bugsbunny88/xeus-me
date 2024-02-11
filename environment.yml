@@ -39,9 +39,6 @@ dependencies:
   - scikit-image
   - sqlite-utils
   - sqlalchemy
-  - pyomo
-  - lightgbm
-  - geopandas
   - squarify
   - sweetviz
   - swiglpk
