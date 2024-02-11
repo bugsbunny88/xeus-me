@@ -45,4 +45,3 @@ dependencies:
   - traits
   - wrapt
   - zarr
-  - hvplot
