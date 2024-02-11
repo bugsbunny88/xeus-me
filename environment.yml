@@ -9,9 +9,7 @@ dependencies:
   - biopython
 #  - black
 #  - bokeh
-#  - bqplot
 #  - country_converter
-#  - dill
 #  - docutils
 #  - folium
 #  - geopy
@@ -32,7 +30,6 @@ dependencies:
   - peewee
 #  - pillow
   - plotly
-#  - plotnine
 #  - pycountry
 #  - pyjanitor
 #  - python
@@ -45,8 +42,8 @@ dependencies:
   - scikit-learn
   - scipy
   - seaborn
-#  - sqlalchemy
-  - sqlite
+  - sqlalchemy
+#  - sqlite
 #  - sqlite-utils
 #  - squarify
 #  - statsmodels
