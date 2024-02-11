@@ -21,7 +21,6 @@ dependencies:
   - ifaddr
   - isort
   - itables
-  - jupytext
   - logbook
   - matplotlib
   - missingno
@@ -39,6 +38,10 @@ dependencies:
   - pyxlsb
   - scikit-image
   - sqlite-utils
+  - sqlalchemy
+  - pyomo
+  - lightgbm
+  - geopandas
   - squarify
   - sweetviz
   - swiglpk
