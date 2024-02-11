@@ -7,7 +7,7 @@ dependencies:
   - astropy
   - biopython
   - black
-  - bokeh
+#  - bokeh
   - bqplot
   - country_converter
   - dill
@@ -22,7 +22,7 @@ dependencies:
   - ipywidgets
   - isort
   - itables
-  - lxml
+#  - lxml
   - matplotlib
   - missingno
   - numpy
