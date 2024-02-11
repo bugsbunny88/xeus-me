@@ -46,9 +46,3 @@ dependencies:
   - wrapt
   - zarr
   - hvplot
-  - python
-  - pip
-  - jupyter_server
-  - jupyterlite-core
-  - pip:
-    - jupyterlite-xeus
