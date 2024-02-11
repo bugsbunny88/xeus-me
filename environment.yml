@@ -7,7 +7,7 @@ dependencies:
   - black 
   - country_converter 
   - geopy 
-  - hvplot 
+ # - hvplot 
   - isort 
   - itables 
   - jupytext 
