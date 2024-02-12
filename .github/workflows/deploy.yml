@@ -33,17 +33,10 @@ jobs:
           cp README.md content
           jupyter lite build --contents content --output-dir dist
 
-      - name: Upload artifact to GitHub Pages
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./dist
-
-      - name: Upload dist as artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: dist-artifact
-          path: ./dist
-          if-no-files-found: error # 'warn' or 'ignore' are also available, error will cause the step to fail if no files are found
 
   deploy:
     needs: build
