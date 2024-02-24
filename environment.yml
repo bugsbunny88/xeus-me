@@ -27,11 +27,10 @@ dependencies:
   - scipy
   - sqlite
   - ipympl
-  - ipyleaflet
   - ipydatagrid
   - ipycanvas
   - black
   - xarray
-  - httpx
+  - requests
   
 
