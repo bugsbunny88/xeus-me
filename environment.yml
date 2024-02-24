@@ -14,7 +14,6 @@ dependencies:
   - pyjanitor 
   - python-dotenv 
   - pyxlsb 
-  - scikit-learn 
   - sqlalchemy 
   - squarify 
   - sweetviz
@@ -23,13 +22,10 @@ dependencies:
   - matplotlib
   - seaborn
   - pandas
-  - statsmodels
   - scipy
-  #- sqlite
   - ipympl
   - ipydatagrid
   - ipycanvas
-  - black
   - requests
   
 
