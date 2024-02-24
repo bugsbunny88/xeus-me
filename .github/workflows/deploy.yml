@@ -23,9 +23,8 @@ jobs:
       - name: Install mamba
         uses: mamba-org/setup-micromamba@v1
         with:
-          micromamba-version: '1.5.0-0'
+          micromamba-version: '0.22.0'
           environment-file: build-environment.yml
-          cache-environment: true
 
       - name: Build the JupyterLite site
         shell: bash -l {0}
