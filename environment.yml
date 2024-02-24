@@ -4,7 +4,6 @@ channels:
   - https://repo.mamba.pm/conda-forge
 dependencies:
   - xeus-python
-  - jupyterlite-xeus>=0.1.5,<0.2
   - geopy 
   - isort 
   - itables 
