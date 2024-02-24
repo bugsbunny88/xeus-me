@@ -9,7 +9,8 @@ dependencies:
   - isort 
   - itables 
   - missingno 
-  - openpyxl 
+  - openpyxl
+  - bqplot
   - plotly==5.18.0
   - ipywidgets==8.1.1
   - pycountry 
