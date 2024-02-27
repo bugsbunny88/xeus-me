@@ -12,16 +12,16 @@ dependencies:
   - plotly
   - pycountry
   - pyjanitor
-  - python-dotenv
   - pyxlsb
   - ipycanvas
   - ipympl
   - ipydatagrid
   - numpy
   - matplotlib
+  - sqlite
+  - sqlalchemy
   - seaborn
   - pandas
   - scikit-learn
-  - httpx
   
 
