@@ -1,42 +1,4 @@
-# xeus-python + JupyterLite demo
-
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/xeus-python-demo/notebooks/?path=demo.ipynb)
-
-xeus-python + JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
-
-## ✨ Try it in your browser ✨
-
-https://jupyterlite.github.io/xeus-python-demo/notebooks/?path=demo.ipynb
-
-## ≠ How does it compare to the Pyodide kernel?
-
-#### Pyodide kernel:
-
-- Is based on [Pyodide](https://github.com/pyodide/pyodide)
-- Uses [IPython](https://github.com/ipython/ipython) for the code execution (access to IPython magics, support for the inline Matplotlib backend, *etc*)
-- Provides a way to dynamically install packages with ``piplite`` (**e.g.** ``await piplite.install("ipywidgets")``)
-- **Does not support** sleeping with ``from time import sleep``
-- **Does not support** pre-installing packages
-
-#### jupyterlite-xeus-python:
-
-- Is based on [xeus-python](https://github.com/jupyter-xeus/xeus-python)
-- Uses [IPython](https://github.com/ipython/ipython) for the code execution (access to IPython magics, support for the inline Matplotlib backend, *etc*)
-- **Does not provide** a way to dynamically install packages (yet. We are working on building a ``mamba`` package manager for WASM)
-- **Supports** sleeping with ``from time import sleep``
-- **Supports** pre-installing packages from ``emscripten-forge`` and ``conda-forge``, by providing an ``environment.yml`` file defining the runtime environment
-
-## 💡 How to make your own deployment
-
-![Deploy your own](deploy.gif)
-
-Then your site will be published under https://{USERNAME}.github.io/{DEMO_REPO_NAME}
-
-## 📦 How to install extra packages
-
-You can pre-install extra packages for xeus-python by adding them to the ``environment.yml`` file.
-
-For example, if you want to create a JupyterLite deployment with NumPy and Matplotlib pre-installed, you would need to edit the ``environment.yml`` file as following:
+Shortlist packages to try:
 
 ```yml
 name: xeus-python-kernel
@@ -44,9 +6,28 @@ channels:
   - https://repo.mamba.pm/emscripten-forge
   - conda-forge
 dependencies:
-  - xeus-python
-  - numpy
-  - matplotlib
+    seaborn (0.12.0)
+    scikit-learn (1.1.1)
+    scipy (1.11.1)
+    statsmodels (0.13.2)
+    sympy (1.12)
+    tabulate (1.5.0)
+    xtensor (0.25.0)
+    zarr (2.10.3)
+    arrow-cpp (11.0.0)
+    arrow-python (11.0.0)
+    astropy (5.0.7)
+    biopython (1.81)
+    cryptography (3.3.2)
+    cytoolz (0.12.2)
+    lxml (4.9.3)
+    matplotlib (3.5.2)
+    numpy (1.25.2)
+    pandas (1.5.3)
+    pillow (10.1.0)
+    pybind11 (2.10.4)
+    pywavelets (1.4.1)
+    qutip (4.7.3)
 ```
 
 Only ``no-arch`` packages from ``conda-forge`` and packages from ``emscripten-forge`` can be installed.
