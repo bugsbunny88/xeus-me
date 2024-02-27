@@ -4,27 +4,24 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
-  - geopy 
-  - isort 
-  - itables 
-  - missingno 
+  - geopy
+  - isort
+  - itables
+  - missingno
   - openpyxl
   - plotly
-  - pycountry 
-  - pyjanitor 
-  - python-dotenv 
-  - pyxlsb 
-  - sqlalchemy 
-  #- squarify
+  - pycountry
+  - pyjanitor
+  - python-dotenv
+  - pyxlsb
   - ipycanvas
+  - ipympl
+  - ipydatagrid
   - numpy
   - matplotlib
   - seaborn
   - pandas
   - scikit-learn
-  - ipympl
-  - ipydatagrid
-  - ipycanvas
-  - requests
+  - httpx
   
 
