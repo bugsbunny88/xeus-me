@@ -15,7 +15,7 @@ dependencies:
   - python-dotenv 
   - pyxlsb 
   - sqlalchemy 
-  - squarify
+  #- squarify
   - ipycanvas
   - numpy
   - matplotlib
