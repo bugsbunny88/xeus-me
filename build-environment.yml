@@ -1,20 +1,11 @@
 name: build-env
 channels:
-  - conda-forge
+  - https://repo.mamba.pm/conda-forge
 dependencies:
   - python
+  - pip
   - jupyter_server
-  - cmake 
-  - xeus 
-  - xeus-zmq 
-  - nlohmann_json 
-  - cppzmq 
-  - xtl 
-  - pybind11 
-  - pybind11_json 
-  - xeus-python-shell 
-  - jupyterlab
   - pip
   - pip:
-    - jupyterlite-xeus>=0.1.5,<0.2
+    - 
     - jupyterlite-core>=0.2.0,<0.3.0
