@@ -1,6 +1,6 @@
 name: build-env
 channels:
-  - https://repo.mamba.pm/conda-forge
+  - conda-forge
 dependencies:
   - python
   - pip
