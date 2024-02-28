@@ -6,6 +6,7 @@ dependencies:
   - xeus-python
   - geopy
   - isort
+  - statsmodels==0.13.2
   - itables
   - missingno
   - openpyxl
