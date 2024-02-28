@@ -5,6 +5,7 @@ channels:
 dependencies:
   - xeus-python
   - geopy
+  - ipython==8.21.0
   - isort
   - statsmodels==0.14.1
   - itables
@@ -17,7 +18,7 @@ dependencies:
   - ipycanvas
   - ipympl
   - ipydatagrid
-  - numpy
+  - numpy==1.25.2
   - matplotlib
   - sqlite
   - sqlalchemy
