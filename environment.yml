@@ -3,27 +3,25 @@ channels:
   - https://repo.mamba.pm/emscripten-forge
   - https://repo.mamba.pm/conda-forge
 dependencies:
-  - xeus-python
-  - geopy
+  - xeus-python==0.15.12
+  - geopy==2.4.1
   - ipython==8.21.0
-  - isort
   - statsmodels==0.14.1
-  - itables
-  - missingno
-  - openpyxl
-  - plotly
-  - pycountry
-  - pyjanitor
-  - pyxlsb
-  - ipycanvas
-  - ipympl
-  - ipydatagrid
+  - itables==1.7.0
+  - missingno==0.4.2
+  - openpyxl==3.0.9
+  - plotly==5.18.0
+  - pycountry==22.3.5
+  - pyjanitor==0.26.0
+  - pyxlsb==1.0.10
+  - ipycanvas==0.13.1
+  - ipympl==0.9.3
+  - ipydatagrid==1.2.0
   - numpy==1.25.2
-  - matplotlib
-  - sqlite
-  - sqlalchemy
-  - seaborn
-  - pandas
-  - scikit-learn
+  - matplotlib==3.8.2
+  - sqlalchemy==1.4.37
+  - seaborn==0.13.2
+  - pandas==1.5.3
+  - scikit-learn==1.1.1
   
 
