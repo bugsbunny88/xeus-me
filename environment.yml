@@ -7,7 +7,7 @@ dependencies:
   - geopy==2.4.1
   - ipython==8.21.0
   - statsmodels==0.14.1
-  - itables==1.7.0
+  #- itables==1.7.0
   - missingno==0.4.2
   - openpyxl==3.0.9
   - plotly==5.18.0
