@@ -9,11 +9,11 @@ dependencies:
   - statsmodels==0.14.1
   #- itables==1.7.0
   - missingno==0.4.2
-  - openpyxl==3.0.9
+  #- openpyxl==3.0.9
   - plotly==5.18.0
   - pycountry==22.3.5
   - pyjanitor==0.26.0
-  - pyxlsb==1.0.10
+  #- pyxlsb==1.0.10
   - ipycanvas==0.13.1
   - ipympl==0.9.3
   - ipydatagrid==1.2.0
