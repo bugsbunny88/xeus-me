@@ -4,6 +4,9 @@ channels:
 dependencies:
   - python
   - pip
-  - jupyter_server
-  - jupyterlite-core >=0.2.0,<0.3.0
-  - jupyterlite-xeus>=0.1.2,<0.2
+  - jupyter_server  # resolved to v2.11.2
+  - jupyterlite-core  # resolved to v0.2.1
+  - pip
+  - pip:
+    - --pre
+    - jupyterlite-xeus-python==1.0.0a3
