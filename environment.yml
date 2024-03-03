@@ -8,16 +8,12 @@ dependencies:
   - bqplot
   - ipywidgets
   - scipy
-  #- geopy
-  #- ipython
-  #- statsmodels
-  #- itables==1.7.0
-  #- missingno==0.4.2
-  #- openpyxl==3.0.9
+  - geopy
+  - missingno==0.4.2
+  - openpyxl==3.0.9
   - plotly
-  #- pycountry
-  #- pyjanitor
-  #- pyxlsb==1.0.10
+  - pycountry
+  - pyxlsb==1.0.10
   - ipycanvas
   - ipyleaflet
   - ipympl
