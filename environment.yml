@@ -8,6 +8,7 @@ dependencies:
   - bqplot
   - ipywidgets
   - scipy
+  - sympy
   #- geopy
   #- ipython
   #- statsmodels
