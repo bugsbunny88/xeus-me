@@ -6,17 +6,15 @@ dependencies:
   - xeus-python
   - altair
   - bqplot
-  - ipywidgets
   - scipy
   - geopy
-  - missingno==0.4.2
-  - openpyxl==3.0.9
+  - missingno
+  - openpyxl
   - plotly
   - pycountry
-  - pyxlsb==1.0.10
+  - pyxlsb
   - ipycanvas
-  - ipyleaflet
-  - ipympl
+  - ipympl  
   - ipydatagrid
   - numpy
   - matplotlib
