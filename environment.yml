@@ -4,6 +4,10 @@ channels:
   - https://repo.mamba.pm/conda-forge
 dependencies:
   - xeus-python
+  - altair
+  - bqplot
+  - ipywidgets
+  - scipy
   #- geopy
   #- ipython
   #- statsmodels
