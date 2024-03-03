@@ -4,15 +4,15 @@ channels:
   - https://repo.mamba.pm/conda-forge
 dependencies:
   - xeus-python
-  - geopy
-  - ipython
-  - statsmodels
+  #- geopy
+  #- ipython
+  #- statsmodels
   #- itables==1.7.0
-  - missingno==0.4.2
+  #- missingno==0.4.2
   #- openpyxl==3.0.9
   - plotly
-  - pycountry
-  - pyjanitor
+  #- pycountry
+  #- pyjanitor
   #- pyxlsb==1.0.10
   - ipycanvas
   - ipympl
