@@ -19,6 +19,7 @@ dependencies:
   #- pyjanitor
   #- pyxlsb==1.0.10
   - ipycanvas
+  - ipyleaflet
   - ipympl
   - ipydatagrid
   - numpy
@@ -26,6 +27,7 @@ dependencies:
   - sqlalchemy
   - seaborn
   - pandas
+  - vega_datasets
   - scikit-learn
   
 
