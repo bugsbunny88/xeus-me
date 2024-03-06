@@ -21,7 +21,6 @@ dependencies:
   - sqlalchemy
   - seaborn
   - pandas
-  - vega_datasets
   - scikit-learn
   
 
