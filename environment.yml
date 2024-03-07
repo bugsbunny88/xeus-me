@@ -9,9 +9,9 @@ dependencies:
   - ipycanvas
   - ipydatagrid
   - ipympl
-  - jupyter-server
-  - jupyterlite-core
-  - jupyterlite-xeus
+  #- jupyter-server
+  #- jupyterlite-core
+  #- jupyterlite-xeus
   - matplotlib
   - missingno
   - numpy
