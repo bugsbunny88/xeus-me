@@ -3,7 +3,21 @@ channels:
   - conda-forge
 dependencies:
   - python
+  - linkify-it-py
+  - myst-parser
   - pip
+  - pydata-sphinx-theme
+  - sphinx-autobuild
+  - voila-material=0.4.3
   - jupyter_server
   - jupyterlite-core>=0.2.0,<0.3.0
   - jupyterlite-xeus>=0.1.2,<0.2
+  - jupyterlite-xeus-python >=0.9.1,<0.10.0
+  - pip:
+    - voila==0.5.0a4
+    - nbconvert<7.6.0
+    - ipywidgets==8.0.6
+    - jupyterlite-xeus>=0.1.5,<0.2
+    - voici>=0.4.1,<0.6
+    - jupyterlite-xeus-python >=0.9.1,<0.10.0
+    - jupyterlab_widgets
