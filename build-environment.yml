@@ -3,6 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python
+  - black
   - linkify-it-py
   - myst-parser
   - pip
@@ -19,5 +20,10 @@ dependencies:
     - ipywidgets==8.0.6
     - jupyterlite-xeus>=0.1.5,<0.2
     - voici>=0.4.1,<0.6
-    - jupyterlite-xeus-python >=0.9.1,<0.10.0
+    #- jupyterlite-xeus-python >=0.9.1,<0.10.0
+    - jupyterlite-xeus-python >= 1.0.0a3
+    - jupyterlite-core[lab]>=0.2.0,<0.3.0
+    - voila>=0.5.5
+    - voila-material>=0.4.3
+    - ruff==0.0.258
     - jupyterlab_widgets
