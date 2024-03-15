@@ -4,7 +4,7 @@ channels:
   - https://repo.mamba.pm/conda-forge
 dependencies:
   - altair
-  - bqplot
+  - bqplot=0.12.40
   - geopy
   - ipycanvas
   - ipydatagrid
@@ -28,7 +28,5 @@ dependencies:
   - seaborn
   - sqlalchemy
   - xeus-python
-  - ipywidgets=8.0.6
-  - folium=0.15
   
 
