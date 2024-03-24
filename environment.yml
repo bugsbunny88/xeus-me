@@ -17,7 +17,6 @@ dependencies:
   - pandas
   - ipywidgets
   - folium
-  - jupyterlab_widgets
   - plotly
   - pycountry
   - pyxlsb
