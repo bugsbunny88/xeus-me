@@ -9,5 +9,5 @@ dependencies:
   - jupyterlab_miami_nights
   - jupyter_server
   - jupyterlite-xeus >=0.1.2,<0.2
-  - jupyterlite-core==0.3.0rc1
+  - jupyterlite-core >=0.2,<0.3
   
