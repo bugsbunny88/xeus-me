@@ -6,10 +6,8 @@ dependencies:
   - pip
   - python-libarchive-c
   - jupyterlab-night
+  - jupyterlab_miami_nights
   - jupyter_server
   - jupyterlite-xeus >=0.1.2,<0.2
-  pip:
-    - jupyterlite-xeus-python   #- jupyterlite-core >=0.2.0,<0.3.0
-    - jupyterlite-core==0.3.0rc1
-    - jupyterlab_miami_nights>=0.4.0
+  - jupyterlite-core==0.3.0rc1
   
