@@ -15,7 +15,6 @@ dependencies:
   - numpy
   - openpyxl
   - pandas
-  - ipywidgets>=8.1
   - folium
   - plotly
   - pycountry
@@ -29,5 +28,3 @@ dependencies:
   - sqlalchemy
   - ipyleaflet
   - vega_datasets
-  - statsmodels
-  - peewee
