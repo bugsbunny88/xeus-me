@@ -1,0 +1,6 @@
+{
+  "LiteBuildConfig": {
+    "content": ["notebooks"],
+    "apps": ["lab", "retro"]
+  }
+}
