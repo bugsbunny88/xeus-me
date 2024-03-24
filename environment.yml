@@ -21,7 +21,6 @@ dependencies:
   - pyxlsb
   - scikit-learn
   - scipy
-  - sqlite
   - seaborn
   - black
   - httpx
