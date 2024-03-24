@@ -1,29 +1,27 @@
 name: xeus-python-kernel
 channels:
   - https://repo.mamba.pm/emscripten-forge
-  - https://repo.mamba.pm/conda-forge
+  - conda-forge
 dependencies:
   - altair
-  - bqplot=0.12.40
+  - bqplot
   - geopy
   - ipycanvas
   - ipydatagrid
   - ipympl
-  #- jupyter-server
-  #- jupyterlite-core
-  #- jupyterlite-xeus
   - matplotlib
   - missingno
   - numpy
   - openpyxl
-  - pandas<2
-  #- ipywidgets=8.0.6
-  - folium=0.15
-  - jupyterlab_widgets=3.0.7
+  - pandas
+  - ipywidgets
+  - folium
+  - jupyterlab_widgets
   - plotly
   - pycountry
   - pyxlsb
   - scikit-learn
+  - jupytext
   - scipy
   - seaborn
   - sqlalchemy
