@@ -9,6 +9,6 @@ dependencies:
   - jupyterlab-geojson
   - jupyterlab-fasta
   - jupyter_server
-  - jupyterlite-xeus >=0.1.2,<0.2
-  pip:
-    - jupyterlite-core==0.3.0rc1  
+  - jupyterlite-xeus>=0.1.2,<0.2
+    pip:
+      - jupyterlite-core==0.3.0rc1  
