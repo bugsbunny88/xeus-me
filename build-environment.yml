@@ -13,4 +13,5 @@ dependencies:
     #- voici
     - jupyterlite-xeus-python
     - jupyterlite-core==0.3.0rc1
+    - jupyterlab_miami_nights>=0.4.0
   
