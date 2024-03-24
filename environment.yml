@@ -3,6 +3,7 @@ channels:
   - https://repo.mamba.pm/emscripten-forge
   - conda-forge
 dependencies:
+  - xeus-python
   - altair
   - bqplot
   - geopy
@@ -25,6 +26,19 @@ dependencies:
   - scipy
   - seaborn
   - sqlalchemy
-  - xeus-python
-  
-
+  # more packages
+  - nbconvert
+  - ipyleaflet
+  - jupyterlab_miami_nights
+  - jupyterlab-night
+  - jupyterlab-geojson
+  - jupyterlab-fasta
+  - unicodedata2
+  - tabulate
+  - spatialgeometry
+  - statsmodels
+  - scikit-image
+  - pyomo
+  - peewee
+  - pillow
+  - astropy
