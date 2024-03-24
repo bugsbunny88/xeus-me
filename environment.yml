@@ -22,10 +22,12 @@ dependencies:
   - pyxlsb
   - scikit-learn
   - scipy
+  - sqlite
   - seaborn
+  - black
+  - httpx
   - sqlalchemy
   - ipyleaflet
-  - beautifulsoup4
+  - vega_datasets
   - statsmodels
   - peewee
-  - pillow
