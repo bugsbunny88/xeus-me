@@ -27,9 +27,7 @@ dependencies:
   - seaborn
   - sqlalchemy
   # more packages
-  - nbconvert
   - ipyleaflet
-  - jupyterlab_miami_nights
   - jupyterlab-night
   - jupyterlab-geojson
   - jupyterlab-fasta
@@ -38,7 +36,6 @@ dependencies:
   - spatialgeometry
   - statsmodels
   - scikit-image
-  - pyomo
   - peewee
   - pillow
   - astropy
