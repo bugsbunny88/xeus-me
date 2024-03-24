@@ -1,7 +1,7 @@
 name: xeus-python-kernel
 channels:
   - https://repo.mamba.pm/emscripten-forge
-  - conda-forge
+  - https://repo.mamba.pm/conda-forge
 dependencies:
   - xeus-python
   - altair
@@ -15,7 +15,7 @@ dependencies:
   - numpy
   - openpyxl
   - pandas
-  - ipywidgets
+  - ipywidgets>=8.1
   - folium
   - plotly
   - pycountry
