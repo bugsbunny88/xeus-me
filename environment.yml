@@ -30,11 +30,8 @@ dependencies:
   - jupyterlab-night
   - jupyterlab-geojson
   - jupyterlab-fasta
-  - unicodedata2
-  - tabulate
-  - spatialgeometry
+  - beautifulsoup4
   - statsmodels
   - scikit-image
   - peewee
   - pillow
-  - astropy
