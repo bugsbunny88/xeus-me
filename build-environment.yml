@@ -10,5 +10,5 @@ dependencies:
   - jupyterlab-fasta
   - jupyter_server
   - jupyterlite-xeus>=0.1.2,<0.2
-    pip:
+  - pip:
       - jupyterlite-core==0.3.0rc1  
