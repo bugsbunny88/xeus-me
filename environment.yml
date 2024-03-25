@@ -4,9 +4,6 @@ channels:
   - https://repo.mamba.pm/conda-forge
 dependencies:
   - xeus-python
-  - jupyterlab-night
-  - jupyterlab-geojson
-  - jupyterlab-fasta
   - altair
   - bqplot
   - geopy
