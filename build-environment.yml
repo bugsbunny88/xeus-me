@@ -4,6 +4,7 @@ channels:
 dependencies:
   - python
   - pip
+  - python-libarchive-c
   - jupyter_server
   - jupyterlab-night
   - jupyterlab-geojson
