@@ -9,6 +9,13 @@ dependencies:
   - jupyterlab-geojson
   - jupyterlab-fasta
   - jupyter_server
-  - jupyterlite-xeus>=0.1.2,<0.2
+  - jupyterlab_server
+  - pydata-sphinx-theme
+  - myst-parser
+  - docutils
+  - sphinx
+  - black
+  - voici
   - pip:
-      - jupyterlite-core==0.3.0rc1  
+      - jupyterlite-core[lab]>=0.2.0,<0.3.0
+      - jupyterlite-xeus>=0.1.5,<0.2
