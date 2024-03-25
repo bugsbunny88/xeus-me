@@ -9,6 +9,7 @@ dependencies:
   - geopy
   - ipycanvas
   - ipydatagrid
+  - ipywidgets==8.0.7
   - ipympl
   - matplotlib
   - missingno
