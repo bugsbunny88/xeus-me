@@ -22,7 +22,6 @@ dependencies:
   - scipy
   - seaborn
   - sympy
-  - httpx
   - sqlalchemy
   - ipyleaflet
   - vega_datasets
