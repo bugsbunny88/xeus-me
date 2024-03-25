@@ -6,11 +6,9 @@ dependencies:
   - pip
   - black
   - jupyter_server
-  - jupyterlab_server
   - python-libarchive-c
   - jupyterlab-night
   - jupyterlab-geojson
   - jupyterlab-fasta
   - jupyterlite-xeus>=0.1.5,<0.2
-  - pip:
-    - jupyterlite-core==0.3.0rc1
+  - jupyterlite-core>=0.2,<0.3
