@@ -22,7 +22,6 @@ dependencies:
   - scikit-learn
   - scipy
   - seaborn
-  - sympy
   - sqlalchemy
   - ipyleaflet
   - vega_datasets
