@@ -4,10 +4,12 @@ channels:
 dependencies:
   - python
   - pip
-  - python-libarchive-c
   - jupyter_server
   - jupyterlab-night
   - jupyterlab-geojson
   - jupyterlab-fasta
   - jupyterlite-xeus>=0.1.2,<0.2
   - jupyterlite-core>=0.2,<0.3
+  - pip:
+    - libarchive-c
+    - jupyterlite-core[lab]
