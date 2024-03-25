@@ -28,5 +28,3 @@ dependencies:
   - sqlalchemy
   - ipyleaflet
   - vega_datasets
-  - orjson
-  - lxml
