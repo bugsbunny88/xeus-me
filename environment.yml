@@ -23,5 +23,3 @@ dependencies:
   - sqlalchemy
   - vega_datasets
   - black
-  - anywidget
-  - hvplot
