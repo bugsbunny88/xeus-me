@@ -6,11 +6,28 @@ dependencies:
   - pip
   - jupyter_server
   - jupyterlite-core[lab]
-  - plotly
-  - ipywidgets>=8.1
-  - bqplot
   - jupyterlab-night
   - jupyterlab-fasta>=3,<4
   - jupyterlab-geojson>=3,<4
   - jupyterlite-xeus>=0.1.2,<0.2
   - jupyterlite-core>=0.2,<0.3
+  - altair
+  - bqplot
+  - geopy
+  - ipycanvas
+  - ipydatagrid
+  - ipywidgets>=8.1
+  - plotly>=5,<6
+  - ipympl
+  - matplotlib
+  - missingno
+  - numpy
+  - openpyxl
+  - pandas
+  - folium
+  - pycountry
+  - scikit-learn
+  - scipy
+  - seaborn
+  - sqlalchemy
+  - vega_datasets
