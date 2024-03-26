@@ -6,6 +6,7 @@ dependencies:
   - pip
   - jupyter_server
   - jupyterlab-night
+  - mkdocs-jupyter
   - jupyterlite-xeus>=0.1.2,<0.2
   - pip:
     - jupyterlite-core==0.3.0
