@@ -5,6 +5,10 @@ dependencies:
   - python
   - pip
   - jupyter_server
+  - jupyterlab_server
+  - plotly
+  - ipywidgets
+  - bqplot
   - jupyterlab-night
   - jupyterlab-fasta>=3,<4
   - jupyterlab-geojson>=3,<4
