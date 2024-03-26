@@ -22,3 +22,6 @@ dependencies:
   - seaborn
   - sqlalchemy
   - vega_datasets
+  - black
+  - anywidget
+  - hvplot
