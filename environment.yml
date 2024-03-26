@@ -13,7 +13,6 @@ dependencies:
   - missingno
   - numpy
   - openpyxl
-  - jupytext
   - pandas
   - folium
   - pycountry
@@ -22,4 +21,3 @@ dependencies:
   - seaborn
   - sqlalchemy
   - vega_datasets
-  - black
