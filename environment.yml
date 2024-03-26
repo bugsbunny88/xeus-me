@@ -23,4 +23,3 @@ dependencies:
   - sqlalchemy
   - vega_datasets
   - black
-  - mkdocs-jupyter
