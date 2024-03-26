@@ -13,6 +13,7 @@ dependencies:
   - missingno
   - numpy
   - openpyxl
+  - jupytext
   - pandas
   - folium
   - pycountry
