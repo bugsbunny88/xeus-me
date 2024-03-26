@@ -7,7 +7,7 @@ dependencies:
   - jupyter_server
   - jupyterlite-core[lab]
   - plotly
-  - ipywidgets
+  - ipywidgets>=8.1
   - bqplot
   - jupyterlab-night
   - jupyterlab-fasta>=3,<4
