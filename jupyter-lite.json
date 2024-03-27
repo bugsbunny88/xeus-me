@@ -4,9 +4,6 @@
     "appName": "Jupylite",
     "disabledExtensions": [
       "@jupyterlab/application-extension:logo",
-      "@jupyterlab/server-proxy",
-      "jupyterlab-server-proxy",
-      "nbdime-jupyterlab"
     ]
   }
 }
