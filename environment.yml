@@ -13,7 +13,7 @@ dependencies:
   - pillow
   - ipywidgets
   - openpyxl
-  - pandas
+  - pandas <2
   - pycountry
   - scikit-learn
   - scipy
