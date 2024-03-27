@@ -20,4 +20,4 @@ dependencies:
   - seaborn
   - sqlalchemy
   - vega_datasets
-  - mkdocs-jupyter
+  - jupytext
