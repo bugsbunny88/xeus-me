@@ -1,8 +1,0 @@
-{
-  "LiteBuildConfig": {
-    "ignore_sys_prefix": ["translation"],
-    "contents": ["content"],
-    "apps": ["lab"],
-    "outputDir": "dist",
-  }
-}
