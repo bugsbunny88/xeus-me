@@ -20,3 +20,4 @@ dependencies:
   - seaborn
   - sqlalchemy
   - vega_datasets
+  - orjson
