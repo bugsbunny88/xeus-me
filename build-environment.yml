@@ -6,6 +6,10 @@ dependencies:
   - python
   - pip
   - jupyter_server
+  - jupyterlab
+  - notebook
+  - jupytext
+  - jupyterlab_filesystem_access
   - jupyterlab-night
   - jupyterlite-xeus>=0.1.5,<0.2
   - jupyterlite-core=0.3.0
