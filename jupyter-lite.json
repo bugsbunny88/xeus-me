@@ -2,6 +2,7 @@
   "jupyter-lite-schema-version": 0,
   "jupyter-config-data": {
     "appName": "Jupylite",
+    "defaultKernelName": "xpython",
     "disabledExtensions": [
       "@jupyterlab/application-extension:logo",
     ]
