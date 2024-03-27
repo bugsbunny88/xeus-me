@@ -20,5 +20,4 @@ dependencies:
   - seaborn
   - sqlalchemy
   - vega_datasets
-  - geopandas
   - httpx
