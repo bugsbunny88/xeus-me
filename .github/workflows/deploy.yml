@@ -30,8 +30,7 @@ jobs:
         shell: bash -l {0}
         run: |
           cp README.md content
-          jupyter lite build --contents content --output-dir dist --apps lab --XeusAddon.mount_jupyterlite_content=True
-
+          jupyter lite build --contents content --output-dir dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
