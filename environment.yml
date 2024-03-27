@@ -16,7 +16,6 @@ dependencies:
   - pandas <2
   - pycountry
   - scikit-learn
-  - scipy
   - seaborn
   - sqlalchemy
   - vega_datasets
