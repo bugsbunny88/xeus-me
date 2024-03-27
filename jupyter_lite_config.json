@@ -4,6 +4,5 @@
     "contents": ["content"],
     "apps": ["lab"],
     "outputDir": "dist",
-    "no_unused_shared_packages"
   }
 }
