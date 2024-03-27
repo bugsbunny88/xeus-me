@@ -12,6 +12,6 @@
     ]
   },
   "@jupyterlab/apputils-extension:themes": {
-    "theme": "JupyterLab Dark"
+    "theme": "JupyterLab Night"
   }
 }
