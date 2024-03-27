@@ -1,5 +1,7 @@
 {
   "LiteBuildConfig": {
-    "ignore_sys_prefix": ["translation"]
+    "ignore_sys_prefix": ["translation"],
+    "contents": ["content"],
+    "outputDir": "dist"
   }
 }
