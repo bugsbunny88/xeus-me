@@ -10,6 +10,8 @@ dependencies:
   - plotly
   - matplotlib
   - numpy
+  - pillow
+  - ipywidgets
   - openpyxl
   - pandas
   - pycountry
