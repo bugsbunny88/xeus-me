@@ -1,0 +1,20 @@
+{
+  "jupyter-lite-schema-version": 0,
+  "jupyter-config-data": {
+    "appName": "Jupylite",
+    "disabledExtensions": ["@jupyterlab/application-extension:logo",
+                          "@jupyterlab/apputils-extension:workspaces",
+                          "@jupyterlab/application-extension:logo",
+                          "@jupyterlab/help-extension:about",
+                          "@jupyterlite/notebook-application-extension:logo",
+                          "@jupyterlite/notebook-application-extension:notify-commands",
+                          "@jupyterlab/application-extension:logo",
+                          "@jupyterlite/application-extension:logo",
+                          "@jupyterlite/retro-application-extension:logo",
+                          "@jupyterlab/application-extension:logo",
+                          "@jupyterlite/application-extension:logo",
+                          "@jupyterlite/retro-application-extension:logo",
+                          "jupyterlab-kernel-spy",
+                          "jupyterlab-tour"]
+  }
+}
