@@ -5,6 +5,9 @@ dependencies:
   - python
   - pip
   - jupyter_server
+  - plotly
+  - mkdocs-jupyter
+  - jupyterlite-sphinx
   - ipywidgets
   - python-libarchive-c
   - jupyterlab_execute_time
