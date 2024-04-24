@@ -6,5 +6,6 @@ dependencies:
   - xeus-python
   - openpyxl
   - plotly
+  - nbformat
   - pandas
   - requests 
