@@ -6,5 +6,9 @@ dependencies:
   - xeus-python
   - openpyxl
   - seaborn
+  - scipy
+  - numpy
+  - matplotlib
+  - ipywidgets
   - pandas
   - requests 
