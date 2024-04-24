@@ -5,6 +5,6 @@ channels:
 dependencies:
   - xeus-python
   - openpyxl
-  - seaborn
+  - plotly
   - pandas
   - requests 
