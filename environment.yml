@@ -8,8 +8,6 @@ dependencies:
   - bqplot
   - ipydatagrid
   - nbformat
-  - scipy
-  - statsmodels
   - numpy
   - matplotlib
   - ipywidgets
