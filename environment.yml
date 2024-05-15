@@ -6,7 +6,9 @@ dependencies:
   - xeus-python
   - openpyxl
   - seaborn
-  - scipy
+  - bqplot
+  - ipydatagrid
+  - nbformat
   - numpy
   - matplotlib
   - ipywidgets
