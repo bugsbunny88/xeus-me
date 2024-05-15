@@ -5,7 +5,6 @@ channels:
 dependencies:
   - xeus-python
   - openpyxl
-  - seaborn
   - bqplot
   - ipydatagrid
   - nbformat
