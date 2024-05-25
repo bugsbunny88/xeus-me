@@ -13,3 +13,74 @@ dependencies:
   - ipywidgets
   - pandas
   - requests 
+  - astropy
+  - async-timeout
+  - atomicwrites
+  - autograd
+  - awkward-cpp
+  # - bcrypt
+  - beautifulsoup4
+  - biopython
+  - bitstring
+  - bleach
+  # - bokeh
+  - boost-histogram
+  - cachetools
+  # - cartopy
+  - cloudpickle
+  - colorspacious
+  # - coverage
+  - cryptography
+  - cssselect
+  - cytoolz
+  - deprecation
+  - docutils
+  # - fastparquet
+  # - galpy
+  # - gensim
+  # - geopandas
+  # - gsw
+  # - h5py
+  - html5lib
+  # - igraph
+  # - lazy-object-proxy
+  # - lightgbm
+  - logbook
+  - lxml
+  # - mne
+  # - msgspec
+  # - msprime
+  - munch
+  # - mypy
+  # - netcdf4
+  # - nh3
+  # - nlopt
+  - nltk
+  - nose
+  - optlang
+  # - orjson
+  - peewee
+  # - pkgconfig
+  - protobuf
+  # - pyclipper
+  # - pycryptodome
+  - pydantic
+  # - pyinstrument
+  # - pynacl
+  - pyrsistent
+  - pytest-benchmark
+  - scikit-image
+  - screed
+  # - simplejson
+  - sqlalchemy
+  - statsmodels
+  - tblib
+  - termcolor
+  - texttable
+  - uncertainties
+  # - wordcloud
+  - xarray
+  # - xgboost
+  - xlrd
+  # - yt
+  - zarr
