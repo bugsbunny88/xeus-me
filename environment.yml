@@ -13,74 +13,257 @@ dependencies:
   - ipywidgets
   - pandas
   - requests 
-  - astropy
+  - absl-py
+  - aiofiles
+  - annotated-types
+  - antlr4-python3-runtime
+  - anyio
+  - appdirs
+  - archspec
+  - argcomplete
+  - asgiref
+  - asn1
+  - asn1crypto
   - async-timeout
-  - atomicwrites
-  - autograd
-  - awkward-cpp
-  # - bcrypt
+  - attrs
+  - babel
+  - backcall
+  - backoff
+  - beartype
   - beautifulsoup4
-  - biopython
-  - bitstring
+  - beniget
   - bleach
-  # - bokeh
-  - boost-histogram
+  - blinker
+  - boltons
+  - bracex
+  - cachecontrol
+  - cached-property
   - cachetools
-  # - cartopy
+  - certifi
+  - cffi
+  - chardet
+  - charset-normalizer
+  - cli_helpers
+  - click
+  - click-aliases
+  - click-option-group
   - cloudpickle
-  - colorspacious
-  # - coverage
+  - cmaes
+  - codespell
+  - colorama
+  - comm
+  - configargparse
+  - configobj
+  - contextlib2
+  - contourpy
+  - cppy
+  - crashtest
   - cryptography
-  - cssselect
-  - cytoolz
+  - cycler
+  - datadog
+  - decorator
+  - defusedxml
+  - deprecated
   - deprecation
+  - dill
+  - distlib
+  - distro
+  - dnspython
   - docutils
-  # - fastparquet
-  # - galpy
-  # - gensim
-  # - geopandas
-  # - gsw
-  # - h5py
+  - editables
+  - entrypoints
+  - escapism
+  - exceptiongroup
+  - executing
+  - face
+  - filelock
+  - flask
+  - flask-cors
+  - flit-core
+  - fonttools
+  - fsspec
+  - future
+  - gast
+  - geomet
   - html5lib
-  # - igraph
-  # - lazy-object-proxy
-  # - lightgbm
+  - humanfriendly
+  - hyperlink
+  - idna
+  - imagesize
+  - importlib-metadata
+  - importlib-resources
+  - iniconfig
+  - invoke
+  - ipython
+  - ipython_genutils
+  - ipywidgets
+  - isodate
+  - itables
+  - itsdangerous
+  - jedi
+  - jeepney
+  - jinja2
+  - jmespath
+  - joblib
+  - json5
+  - jsondiff
+  - jsonschema
+  - jupyter_core
+  - jupyter-packaging
+  - jupyterlab_pygments
+  - kiwisolver
+  - knack
+  - license-expression
+  - lockfile
   - logbook
   - lxml
-  # - mne
-  # - msgspec
-  # - msprime
-  - munch
-  # - mypy
-  # - netcdf4
-  # - nh3
-  # - nlopt
+  - mako
+  - markdown
+  - markdown-it-py
+  - markupsafe
+  - mashumaro
+  - matplotlib
+  - matplotlib-inline
+  - mdit-py-plugins
+  - mdurl
+  - mistune
+  - mock
+  - more-itertools
+  - mpmath
+  - msal
+  - mypy_extensions
+  - nbformat
+  - nest-asyncio
+  - networkx
   - nltk
-  - nose
-  - optlang
-  # - orjson
+  - objsize
+  - openai
+  - opt-einsum
+  - ordered-set
+  - oscrypto
+  - outcome
+  - overrides
+  - packaging
+  - pamela
+  - pandas
+  - pandocfilters
+  - parsedatetime
+  - parso
+  - pathspec
+  - pbr
   - peewee
-  # - pkgconfig
+  - pendulum
+  - pep517
+  - pexpect
+  - pickleshare
+  - pillow
+  - pip
+  - pip-tools
+  - pkginfo
+  - platformdirs
+  - pluggy
+  - ply
+  - portalocker
+  - prometheus_client
+  - prompt-toolkit
+  - proto-plus
   - protobuf
-  # - pyclipper
-  # - pycryptodome
+  - ptyprocess
+  - pure_eval
+  - py4j
+  - pyasn1
+  - pybind11
+  - pycparser
   - pydantic
-  # - pyinstrument
-  # - pynacl
+  - pydot
+  - pygithub
+  - pygments
+  - pyparsing
+  - pyproject-metadata
   - pyrsistent
-  - pytest-benchmark
-  - scikit-image
-  - screed
-  # - simplejson
+  - pytest
+  - pytest-timeout
+  - python-dateutil
+  - python-editor
+  - python-json-logger
+  - python-slugify
+  - pythran
+  - pytimeparse
+  - pytz
+  - pytzdata
+  - pyyaml
+  - rdflib
+  - regex
+  - requests
+  - requests-oauthlib
+  - requests-toolbelt
+  - retrying
+  - rfc3339
+  - rfc3339-validator
+  - rfc3986-validator
+  - rich
+  - rouge-score
+  - rsa
+  - s3transfer
+  - sacrebleu
+  - scikit-learn
+  - scikit-optimize
+  - scipy
+  - seaborn
+  - send2trash
+  - setuptools
+  - setuptools-rust
+  - setuptools-scm
+  - shellingham
+  - six
+  - sniffio
+  - snowballstemmer
+  - sortedcontainers
+  - soupsieve
+  - spdx-tools
+  - sphinx
+  - sphinxcontrib-applehelp
+  - sphinxcontrib-devhelp
+  - sphinxcontrib-htmlhelp
+  - sphinxcontrib-jsmath
+  - sphinxcontrib-qthelp
+  - sphinxcontrib-serializinghtml
   - sqlalchemy
-  - statsmodels
-  - tblib
+  - sqlglot
+  - sqlparse
+  - stack_data
+  - statsd
+  - sympy
+  - tabulate
+  - tenacity
   - termcolor
-  - texttable
-  - uncertainties
-  # - wordcloud
-  - xarray
-  # - xgboost
-  - xlrd
-  # - yt
-  - zarr
+  - testpath
+  - text-unidecode
+  - threadpoolctl
+  - tinycss2
+  - tinydb
+  - toml
+  - tomli
+  - tomli-w
+  - tomlkit
+  - tqdm
+  - traitlets
+  - trove-classifiers
+  - twython
+  - typing_inspect
+  - tzdata
+  - uritemplate
+  - uritools
+  - userpath
+  - versioneer
+  - wcmatch
+  - wcwidth
+  - webencodings
+  - websocket-client
+  - werkzeug
+  - wheel
+  - widgetsnbextension
+  - wrapt
+  - xmltodict
+  - xyzservices
+  - zipp
