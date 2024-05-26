@@ -13,274 +13,669 @@ dependencies:
   - ipywidgets
   - pandas
   - requests 
+  - 0x-contract-addresses
+  - 0x-contract-artifacts
+  - APScheduler
+  - AWSIoTPythonSDK
+  - Arpeggio
+  - Authlib
+  - Automat
+  - Babel
+  - Boruta
+  - CacheControl
+  - Cartopy
+  - CoolProp
+  - Cython
+  - Deprecated
+  - ExifRead
+  - Fiona
+  - Flask
+  - GitPython
+  - GoogleNews
+  - ImageHash
+  - Jinja2
+  - Keras-Preprocessing
+  - Mako
+  - Markdown
+  - MarkupSafe
+  - MechanicalSoup
+  - MutatorMath
+  - OSGridConverter
+  - Office365-REST-Python-Client
+  - PYroMat
+  - Pillow
+  - Protego
+  - PuLP
+  - PyCap
+  - PyCronofy
+  - PyDispatcher
+  - PyGithub
+  - PyJWT
+  - PyLD
+  - PyMySQL
+  - PyNaCl
+  - PyPDF2
+  - PySocks
+  - PyVimeo
+  - PyWavelets
+  - PyYAML
+  - Pygments
+  - Quandl
+  - Rosely
+  - Rx
+  - SQLAlchemy
+  - SQLAlchemy-Utils
+  - SecretStorage
+  - Shapely
+  - SpeechRecognition
+  - Unidecode
+  - Wand
+  - Werkzeug
+  - WooCommerce
+  - XlsxWriter
+  - abnf
   - absl-py
-  - aiofiles
-  - annotated-types
+  - aiohttp
+  - aiohttp-socks
+  - aioitertools
+  - aionotify
+  - aiosignal
+  - airtable-python-wrapper
+  - alembic
+  - altair
+  - analytics-python
   - antlr4-python3-runtime
-  - anyio
+  - anytree
   - appdirs
-  - archspec
+  - arabic-reshaper
   - argcomplete
-  - asgiref
-  - asn1
+  - arrow
   - asn1crypto
+  - asteval
+  - astral
+  - asttokens
+  - astunparse
   - async-timeout
+  - asynctest
   - atomicwrites
   - attrs
-  - autograd
-  - awkward-cpp
-  - babel
+  - autocommand
+  - avinit
+  - aws-lambda-builders
+  - aws-requests-auth
+  - aws-sam-translator
+  - azure-core
+  - azure-cosmos
+  - azure-storage-blob
+  - b2sdk
   - backcall
   - backoff
+  - backports.csv
+  - backtrader
+  - base58
+  - bbcode
+  - bcrypt
   - beartype
   - beautifulsoup4
-  - beniget
+  - bidict
+  - bigml-chronos
+  - biip
+  - binaryornot
   - biopython
-  - bitstring
-  - bleach
-  - blinker
-  - boltons
-  - boost-histogram
-  - bracex
-  - cachecontrol
+  - bitarray
+  - bjsfm
+  - black
+  - bmondata
+  - bokeh
+  - booleanOperations
+  - borb
+  - boto
+  - boto3
+  - botocore
+  - boxsdk
+  - branca
+  - bs4
+  - bump2version
+  - bumpversion
+  - businesstimedelta
   - cached-property
   - cachetools
+  - catalogue
+  - cattrs
+  - causal-tree-learn
+  - certifi
   - cffi
+  - chardet
   - charset-normalizer
-  - cli_helpers
+  - cheroot
+  - chess
+  - chevron
+  - cleverdict
   - click
-  - click-aliases
-  - click-option-group
+  - click-plugins
+  - click-shell
+  - cligj
+  - clize
+  - cloudant
+  - cloudconvert
   - cloudpickle
-  - cmaes
-  - comm
-  - configargparse
-  - configobj
-  - contextlib2
-  - contourpy
-  - cppy
-  - crashtest
+  - cmdstanpy
+  - cognite-sdk
+  - colander
+  - colorama
+  - colorcet
+  - colorlover
+  - colour-science
+  - commonmark
+  - conference-scheduler
+  - configparser
+  - constantly
+  - cookiecutter
+  - coolname
+  - countryinfo
+  - croniter
   - cryptography
   - cssselect
+  - cssselect2
+  - cssutils
+  - ctREFPROP
+  - cu2qu
   - cycler
   - cytoolz
-  - datadog
+  - darkskylib
+  - dask
+  - databricks-cli
+  - databricks-dbapi
+  - dataclasses-json
+  - dataclasses-jsonschema
+  - dataclassy
+  - dateparser
+  - debugpy
+  - deckar01-ratelimit
   - decorator
+  - deepdiff
+  - deepl
+  - defcon
   - defusedxml
-  - deprecated
   - deprecation
+  - dictpath
   - dill
-  - distlib
+  - diskcache
   - distro
   - dnspython
+  - docker
   - docutils
-  - editables
+  - docx-mailmerge
+  - dparse
+  - dpath
+  - easypost
+  - ecdsa
+  - elasticsearch
+  - elasticsearch-dsl
+  - email-reply-parser
+  - email-validator
   - entrypoints
-  - escapism
-  - exceptiongroup
-  - executing
-  - face
+  - enum-compat
+  - envs
+  - espn-api
+  - et-xmlfile
+  - eth-abi
+  - eth-hash
+  - eth-keyfile
+  - eth-keys
+  - eth-rlp
+  - eth-typing
+  - eth-utils
+  - etherscan
+  - eventsourcing
+  - exchangelib
+  - execnet
+  - fake-user-agent
+  - fake-useragent
+  - fastavro
+  - fastcore
+  - fastdownload
+  - fastjsonschema
+  - fastprogress
+  - ffmpeg-python
+  - ffprobe-python
   - filelock
-  - flask
-  - flask-cors
-  - flit-core
+  - fitdecode
+  - flatbuffers
+  - folium
+  - fontMath
+  - fontParts
+  - fontPens
   - fonttools
+  - forex-python
+  - form-api
+  - fpdf2
+  - frozenlist
+  - fs
   - fsspec
+  - ftfy
+  - funcy
+  - future
+  - fuzzywuzzy
+  - gTTS
   - gast
-  - geomet
+  - gensim
+  - genson
+  - geojson
+  - geojsoncontour
+  - geopandas
+  - geopy
+  - gitdb
+  - gmsh-interop
+  - google-auth-oauthlib
+  - google-pasta
+  - googledrivedownloader
+  - googlemaps
+  - gql
+  - graphql-core
+  - graphviz
+  - gspread
+  - gunicorn
+  - h11
+  - h2
+  - h5py
+  - hashids
+  - heroku3
+  - hexbytes
+  - holidays
+  - hpack
+  - hstspreload
+  - html2text
   - html5lib
+  - httpcore
+  - httpx
+  - hubspot-api-client
+  - huggingface-hub
+  - hyperframe
   - hyperlink
+  - hypothesis
+  - icalendar
+  - icecream
   - idna
-  - imagesize
+  - iexfinance
+  - imageio
+  - imap-tools
+  - imbalanced-learn
   - importlib-metadata
   - importlib-resources
+  - incremental
+  - inflection
+  - influxdb
+  - influxdb-client
+  - inform
   - iniconfig
-  - invoke
+  - intuit-oauth
+  - invoice2data
+  - ipykernel
   - ipython
-  - ipython_genutils
   - ipywidgets
+  - iso3166
+  - iso8601
   - isodate
-  - itables
+  - isoweek
+  - itemadapter
+  - itemloaders
   - itsdangerous
+  - jaraco.classes
+  - jaraco.context
+  - jaraco.functools
+  - jdcal
   - jedi
   - jeepney
-  - jinja2
+  - jinja2-time
+  - jira
   - jmespath
   - joblib
-  - json5
   - jsondiff
+  - jsonpath-ng
+  - jsonpickle
   - jsonschema
-  - jupyter_core
-  - jupyterlab_pygments
-  - jupyter-packaging
-  - knack
-  - license-expression
-  - logbook
+  - jupyter-core
+  - jupyterlab-widgets
+  - jwcrypto
+  - kafka-python
+  - keyring
+  - kiwisolver
+  - kmodes
+  - kucoin-python
+  - lambdasdk
+  - lazy-object-proxy
+  - lightgbm
+  - lmfit
+  - locket
+  - lockfile
+  - logdna
+  - logfury
+  - logzio-python-handler
+  - lti
+  - luxpy
   - lxml
-  - mako
-  - markdown
-  - markdown-it-py
-  - markupsafe
-  - mashumaro
+  - mailchimp-marketing
+  - mailchimp-transactional
+  - mailjet-rest
+  - marshmallow
+  - marshmallow-enum
+  - mathparse
   - matplotlib
   - matplotlib-inline
-  - mdit-py-plugins
-  - mdurl
+  - messari
+  - mido
+  - mingus
+  - minimalmodbus
+  - miracle-acl
+  - missingno
   - mistune
+  - mlxtend
   - mock
   - more-itertools
   - mpmath
   - msal
+  - msgpack
+  - msgpack-numpy
+  - msrest
+  - multidict
+  - multimethod
+  - multitasking
   - munch
-  - mypy_extensions
-  - nbformat
+  - mws
+  - mypy-extensions
+  - natsort
+  - nba-api
+  - neo4j-driver
   - nest-asyncio
+  - netaddr
   - networkx
+  - nexmo
   - nltk
-  - nose
-  - objsize
+  - ntlm-auth
+  - nulltype
+  - numpy
+  - oauthlib
+  - od
   - openai
+  - opencv-python
+  - openpyxl
+  - openseespy
+  - openseespylinux
   - opt-einsum
-  - optlang
   - ordered-set
   - oscrypto
-  - outcome
-  - overrides
   - packaging
-  - pamela
+  - pafy
+  - paho-mqtt
   - pandas
-  - pandocfilters
-  - parsedatetime
+  - pandas-datareader
+  - pandas-market-calendars
+  - pandas-schema
+  - pandas-stubs
+  - param
+  - paramiko
+  - parse
+  - parsel
+  - parsimonious
   - parso
+  - partd
+  - pathable
   - pathspec
-  - pbr
-  - peewee
+  - pathy
+  - patsy
+  - pdf2image
+  - pdfkit
+  - pdfminer.six
+  - pdfrw
   - pendulum
-  - pep517
   - pexpect
+  - pg8000
+  - pgeocode
+  - phonenumbers
+  - phonetisch
   - pickleshare
-  - pillow
-  - pip-tools
-  - pkginfo
+  - pika
+  - pkgutil-resolve-name
+  - plac
   - platformdirs
+  - plivo
+  - plotly
+  - plotly-geo
   - pluggy
   - ply
-  - prometheus_client
+  - polling2
+  - pony
+  - portend
+  - praw
+  - prawcore
+  - premailer
+  - prices
+  - proglog
+  - prometheus-client
+  - prometheus-flask-exporter
   - prompt-toolkit
-  - proto-plus
+  - psaw
   - ptyprocess
-  - pure_eval
-  - py4j
+  - pure-sasl
+  - py
+  - py-frappe-client
+  - py-solc-ast
+  - py-solc-x
+  - py3-validate-email
+  - pyAesCrypt
   - pyasn1
+  - pyasn1-modules
+  - pybind11
+  - pyclipper
+  - pycognito
+  - pycoingecko
+  - pycountry
   - pycparser
-  - pygithub
-  - pygments
+  - pycryptodome
+  - pyct
+  - pydal
+  - pydantic
+  - pydot
+  - pydub
+  - pyee
+  - pyenchant
+  - pygal
+  - pygeocodio
+  - pyheif
+  - pyid
+  - pyjstat
+  - pyocr
   - pyparsing
-  - pyproject-metadata
+  - pyphen
+  - pypng
+  - pyproj
+  - pyquery
   - pyrsistent
-  - pytest-benchmark
-  - pytest-timeout
+  - pyserial
+  - pyshp
+  - pyspellchecker
+  - pytesseract
+  - pytest
+  - pytest-forked
+  - pytest-xdist
+  - python-barcode
+  - python-benedict
+  - python-bidi
+  - python-box
+  - python-codicefiscale
+  - python-constraint
   - python-dateutil
-  - python-editor
-  - python-json-logger
+  - python-dotenv
+  - python-engineio
+  - python-escpos
+  - python-fsutil
+  - python-http-client
+  - python-jose
+  - python-pptx
   - python-slugify
-  - pythran
+  - python-socketio
+  - python-socks
+  - python-telegram-bot
+  - python-twitter-v2
+  - pytools
+  - pytrends
+  - pyttsx3
+  - pytube
   - pytz
+  - pytz-deprecation-shim
   - pytzdata
-  - pyyaml
+  - pyusb
+  - pyvat
+  - pyzbar
+  - qrcode
+  - querystring-parser
+  - queuelib
   - rdflib
+  - redis
+  - redshift-connector
   - regex
+  - reportlab
+  - repoze.lru
   - requests
+  - requests-cache
+  - requests-file
+  - requests-ntlm
   - requests-oauthlib
   - requests-toolbelt
-  - rfc3339
-  - rfc3339-validator
-  - rfc3986-validator
+  - retrying
+  - rfc3986
   - rich
-  - rouge-score
+  - rlp
   - rsa
+  - rstr
   - s3transfer
-  - sacrebleu
+  - sacremoses
+  - salabim
+  - schedule
+  - schwifty
   - scikit-image
   - scikit-learn
-  - scikit-optimize
+  - scikit-plot
   - scipy
-  - screed
+  - scramp
   - seaborn
-  - send2trash
-  - setuptools-rust
-  - setuptools-scm
-  - shellingham
+  - searchtweets
+  - secure-smtplib
+  - semantic-version
+  - sentinel
+  - sentry-sdk
+  - service-identity
+  - setuptools-git
+  - shortuuid
+  - sigtools
+  - simple-salesforce
+  - simple-smartsheet
+  - simplejson
+  - siphon
   - six
+  - slack-sdk
+  - slackclient
+  - slacker
+  - slate3k
+  - smart-open
+  - smartsheet-python-sdk
+  - smmap
+  - smsapi-client
   - sniffio
-  - snowballstemmer
   - sortedcontainers
   - soupsieve
-  - spdx-tools
-  - sphinx
-  - sphinxcontrib-applehelp
-  - sphinxcontrib-devhelp
-  - sphinxcontrib-htmlhelp
-  - sphinxcontrib-jsmath
-  - sphinxcontrib-qthelp
-  - sphinxcontrib-serializinghtml
-  - sqlalchemy
-  - sqlglot
+  - sox
+  - spacy-legacy
+  - spacy-loggers
+  - sportsipy
+  - spotipy
   - sqlparse
-  - stack_data
-  - statsd
+  - squareup
+  - sshtunnel
+  - statsmodels
+  - streng
+  - stripe
+  - sty
+  - svgwrite
   - sympy
-  - tblib
+  - tabula-py
+  - tabulate
+  - tangled-up-in-unicode
+  - tempora
   - tenacity
+  - tensorboard-data-server
+  - tensorboard-plugin-wit
+  - tensorflow-estimator
   - termcolor
-  - testpath
-  - texttable
   - text-unidecode
+  - textX
+  - textblob
+  - textstat
+  - texttable
   - threadpoolctl
+  - tifffile
+  - timetree-sdk
   - tinycss2
   - tinydb
+  - tldextract
   - toml
   - tomli
-  - tomli-w
   - tomlkit
+  - toolz
   - tqdm
   - traitlets
-  - trove-classifiers
-  - twython
-  - typing_inspect
+  - transitions
+  - translationstring
+  - treelib
+  - treys
+  - tuspy
+  - tweet-parser
+  - twilio
+  - typer
+  - typesense
+  - typing-extensions
+  - typing-inspect
   - tzdata
+  - tzlocal
+  - ua-parser
+  - ufoLib2
+  - ufoProcessor
+  - ufonormalizer
   - uncertainties
-  - uritemplate
-  - uritools
-  - userpath
-  - versioneer
-  - wcmatch
+  - update-checker
+  - url-normalize
+  - urllib3
+  - user-agents
+  - usps-api
+  - vaderSentiment
+  - vvm
+  - vyper
+  - w3lib
+  - wasabi
   - wcwidth
   - webencodings
   - websocket-client
-  - werkzeug
-  - wheel
+  - websockets
   - widgetsnbextension
+  - windrose
+  - wolframalpha
+  - wordcloud
+  - wordhoard
   - wrapt
+  - ws4py
   - xarray
   - xlrd
   - xmltodict
-  - xyzservices
-  - zarr
+  - yagmail
+  - yarl
+  - yellowbrick
+  - yfinance
+  - youtube-dl
+  - youtube-search-python
+  - zc.lockfile
+  - zeep
   - zipp
-  - certifi
-  - h11
-  - httpcore
-  - httpx
-  - jsonpatch
-  - jsonpointer
-  - numpy
-  - openai
-  - packaging
-  - pydantic
-  - pyyaml
-  - regex
-  - requests
-  - six
-  - sniffio
-  - starlette
+  - zohocrmsdk2-0
+  - zoomus
+  - zope.event
