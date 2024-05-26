@@ -12,7 +12,7 @@ dependencies:
   - matplotlib
   - ipywidgets
   - pandas
-  - requests 
+  - requests
   - APScheduler
   - AWSIoTPythonSDK
   - Arpeggio
@@ -180,20 +180,11 @@ dependencies:
   - envs
   - et-xmlfile
   - eth-hash
-  - eth-keys
-  - eth-rlp
   - eth-typing
-  - eth-utils
-  - etherscan
-  - eventsourcing
-  - exchangelib
   - execnet
-  - fake-user-agent
   - fake-useragent
-  - fastavro
   - fastcore
   - fastdownload
-  - fastjsonschema
   - fastprogress
   - ffmpeg-python
   - ffprobe-python
@@ -490,21 +481,16 @@ dependencies:
   - querystring-parser
   - queuelib
   - rdflib
-  - redis
-  - redshift-connector
   - regex
-  - reportlab
   - repoze.lru
   - requests
   - requests-cache
   - requests-file
-  - requests-ntlm
   - requests-oauthlib
   - requests-toolbelt
   - retrying
   - rfc3986
   - rich
-  - rlp
   - rsa
   - rstr
   - s3transfer
@@ -518,10 +504,6 @@ dependencies:
   - scipy
   - scramp
   - seaborn
-  - searchtweets
-  - secure-smtplib
-  - semantic-version
-  - sentinel
   - sentry-sdk
   - service-identity
   - setuptools-git
@@ -606,3 +588,5 @@ dependencies:
   - zeep
   - zipp
   - zope.event
+
+ 
