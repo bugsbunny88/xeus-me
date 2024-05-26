@@ -293,7 +293,6 @@ dependencies:
   - pathspec
   - pathy
   - patsy
-  - pdf2image
   - pdfminer.six
   - pdfrw
   - pendulum
@@ -360,7 +359,6 @@ dependencies:
   - python-engineio
   - python-fsutil
   - python-jose
-  - python-pptx
   - python-slugify
   - python-socketio
   - python-socks
