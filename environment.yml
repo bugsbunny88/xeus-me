@@ -268,11 +268,8 @@ dependencies:
   - xyzservices
   - zarr
   - zipp
-  - aiosignal
   - certifi
-  - frozenlist
   - h11
-  - hashlib
   - httpcore
   - httpx
   - jsonpatch
@@ -281,7 +278,6 @@ dependencies:
   - openai
   - packaging
   - pydantic
-  - pydantic-core
   - pyyaml
   - regex
   - requests
