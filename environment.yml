@@ -242,7 +242,6 @@ dependencies:
   - kafka-python
   - kiwisolver
   - kmodes
-  - lazy-object-proxy
   - lmfit
   - locket
   - lockfile
