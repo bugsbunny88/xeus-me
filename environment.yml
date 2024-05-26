@@ -268,32 +268,23 @@ dependencies:
   - xyzservices
   - zarr
   - zipp
-  - aiohttp
-  - aiohttp-tests
   - aiosignal
   - certifi
-  - fastapi
   - frozenlist
   - h11
-  - h11-tests
   - hashlib
   - httpcore
   - httpx
   - jsonpatch
   - jsonpointer
-  - langchain
-  - langchain-core
-  - langchain-openai
-  - langsmith
-  - lzma
-  - micropip
-  - multidict
   - numpy
-  - numpy-tests
-  - openssl
-  - pydecimal
-  - pydoc-data
-  - regex-tests
-  - sqlite3
-  - ssl
+  - openai
+  - packaging
+  - pydantic
+  - pydantic-core
+  - pyyaml
+  - regex
+  - requests
+  - six
+  - sniffio
   - starlette
