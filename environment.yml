@@ -25,23 +25,27 @@ dependencies:
   - asn1
   - asn1crypto
   - async-timeout
+  - atomicwrites
   - attrs
+  - autograd
+  - awkward-cpp
   - babel
   - backcall
   - backoff
   - beartype
   - beautifulsoup4
   - beniget
+  - biopython
+  - bitstring
   - bleach
   - blinker
   - boltons
+  - boost-histogram
   - bracex
   - cachecontrol
   - cached-property
   - cachetools
-  - certifi
   - cffi
-  - chardet
   - charset-normalizer
   - cli_helpers
   - click
@@ -49,8 +53,6 @@ dependencies:
   - click-option-group
   - cloudpickle
   - cmaes
-  - codespell
-  - colorama
   - comm
   - configargparse
   - configobj
@@ -59,7 +61,9 @@ dependencies:
   - cppy
   - crashtest
   - cryptography
+  - cssselect
   - cycler
+  - cytoolz
   - datadog
   - decorator
   - defusedxml
@@ -82,11 +86,9 @@ dependencies:
   - flit-core
   - fonttools
   - fsspec
-  - future
   - gast
   - geomet
   - html5lib
-  - humanfriendly
   - hyperlink
   - idna
   - imagesize
@@ -109,12 +111,10 @@ dependencies:
   - jsondiff
   - jsonschema
   - jupyter_core
-  - jupyter-packaging
   - jupyterlab_pygments
-  - kiwisolver
+  - jupyter-packaging
   - knack
   - license-expression
-  - lockfile
   - logbook
   - lxml
   - mako
@@ -131,14 +131,17 @@ dependencies:
   - more-itertools
   - mpmath
   - msal
+  - munch
   - mypy_extensions
   - nbformat
   - nest-asyncio
   - networkx
   - nltk
+  - nose
   - objsize
   - openai
   - opt-einsum
+  - optlang
   - ordered-set
   - oscrypto
   - outcome
@@ -157,38 +160,31 @@ dependencies:
   - pexpect
   - pickleshare
   - pillow
-  - pip
   - pip-tools
   - pkginfo
   - platformdirs
   - pluggy
   - ply
-  - portalocker
   - prometheus_client
   - prompt-toolkit
   - proto-plus
-  - protobuf
   - ptyprocess
   - pure_eval
   - py4j
   - pyasn1
-  - pybind11
   - pycparser
-  - pydantic
-  - pydot
   - pygithub
   - pygments
   - pyparsing
   - pyproject-metadata
   - pyrsistent
-  - pytest
+  - pytest-benchmark
   - pytest-timeout
   - python-dateutil
   - python-editor
   - python-json-logger
   - python-slugify
   - pythran
-  - pytimeparse
   - pytz
   - pytzdata
   - pyyaml
@@ -197,7 +193,6 @@ dependencies:
   - requests
   - requests-oauthlib
   - requests-toolbelt
-  - retrying
   - rfc3339
   - rfc3339-validator
   - rfc3986-validator
@@ -206,12 +201,13 @@ dependencies:
   - rsa
   - s3transfer
   - sacrebleu
+  - scikit-image
   - scikit-learn
   - scikit-optimize
   - scipy
+  - screed
   - seaborn
   - send2trash
-  - setuptools
   - setuptools-rust
   - setuptools-scm
   - shellingham
@@ -234,10 +230,11 @@ dependencies:
   - stack_data
   - statsd
   - sympy
-  - tabulate
+  - tblib
   - tenacity
   - termcolor
   - testpath
+  - texttable
   - text-unidecode
   - threadpoolctl
   - tinycss2
@@ -252,6 +249,7 @@ dependencies:
   - twython
   - typing_inspect
   - tzdata
+  - uncertainties
   - uritemplate
   - uritools
   - userpath
@@ -264,6 +262,9 @@ dependencies:
   - wheel
   - widgetsnbextension
   - wrapt
+  - xarray
+  - xlrd
   - xmltodict
   - xyzservices
+  - zarr
   - zipp
