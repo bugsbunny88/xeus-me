@@ -50,8 +50,6 @@ dependencies:
   - flask-admin
   - configparser
   - face
-  - importlib-resources
-  - google-auth-oauthlib
   - apispec-webframeworks
   - azure-synapse-artifacts
   - dill
@@ -168,7 +166,6 @@ dependencies:
   - google-cloud-audit-log
   - ariadne
   - delocate
-  - build
   - lunr
   - jsonpatch
   - branca
