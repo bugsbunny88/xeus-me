@@ -59,7 +59,6 @@ dependencies:
   - yamllint
   - cmaes
   - marshmallow-oneofschema
-  - pynacl
   - typing-extensions
   - pycparser
   - configobj
@@ -69,7 +68,6 @@ dependencies:
   - networkx
   - incremental
   - flask-jwt-extended
-  - bcrypt
   - mergedeep
   - xyzservices
   - interrogate
@@ -108,7 +106,6 @@ dependencies:
   - msrest
   - markupsafe
   - html5tagger
-  - audioread
   - django-debug-toolbar
   - djangorestframework
   - identify
@@ -182,7 +179,6 @@ dependencies:
   - marshmallow-jsonapi
   - prompt-toolkit
   - jedi
-  - ansi2html
   - azure-keyvault-certificates
   - partd
   - click-aliases
@@ -195,7 +191,6 @@ dependencies:
   - pywinrm
   - fido2
   - cfn-flip
-  - pyproj
   - azure-identity
   - autoflake
   - azure-storage-blob
@@ -223,7 +218,6 @@ dependencies:
   - dictpath
   - django-import-export
   - opencensus
-  - cachecontrol
   - zeep
   - patsy
   - jsonfield
@@ -386,7 +380,6 @@ dependencies:
   - djangorestframework-stubs
   - defusedxml
   - globus-sdk
-  - anndata
   - future
   - google-cloud-bigquery-storage
   - click-help-colors
@@ -400,7 +393,6 @@ dependencies:
   - concurrent-log-handler
   - importlib-metadata
   - raven
-  - pyspnego
   - requests-file
   - google-cloud-translate
   - xlrd
@@ -480,7 +472,6 @@ dependencies:
   - uritemplate
   - pep517
   - filelock
-  - simplejson
   - django-cachalot
   - asttokens
   - asdf
@@ -508,7 +499,6 @@ dependencies:
   - xlsxwriter
   - constantly
   - asynctest
-  - astroid
   - sqlalchemy
   - bleach
   - yamale
@@ -518,7 +508,6 @@ dependencies:
   - python-gnupg
   - cached-property
   - orjson
-  - pypandoc
   - py
   - exhale
   - environ-config
@@ -531,7 +520,6 @@ dependencies:
   - numpy
   - amply
   - cython
-  - pytest-cov
   - formulaic
   - geopy
   - seaborn
@@ -552,7 +540,6 @@ dependencies:
   - alembic
   - jsons
   - anyconfig
-  - bravado-core
   - multitasking
   - ipywidgets
   - black
@@ -595,7 +582,6 @@ dependencies:
   - django-extra-views
   - more-itertools
   - typer
-  - sqlalchemy-utils
   - fastavro
   - setuptools-scm
   - imap-tools
@@ -608,7 +594,6 @@ dependencies:
   - django-nested-admin
   - pygithub
   - typing
-  - billiard
   - formencode
   - ntlm-auth
   - wrapt
@@ -733,7 +718,6 @@ dependencies:
   - bitarray
   - imagehash
   - structlog
-  - aria2p
   - google-cloud-bigquery-datatransfer
   - dpath
   - terminaltables
@@ -779,13 +763,11 @@ dependencies:
   - python-utils
   - opt-einsum
   - pysocks
-  - aiosignal
   - setuptools
   - flit
   - azure-storage-queue
   - python3-openid
   - python-multipart
-  - azure-keyvault
   - sympy
   - smart-open
   - cfn-lint
@@ -798,7 +780,6 @@ dependencies:
   - anytree
   - astunparse
   - aioitertools
-  - aws-embedded-metrics
   - locket
   - azure-batch
   - overrides
