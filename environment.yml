@@ -233,7 +233,6 @@ dependencies:
   - pyrsistent
   - django-annoying
   - eth-rlp
-  - agate-excel
   - humanfriendly
   - hyperframe
   - crashtest
@@ -267,7 +266,6 @@ dependencies:
   - django-redis
   - execnet
   - flake8-builtins
-  - xgboost
   - disnake
   - slacker
   - execnb
@@ -281,11 +279,9 @@ dependencies:
   - azure-mgmt-msi
   - colorama
   - certifi
-  - tensorboard-data-server
   - django-browser-reload
   - pathlib2
   - sphinx
-  - wordcloud
   - frozenlist
   - dvc-http
   - cssutils
@@ -373,7 +369,6 @@ dependencies:
   - google-cloud-os-login
   - lazy-object-proxy
   - altgraph
-  - tifffile
   - django-flags
   - twilio
   - jinja2
@@ -413,7 +408,6 @@ dependencies:
   - nbformat
   - appdirs
   - flake8-executable
-  - agate-dbf
   - jwcrypto
   - netaddr
   - pytest-xdist
@@ -472,7 +466,6 @@ dependencies:
   - slackclient
   - azure-mgmt-batch
   - headerparser
-  - aioresponses
   - flask-restx
   - pandas
   - docker-image-py
@@ -503,7 +496,6 @@ dependencies:
   - cerberus
   - bytecode
   - pip
-  - uvicorn
   - tzlocal
   - itsdangerous
   - datadog
@@ -549,13 +541,11 @@ dependencies:
   - multiprocess
   - executing
   - exceptiongroup
-  - adaptive
   - docker-pycreds
   - txaio
   - ffmpeg-python
   - markdown
   - apeye-core
-  - sshtunnel
   - google-cloud-firestore
   - pycodestyle
   - setuptools-rust
@@ -595,7 +585,6 @@ dependencies:
   - dunamai
   - debugpy
   - litecli
-  - aiohttp
   - isort
   - vine
   - backoff
@@ -656,7 +645,6 @@ dependencies:
   - azure-datalake-store
   - h11
   - parsedatetime
-  - aiormq
   - nest-asyncio
   - aiomysql
   - dparse
@@ -696,7 +684,6 @@ dependencies:
   - deprecation-alias
   - watchtower
   - coverage
-  - aio-pika
   - google-cloud-memcache
   - click
   - sqlalchemy-jsonfield
@@ -717,7 +704,6 @@ dependencies:
   - pem
   - exchange-calendars
   - boto
-  - yarl
   - azure-mgmt-network
   - iniconfig
   - everett
@@ -736,7 +722,6 @@ dependencies:
   - adal
   - flask
   - django-braces
-  - aiohttp-socks
   - atomicwrites
   - argcomplete
   - dramatiq
