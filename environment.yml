@@ -636,7 +636,6 @@ dependencies:
   - cloudsplaining
   - gdown
   - jsx-lexer
-  - websockets
   - singledispatch
   - marshmallow
   - latexcodec
