@@ -264,7 +264,6 @@ dependencies:
   - mock
   - oscrypto
   - shortuuid
-  - h5py
   - jmespath
   - aws-xray-sdk
   - typeguard
