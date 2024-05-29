@@ -551,12 +551,6 @@ dependencies:
   - rich-argparse
   - rich-click
   - robocorp-storage
-  - robotframework-assertion-engine
-  - robotframework-databaselibrary
-  - robotframework-datadriver
-  - robotframework-pythonlibcore
-  - robotframework-requests
-  - robotframework-robocop
   - rollbar
   - rq
   - rstr
@@ -752,6 +746,7 @@ dependencies:
   - yq
   - zarr
   - zeroconf
+
 
 
 
