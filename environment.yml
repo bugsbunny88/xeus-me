@@ -375,7 +375,6 @@ dependencies:
   - numpydoc
   - oauth2client
   - objsize
-  - opencensus-context
   - openpulse
   - openpyxl
   - openqasm3
@@ -432,7 +431,6 @@ dependencies:
   - praw
   - prawcore
   - pre-commit
-  - pre-commit-hooks
   - premailer
   - presto-python-client
   - price-parser
@@ -557,16 +555,13 @@ dependencies:
   - recommonmark
   - recurring-ical-events
   - redo
-  - reportlab
   - reportportal-client
   - requests-cache
-  - requests-kerberos
   - requirements-parser
   - respx
   - retrying
   - rich-argparse
   - rich-click
-  - rlp
   - robocorp-storage
   - robotframework-assertion-engine
   - robotframework-databaselibrary
@@ -577,7 +572,6 @@ dependencies:
   - rollbar
   - rq
   - rstr
-  - rtree
   - runtype
   - ruptures
   - rx
@@ -593,7 +587,6 @@ dependencies:
   - schedule
   - schema
   - schematics
-  - scholarly
   - schwifty
   - scienceplots
   - scikit-base
@@ -772,6 +765,7 @@ dependencies:
   - yq
   - zarr
   - zeroconf
+
 
 
 
