@@ -49,7 +49,6 @@ dependencies:
   - autots
   - awacs
   - aws-error-utils
-  - aws-requests-auth
   - awslimitchecker
   - base58
   - bc-detect-secrets
@@ -147,7 +146,6 @@ dependencies:
   - dynaconf
   - ecs-logging
   - einops
-  - elasticsearch-dsl
   - email-validator
   - eradicate
   - eth-hash
@@ -198,7 +196,6 @@ dependencies:
   - furl
   - furo
   - gekko
-  - geocoder
   - geojson
   - ghp-import
   - gitdb
@@ -261,7 +258,6 @@ dependencies:
   - jeepney
   - jinja2-simple-tags
   - jinjasql
-  - jira
   - json-rpc
   - json-spec
   - jsonargparse
@@ -427,7 +423,6 @@ dependencies:
   - portend
   - posthog
   - pox
-  - praw
   - prawcore
   - pre-commit
   - premailer
@@ -507,7 +502,6 @@ dependencies:
   - python-barcode
   - python-benedict
   - python-bidi
-  - python-box
   - python-can
   - python-engineio
   - python-fsutil
@@ -687,7 +681,6 @@ dependencies:
   - ttp
   - tuspy
   - tweepy
-  - twine
   - twython
   - typepy
   - types-awscrt
@@ -764,6 +757,7 @@ dependencies:
   - yq
   - zarr
   - zeroconf
+
 
 
 
