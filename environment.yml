@@ -309,7 +309,6 @@ dependencies:
   - md-toc
   - mdformat
   - mdutils
-  - measurement
   - mechanicalsoup
   - mercantile
   - metaflow
@@ -418,7 +417,6 @@ dependencies:
   - pooch
   - port-for
   - portalocker
-  - portend
   - posthog
   - pox
   - prawcore
@@ -426,7 +424,6 @@ dependencies:
   - premailer
   - presto-python-client
   - price-parser
-  - psycopg-pool
   - psygnal
   - py-serializable
   - py-solc-x
@@ -456,7 +453,6 @@ dependencies:
   - pyfunctional
   - pygad
   - pygam
-  - pygeoif
   - pygls
   - pyhumps
   - pyinstaller-versionfile
@@ -746,6 +742,7 @@ dependencies:
   - yq
   - zarr
   - zeroconf
+
 
 
 
