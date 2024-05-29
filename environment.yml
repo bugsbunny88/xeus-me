@@ -398,7 +398,6 @@ dependencies:
   - dataproperty
   - aiomultiprocess
   - troposphere
-  - aiofile
   - urwid
   - hypercorn
   - autocommand
@@ -670,7 +669,6 @@ dependencies:
   - janome
   - actions-toolkit
   - tatsu
-  - cartopy
   - pytensor
   - monty
   - enlighten
