@@ -19,7 +19,6 @@ dependencies:
   - adjusttext
   - aif360
   - aiocache
-  - aiofile
   - aiolimiter
   - aiomultiprocess
   - aioredis
@@ -75,7 +74,6 @@ dependencies:
   - camel-converter
   - camelot-py
   - captcha
-  - cartopy
   - casefy
   - census
   - chameleon
@@ -931,6 +929,7 @@ dependencies:
   - yq
   - zarr
   - zeroconf
+
 
 
 
