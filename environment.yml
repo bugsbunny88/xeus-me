@@ -19,6 +19,7 @@ dependencies:
   - adjusttext
   - aif360
   - aiocache
+  - aiofile
   - aiolimiter
   - aiomultiprocess
   - aioredis
@@ -61,7 +62,6 @@ dependencies:
   - betamax
   - bitstruct
   - black
-  - bokeh
   - borb
   - boto
   - boto3-stubs
@@ -72,18 +72,15 @@ dependencies:
   - bump2version
   - bumpversion
   - camel-converter
-  - camelot-py
   - captcha
   - casefy
   - census
   - chameleon
-  - channels
   - chardet
   - chart-studio
   - chess
   - chevron
   - chromedriver-autoinstaller
-  - cibuildwheel
   - cinemagoer
   - circuitbreaker
   - cirq-aqt
@@ -91,22 +88,17 @@ dependencies:
   - cirq-ionq
   - cirq-pasqal
   - cirq-web
-  - clang
   - click-default-group
   - click-spinner
   - cligj
   - cloup
   - cma
-  - cmdstanpy
-  - codecov
   - codespell
   - codetiming
   - cognite-sdk
   - colorcet
-  - coloredlogs
   - colorful
   - colorhash
-  - colorlog
   - colour-science
   - colourmap
   - commonmark
@@ -119,21 +111,16 @@ dependencies:
   - coolname
   - copulas
   - corner
-  - coverage
   - cpplint
-  - cramjam
   - crccheck
   - cron-descriptor
   - cryptography-vectors
   - cyclonedx-python-lib
-  - cython
-  - darker
   - dash-bootstrap-components
   - dash-core-components
   - dash-html-components
   - dash-mantine-components
   - dash-table
-  - dask
   - databricks-cli
   - databricks-sdk
   - dataclass-wizard
@@ -180,7 +167,6 @@ dependencies:
   - eth-hash
   - eth-keys
   - eth-typing
-  - eth-utils
   - etils
   - exchange-calendars
   - exchangelib
@@ -422,7 +408,6 @@ dependencies:
   - mpld3
   - mplhep
   - mrjob
-  - msgpack-python
   - msoffcrypto-tool
   - multidict
   - multimethod
@@ -478,7 +463,6 @@ dependencies:
   - opentelemetry-proto
   - optuna
   - orange-canvas-core
-  - orjson
   - owslib
   - packageurl-python
   - paho-mqtt
@@ -520,7 +504,6 @@ dependencies:
   - plaster
   - plotext
   - plotly
-  - plumbum
   - plux
   - plyer
   - plyfile
@@ -568,7 +551,6 @@ dependencies:
   - pycountry
   - pycryptodome
   - pyct
-  - pydantic
   - pydantic-core
   - pydantic-yaml
   - pydash
@@ -636,7 +618,6 @@ dependencies:
   - pyshp
   - pysimplegui
   - pyspellchecker
-  - pyspnego
   - pystac
   - pystache
   - pytablewriter
@@ -747,11 +728,9 @@ dependencies:
   - scp
   - sdmetrics
   - securesystemslib
-  - selenium
   - sentinelsat
   - setupmeta
   - sf-hamilton
-  - shapely
   - shimmy
   - shtab
   - signxml
@@ -762,7 +741,6 @@ dependencies:
   - simple-term-menu
   - simple-websocket
   - simpleeval
-  - simplejson
   - simpy
   - singledispatch
   - siuba
@@ -771,7 +749,6 @@ dependencies:
   - slackclient
   - slowapi
   - smartsheet-python-sdk
-  - smbprotocol
   - smbus2
   - smdebug-rulesconfig
   - smmap2
@@ -784,7 +761,6 @@ dependencies:
   - sparqlwrapper
   - spdx-tools
   - spectral
-  - speechrecognition
   - speedtest-cli
   - spotipy
   - sql-metadata
@@ -794,10 +770,7 @@ dependencies:
   - sqlglot
   - sqllineage
   - sqlparams
-  - sqltrie
   - sse-starlette
-  - sshfs
-  - sshtunnel
   - sshuttle
   - stackprinter
   - starlette-admin
@@ -815,23 +788,19 @@ dependencies:
   - strawberry-graphql-django
   - stream-zip
   - strenum
-  - strictyaml
   - striprtf
   - submitit
   - subprocess-tee
-  - sunpy
   - superqt
   - sweetviz
   - syrupy
   - tabledata
   - tableschema-to-template
-  - tabula-py
   - tabulate
   - tatsu
   - tcolorpy
   - telepath
   - tempora
-  - tensorboard-data-server
   - testfixtures
   - testtools
   - textstat
@@ -929,6 +898,7 @@ dependencies:
   - yq
   - zarr
   - zeroconf
+
 
 
 
