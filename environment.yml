@@ -13,30 +13,47 @@ dependencies:
   - ipywidgets
   - pandas
   - requests
-  - annotated-types
-  - anyio
+  - astropy
   - async-timeout
-  - attrs
-  - certifi
-  - charset-normalizer
-  - distro
-  - h11
-  - httpcore
-  - httpx
-  - idna
-  - jsonpatch
-  - jsonpointer
-  - micropip
-  - numpy
-  - openai
-  - packaging
+  - atomicwrites
+  - autograd
+  - awkward-cpp
+  - beautifulsoup4
+  - biopython
+  - bitstring
+  - bleach
+  - boost-histogram
+  - cachetools
+  - cloudpickle
+  - colorspacious
+  - cryptography
+  - cssselect
+  - cytoolz
+  - deprecation
+  - docutils
+  - html5lib
+  - logbook
+  - lxml
+  - munch
+  - nltk
+  - nose
+  - optlang
+  - peewee
+  - protobuf
   - pydantic
-  - pyyaml
-  - regex
-  - requests
-  - six
-  - sniffio
-  - starlette
+  - pyrsistent
+  - pytest-benchmark
+  - scikit-image
+  - screed
+  - sqlalchemy
+  - statsmodels
+  - tblib
+  - termcolor
+  - texttable
+  - uncertainties
+  - xarray
+  - xlrd
+  - zarr
 
 
 
