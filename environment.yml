@@ -13,101 +13,44 @@ dependencies:
   - ipywidgets
   - pandas
   - requests
+  - aiohttp
+  - aiohttp-tests
+  - aiosignal
   - annotated-types
-  - appdirs
-  - appnope
+  - anyio
   - async-timeout
-  - async_generator
   - attrs
-  - backcall
-  - beautifulsoup4
-  - bleach
   - certifi
-  - cffi
   - charset-normalizer
-  - click
-  - cryptography
-  - cycler
-  - decorator
-  - defusedxml
-  - dill
-  - et-xmlfile
-  - frozendict
+  - distro
+  - frozenlist
+  - h11
+  - hashlib
+  - httpcore
+  - httpx
   - idna
-  - ipycanvas
-  - ipython
-  - ipython_genutils
-  - ipywidgets
-  - jdcal
-  - jedi
-  - jinja2
-  - joblib
-  - jsonschema
-  - jupyter_core
-  - jupyterlab_pygments
-  - kiwisolver
-  - lxml
-  - markupsafe
-  - matplotlib
-  - matplotlib-inline
-  - mistune
-  - mpmath
-  - multitasking
-  - nbformat
-  - nest-asyncio
-  - networkx
+  - jsonpatch
+  - jsonpointer
+  - lzma
+  - micropip
+  - multidict
   - numpy
+  - numpy-tests
   - openai
-  - openpyxl
   - packaging
-  - pandas
-  - pandas-datareader
-  - pandocfilters
-  - parso
-  - patsy
-  - pexpect
-  - pickleshare
-  - pillow
-  - prometheus_client
-  - prompt-toolkit
-  - ptyprocess
-  - pycparser
-  - pygments
-  - pyparsing
-  - pyrsistent
-  - pysocks
-  - python-dateutil
-  - pytz
+  - pydantic
+  - pydantic-core
+  - pydecimal
+  - pydoc-data
   - pyyaml
   - regex
+  - regex-tests
   - requests
-  - scikit-learn
-  - scipy
-  - seaborn
-  - send2trash
-  - setuptools
-  - setuptools-scm
-  - simplegeneric
   - six
-  - soupsieve
-  - statsmodels
-  - sympy
-  - tenacity
-  - testpath
-  - threadpoolctl
-  - tiktoken
-  - tinycss2
-  - tomli
-  - tqdm
-  - traitlets
-  - typing-extensions
-  - urllib3
-  - version_information
-  - wcwidth
-  - webencodings
-  - widgetsnbextension
-  - xlrd
-  - yfinance
+  - sniffio
+  - sqlite3
+  - ssl
+  - starlette
 
 
 
