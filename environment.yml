@@ -51,7 +51,6 @@ dependencies:
   - aws-error-utils
   - aws-requests-auth
   - awslimitchecker
-  - bandit
   - base58
   - bc-detect-secrets
   - bc-jsonpath-ng
@@ -765,6 +764,7 @@ dependencies:
   - yq
   - zarr
   - zeroconf
+
 
 
 
