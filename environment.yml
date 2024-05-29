@@ -53,6 +53,7 @@ dependencies:
   - click-option-group
   - cloudpickle
   - cmaes
+  - colorama
   - comm
   - configargparse
   - configobj
@@ -95,7 +96,6 @@ dependencies:
   - importlib-metadata
   - importlib-resources
   - iniconfig
-  - install
   - invoke
   - ipython
   - ipython_genutils
@@ -161,7 +161,6 @@ dependencies:
   - pexpect
   - pickleshare
   - pillow
-  - pip
   - pip-tools
   - pkginfo
   - platformdirs
