@@ -13,47 +13,263 @@ dependencies:
   - ipywidgets
   - pandas
   - requests
-  - astropy
+  - absl-py
+  - aiofiles
+  - annotated-types
+  - antlr4-python3-runtime
+  - anyio
+  - appdirs
+  - archspec
+  - argcomplete
+  - asgiref
+  - asn1
+  - asn1crypto
   - async-timeout
   - atomicwrites
+  - attrs
   - autograd
   - awkward-cpp
+  - babel
+  - backcall
+  - backoff
+  - beartype
   - beautifulsoup4
+  - beniget
   - biopython
   - bitstring
   - bleach
+  - blinker
+  - boltons
   - boost-histogram
+  - bracex
+  - cachecontrol
+  - cached-property
   - cachetools
+  - cffi
+  - charset-normalizer
+  - cli_helpers
+  - click
+  - click-aliases
+  - click-option-group
   - cloudpickle
-  - colorspacious
+  - cmaes
+  - comm
+  - configargparse
+  - configobj
+  - contextlib2
+  - contourpy
+  - cppy
+  - crashtest
   - cryptography
   - cssselect
+  - cycler
   - cytoolz
+  - datadog
+  - decorator
+  - defusedxml
+  - deprecated
   - deprecation
+  - dill
+  - distlib
+  - distro
+  - dnspython
   - docutils
+  - editables
+  - entrypoints
+  - escapism
+  - exceptiongroup
+  - executing
+  - face
+  - filelock
+  - flask
+  - flask-cors
+  - flit-core
+  - fonttools
+  - fsspec
+  - gast
+  - geomet
   - html5lib
+  - hyperlink
+  - idna
+  - imagesize
+  - importlib-metadata
+  - importlib-resources
+  - iniconfig
+  - install
+  - invoke
+  - ipython
+  - ipython_genutils
+  - ipywidgets
+  - isodate
+  - itables
+  - itsdangerous
+  - jedi
+  - jeepney
+  - jinja2
+  - jmespath
+  - joblib
+  - json5
+  - jsondiff
+  - jsonschema
+  - jupyter-packaging
+  - jupyter_core
+  - jupyterlab_pygments
+  - knack
+  - license-expression
   - logbook
   - lxml
+  - mako
+  - markdown
+  - markdown-it-py
+  - markupsafe
+  - mashumaro
+  - matplotlib
+  - matplotlib-inline
+  - mdit-py-plugins
+  - mdurl
+  - mistune
+  - mock
+  - more-itertools
+  - mpmath
+  - msal
   - munch
+  - mypy_extensions
+  - nbformat
+  - nest-asyncio
+  - networkx
   - nltk
   - nose
+  - objsize
+  - openai
+  - opt-einsum
   - optlang
+  - ordered-set
+  - oscrypto
+  - outcome
+  - overrides
+  - packaging
+  - pamela
+  - pandas
+  - pandocfilters
+  - parsedatetime
+  - parso
+  - pathspec
+  - pbr
   - peewee
-  - protobuf
-  - pydantic
+  - pendulum
+  - pep517
+  - pexpect
+  - pickleshare
+  - pillow
+  - pip
+  - pip-tools
+  - pkginfo
+  - platformdirs
+  - pluggy
+  - ply
+  - prometheus_client
+  - prompt-toolkit
+  - proto-plus
+  - ptyprocess
+  - pure_eval
+  - py4j
+  - pyasn1
+  - pycparser
+  - pygithub
+  - pygments
+  - pyparsing
+  - pyproject-metadata
   - pyrsistent
   - pytest-benchmark
+  - pytest-timeout
+  - python-dateutil
+  - python-editor
+  - python-json-logger
+  - python-slugify
+  - pythran
+  - pytz
+  - pytzdata
+  - pyyaml
+  - rdflib
+  - regex
+  - requests
+  - requests-oauthlib
+  - requests-toolbelt
+  - rfc3339
+  - rfc3339-validator
+  - rfc3986-validator
+  - rich
+  - rouge-score
+  - rsa
+  - s3transfer
+  - sacrebleu
   - scikit-image
+  - scikit-learn
+  - scikit-optimize
+  - scipy
   - screed
+  - seaborn
+  - send2trash
+  - setuptools-rust
+  - setuptools-scm
+  - shellingham
+  - six
+  - sniffio
+  - snowballstemmer
+  - sortedcontainers
+  - soupsieve
+  - spdx-tools
+  - sphinx
+  - sphinxcontrib-applehelp
+  - sphinxcontrib-devhelp
+  - sphinxcontrib-htmlhelp
+  - sphinxcontrib-jsmath
+  - sphinxcontrib-qthelp
+  - sphinxcontrib-serializinghtml
   - sqlalchemy
-  - statsmodels
+  - sqlglot
+  - sqlparse
+  - stack_data
+  - statsd
+  - sympy
   - tblib
+  - tenacity
   - termcolor
+  - testpath
+  - text-unidecode
   - texttable
+  - threadpoolctl
+  - tinycss2
+  - tinydb
+  - toml
+  - tomli
+  - tomli-w
+  - tomlkit
+  - tqdm
+  - traitlets
+  - trove-classifiers
+  - twython
+  - typing_inspect
+  - tzdata
   - uncertainties
+  - uritemplate
+  - uritools
+  - userpath
+  - versioneer
+  - wcmatch
+  - wcwidth
+  - webencodings
+  - websocket-client
+  - werkzeug
+  - wheel
+  - widgetsnbextension
+  - wrapt
   - xarray
   - xlrd
+  - xmltodict
+  - xyzservices
   - zarr
+  - zipp
 
 
 
