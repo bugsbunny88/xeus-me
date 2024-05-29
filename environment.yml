@@ -19,7 +19,6 @@ dependencies:
   - adjusttext
   - aif360
   - aiocache
-  - aiofile
   - aiolimiter
   - aiomultiprocess
   - aioredis
@@ -125,16 +124,13 @@ dependencies:
   - databricks-sdk
   - dataclass-wizard
   - dataclassy
-  - datamodel-code-generator
   - dataproperty
   - datascience
-  - datasette
   - datetimerange
   - dawg-python
   - dbf
   - ddsketch
   - ddt
-  - debugpy
   - deepmerge
   - devpi-client
   - devpi-common
@@ -143,18 +139,13 @@ dependencies:
   - diff-cover
   - diffprivlib
   - diskcache
-  - disnake
   - dlint
   - dockerfile-parse
   - docutils
   - dohq-artifactory
   - dpkt
   - drf-yasg
-  - dtreeviz
-  - dulwich
-  - dvc-http
   - dvc-render
-  - dvc-task
   - dynaconf
   - ecs-logging
   - einops
@@ -551,7 +542,6 @@ dependencies:
   - pycountry
   - pycryptodome
   - pyct
-  - pydantic-core
   - pydantic-yaml
   - pydash
   - pydeck
@@ -697,7 +687,6 @@ dependencies:
   - robotframework-requests
   - robotframework-robocop
   - rollbar
-  - rpyc
   - rq
   - rstr
   - rtree
@@ -898,6 +887,7 @@ dependencies:
   - yq
   - zarr
   - zeroconf
+
 
 
 
