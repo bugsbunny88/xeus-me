@@ -14,749 +14,744 @@ dependencies:
   - pandas
   - requests
   - acme
-  - actions-toolkit
-  - addict
-  - adjusttext
-  - aif360
-  - aiocache
-  - aiolimiter
-  - aiomultiprocess
-  - aioredis
-  - aiorun
-  - aiorwlock
-  - aiosmtpd
-  - aiosmtplib
-  - aiosqlite
-  - allure-behave
-  - allure-pytest
-  - allure-pytest-bdd
-  - allure-python-commons
-  - allure-robotframework
-  - amundsen-common
-  - anyascii
-  - apache-atlas
-  - apache-libcloud
-  - apipkg
-  - applicationinsights
-  - apprise
-  - argh
-  - arpeggio
-  - asgi-correlation-id
-  - astropy
-  - asyncer
-  - asyncstdlib
-  - autocommand
-  - autots
-  - awacs
-  - aws-error-utils
-  - awslimitchecker
-  - base58
-  - bc-detect-secrets
-  - bc-jsonpath-ng
-  - beartype
-  - beautifulsoup4
-  - behave
-  - betamax
-  - bitstruct
-  - black
-  - borb
-  - boto
-  - boto3-stubs
-  - boto3-stubs-lite
-  - bottle
-  - bqplot
-  - brewer2mpl
-  - bump2version
-  - bumpversion
-  - captcha
-  - casefy
-  - census
-  - chameleon
-  - chardet
-  - chart-studio
-  - chess
-  - chevron
-  - chromedriver-autoinstaller
-  - cinemagoer
-  - circuitbreaker
-  - cirq-aqt
-  - cirq-core
-  - cirq-ionq
-  - cirq-pasqal
-  - cirq-web
-  - click-default-group
-  - click-spinner
-  - cligj
-  - cloup
-  - cma
-  - codespell
-  - codetiming
-  - cognite-sdk
-  - colorcet
-  - colorful
-  - colorhash
-  - colour-science
-  - colourmap
-  - commonmark
-  - conllu
-  - connexion
-  - cons
-  - constantly
-  - construct
-  - contourpy
-  - coolname
-  - copulas
-  - corner
-  - cpplint
-  - crccheck
-  - cron-descriptor
-  - cryptography-vectors
-  - cyclonedx-python-lib
-  - dash-bootstrap-components
-  - dash-core-components
-  - dash-html-components
-  - dash-mantine-components
-  - dash-table
-  - databricks-cli
-  - databricks-sdk
-  - dataclass-wizard
-  - dataclassy
-  - dataproperty
-  - datascience
-  - datetimerange
-  - dawg-python
-  - dbf
-  - ddsketch
-  - ddt
-  - deepmerge
-  - devpi-client
-  - devpi-common
-  - dgllife
-  - dicttoxml
-  - diff-cover
-  - diffprivlib
-  - diskcache
-  - dlint
-  - dockerfile-parse
-  - docutils
-  - dohq-artifactory
-  - dpkt
-  - drf-yasg
-  - dvc-render
-  - dynaconf
-  - ecs-logging
-  - einops
-  - email-validator
-  - eradicate
-  - eth-hash
-  - eth-typing
-  - etils
-  - exchange-calendars
-  - exifread
-  - expandvars
-  - expecttest
-  - exrex
-  - ezdxf
-  - fastprogress
-  - filetype
-  - fixtures
-  - flake8-broken-line
-  - flake8-eradicate
-  - flake8-markdown
-  - flake8-no-pep420
-  - flake8-pep3101
-  - flake8-plugin-utils
-  - flake8-polyfill
-  - flake8-pyi
-  - flake8-pytest-style
-  - flake8-simplify
-  - flake8-tidy-imports
-  - flake8-type-checking
-  - flake8-use-pathlib
-  - flake8-variables-names
-  - flask-apispec
-  - flask-httpauth
-  - flask-injector
-  - flask-marshmallow
-  - flask-migrate
-  - flask-oidc
-  - flask-openid
-  - flask-restful
-  - flask-smorest
-  - flynt
-  - flyteidl
-  - formulae
-  - formulas
-  - fredapi
-  - freetype-py
-  - freezegun
-  - frozen-flask
-  - frozendict
-  - funcsigs
-  - furl
-  - furo
-  - gekko
-  - geojson
-  - ghp-import
-  - gitdb
-  - gitdb2
-  - giturlparse
-  - gprof2dot
-  - gptcache
-  - gql
-  - grafana-client
-  - graphql-core
-  - graphql-relay
-  - graypy
-  - gtts
-  - h2
-  - habanero
-  - haversine
-  - hcloud
-  - hijri-converter
-  - hologram
-  - honcho
-  - hpack
-  - hsluv
-  - hstspreload
-  - htbuilder
-  - humanize
-  - humbug
-  - hupper
-  - hyperopt
-  - ib-insync
-  - icdiff
-  - icecream
-  - icontract
-  - identify
-  - ijson
-  - imapclient
-  - immutabledict
-  - imodels
-  - importlab
-  - importlib-metadata
-  - importlib-resources
-  - inflect
-  - influxdb-client
-  - inject
-  - injector
-  - install-jdk
-  - intake
-  - intelhex
-  - ipyevents
-  - ipylab
-  - ipyleaflet
-  - ipysheet
-  - ipython-sql
-  - ipyvolume
-  - itables
-  - iterative-telemetry
-  - janome
-  - janus
-  - jaxtyping
-  - jdcal
-  - jeepney
-  - jinja2-simple-tags
-  - jinjasql
-  - json-rpc
-  - json-spec
-  - jsonargparse
-  - jsonlines
-  - jsonmerge
-  - jsonref
-  - junitparser
-  - jupytext
-  - k3d
-  - kazoo
-  - kfp-pipeline-spec
-  - kiwisolver
-  - kneed
-  - kubeflow-training
-  - label-studio-tools
-  - language-tags
-  - lark
-  - laspy
-  - launchdarkly-server-sdk
-  - lazy-imports
-  - ldap3
-  - lesscpy
-  - license-expression
-  - lifelines
-  - lifetimes
-  - lightning-utilities
-  - linkchecker
-  - linkify-it-py
-  - lit
-  - lizard
-  - lkml
-  - loky
-  - looseversion
-  - lsprotocol
-  - luqum
-  - lxml-stubs
-  - magicgui
-  - makefun
-  - mangum
-  - mapbox
-  - mapclassify
-  - mapie
-  - markdown-include
-  - markdown2
-  - marko
-  - marquez-python
-  - marshmallow-dataclass
-  - marshmallow-jsonschema
-  - mbstrdecoder
-  - md-toc
-  - mdformat
-  - mdutils
-  - measurement
-  - mechanicalsoup
-  - mercantile
-  - metaflow
-  - mf2py
-  - mido
-  - mimesis
-  - missingno
-  - mistletoe
-  - mixer
-  - mkdocs-glightbox
-  - mkdocs-material-extensions
-  - ml-wrappers
-  - mlxtend
-  - mmengine
-  - mo-dots
-  - mo-future
-  - mo-imports
-  - mo-kwargs
-  - mo-logs
-  - monty
-  - motmetrics
-  - mpld3
-  - mplhep
-  - msoffcrypto-tool
-  - multimethod
-  - multiprocessing-logging
-  - music21
-  - mutagen
-  - mypy-boto3-appflow
-  - mypy-boto3-batch
-  - mypy-boto3-cloudwatch
-  - mypy-boto3-glue
-  - mypy-boto3-logs
-  - mypy-boto3-redshift-data
-  - mypy-boto3-s3
-  - mypy-boto3-secretsmanager
-  - mypy-boto3-ses
-  - mypy-boto3-ssm
-  - myst-parser
-  - naked
-  - nameparser
-  - natsort
-  - nbqa
-  - nbstripout
-  - nest-asyncio
-  - netaddr
-  - netsuitesdk
-  - neurokit2
-  - nibabel
-  - nilearn
-  - notifiers
-  - notion-client
-  - nptyping
-  - npy-append-array
-  - numcodecs
-  - numdifftools
-  - numpydoc
-  - oauth2client
-  - objsize
-  - openpulse
-  - openpyxl
-  - openqasm3
-  - opentelemetry-exporter-otlp-proto-common
-  - opentelemetry-proto
-  - owslib
-  - packageurl-python
-  - paho-mqtt
-  - palettable
-  - pamela
-  - pandas-flavor
-  - pandas-market-calendars
-  - pandas-vet
-  - param
-  - parliament
-  - parsimonious
-  - paste
-  - pathlib
-  - pathlib-mate
-  - pathvalidate
-  - pdf2image
-  - pdm-pep517
-  - pdoc
-  - pdoc3
-  - pebble
-  - pefile
-  - pep8
-  - pep8-naming
-  - pgzip
-  - phonenumbers
-  - pika
-  - pillow
-  - pingouin
-  - pip-requirements-parser
-  - pipdeptree
-  - pkgutil-resolve-name
-  - plac
-  - plaster
-  - plotext
-  - plotly
-  - plux
-  - plyfile
-  - podman-compose
-  - polib
-  - polyfactory
-  - polyline
-  - pony
-  - pooch
-  - port-for
-  - portalocker
-  - portend
-  - posthog
-  - pox
-  - prawcore
-  - pre-commit
-  - premailer
-  - presto-python-client
-  - price-parser
-  - protobuf
-  - psycopg-pool
-  - psygnal
-  - py-serializable
-  - py-solc-x
-  - py3dmol
-  - pyaescrypt
-  - pyaml
-  - pyapacheatlas
-  - pyasn1
-  - pyasn1-modules
-  - pybind11
-  - pycep-parser
-  - pyclean
-  - pycognito
-  - pycoingecko
-  - pycountry
-  - pyct
-  - pydash
-  - pydeequ
-  - pydeps
-  - pydicom
-  - pydispatcher
-  - pydocstyle
-  - pydot
-  - pydub
-  - pydyf
-  - pyfakefs
-  - pyfiglet
-  - pyfunctional
-  - pygad
-  - pygam
-  - pygeoif
-  - pygls
-  - pyhumps
-  - pyinstaller-versionfile
-  - pyjanitor
-  - pyld
-  - pylogbeat
-  - pyluach
-  - pymap3d
-  - pymdown-extensions
-  - pymemcache
-  - pyment
-  - pymodbus
-  - pympler
-  - pynamodb
-  - pyngrok
-  - pynmea2
-  - pyocr
-  - pyotp
-  - pypdf
-  - pyphen
-  - pypinyin
-  - pyproject-api
-  - pyproject-flake8
-  - pyproject-metadata
-  - pyqtgraph
-  - pyquery
-  - pyrate-limiter
-  - pysaml2
-  - pysbd
-  - pyserde
-  - pyshp
-  - pysimplegui
-  - pyspellchecker
-  - pystac
-  - pystache
-  - pytablewriter
-  - pyte
-  - python-arango
-  - python-barcode
-  - python-benedict
-  - python-bidi
-  - python-can
-  - python-engineio
-  - python-fsutil
-  - python-gitlab
-  - python-hcl2
-  - python-iso639
-  - python-keycloak
-  - python-liquid
-  - python-logstash-async
-  - python-pptx
-  - python-redmine
-  - python-sonarqube-api
-  - python-statemachine
-  - python-subunit
-  - python-swiftclient
-  - python-ulid
-  - python-vagrant
-  - pythonnet
-  - pythran
-  - pythreejs
-  - pytimeparse
-  - pytools
-  - pytrends
-  - pytube
-  - pyudev
-  - pyupgrade
-  - pyvis
-  - pyvisa
-  - pyvisa-py
-  - pyvo
-  - pywavelets
-  - pyxlsb
-  - qasync
-  - qdarkstyle
-  - qrcode
-  - quantities
-  - quantstats
-  - radon
-  - raiutils
-  - raven
-  - rdflib
-  - reactivex
-  - readchar
-  - recommonmark
-  - recurring-ical-events
-  - redo
-  - reportportal-client
-  - requests-cache
-  - requirements-parser
-  - respx
-  - retrying
-  - rich-argparse
-  - rich-click
-  - robocorp-storage
-  - robotframework-assertion-engine
-  - robotframework-databaselibrary
-  - robotframework-datadriver
-  - robotframework-pythonlibcore
-  - robotframework-requests
-  - robotframework-robocop
-  - rollbar
-  - rq
-  - rstr
-  - runtype
-  - ruptures
-  - rx
-  - s3path
-  - sacrebleu
-  - sacremoses
-  - sanic-ext
-  - sanic-routing
-  - sanic-testing
-  - saspy
-  - scalecodec
-  - schedula
-  - schedule
-  - schema
-  - schematics
-  - schwifty
-  - scienceplots
-  - scikit-base
-  - scikit-build
-  - scikit-optimize
-  - scooby
-  - sdmetrics
-  - securesystemslib
-  - sentinelsat
-  - setupmeta
-  - sf-hamilton
-  - shimmy
-  - shtab
-  - signxml
-  - simpervisor
-  - simpful
-  - simple-parsing
-  - simple-pid
-  - simple-term-menu
-  - simple-websocket
-  - simpleeval
-  - simpy
-  - singledispatch
-  - siuba
-  - skorch
-  - slack-bolt
-  - slackclient
-  - slowapi
-  - smartsheet-python-sdk
-  - smbus2
-  - smdebug-rulesconfig
-  - smmap2
-  - snapshottest
-  - snoop
-  - sorl-thumbnail
-  - spacy-legacy
-  - spacy-loggers
-  - spacy-lookups-data
-  - sparqlwrapper
-  - spdx-tools
-  - spectral
-  - speedtest-cli
-  - spotipy
-  - sql-metadata
-  - sqladmin
-  - sqlakeyset
-  - sqlfluff
-  - sqlglot
-  - sqllineage
-  - sqlparams
-  - sse-starlette
-  - sshuttle
-  - stackprinter
-  - starlette-admin
-  - starlette-context
-  - starlette-exporter
-  - starlette-testclient
-  - starsessions
-  - statsd
-  - statsmodels
-  - stdlib-list
-  - stdlibs
-  - stone
-  - storage3
-  - strawberry-graphql
-  - strawberry-graphql-django
-  - stream-zip
-  - strenum
-  - striprtf
-  - submitit
-  - subprocess-tee
-  - superqt
-  - sweetviz
-  - syrupy
-  - tabledata
-  - tableschema-to-template
-  - tabulate
-  - tatsu
-  - tcolorpy
-  - telepath
-  - tempora
-  - testfixtures
-  - testtools
-  - textstat
-  - textual
-  - throttler
-  - tinydb
-  - tokenize-rt
-  - towncrier
-  - tox
-  - traceml
-  - tracerite
-  - trailrunner
-  - traits
-  - transitions
-  - trimesh
-  - troposphere
-  - trustme
-  - ttp
-  - tuspy
-  - tweepy
-  - twython
-  - typepy
-  - types-awscrt
-  - types-backports
-  - types-characteristic
-  - types-click
-  - types-dataclasses
-  - types-enum34
-  - types-fb303
-  - types-filelock
-  - types-flask
-  - types-freezegun
-  - types-frozendict
-  - types-futures
-  - types-geoip2
-  - types-ipaddress
-  - types-itsdangerous
-  - types-jinja2
-  - types-kazoo
-  - types-lxml
-  - types-markupsafe
-  - types-maxminddb
-  - types-nmap
-  - types-orjson
-  - types-pathlib2
-  - types-pyjwt
-  - types-pymssql
-  - types-routes
-  - types-s3transfer
-  - types-scribe
-  - types-tornado
-  - types-werkzeug
-  - typing-extensions
-  - uc-micro-py
-  - unearth
-  - unidiff
-  - unlzw3
-  - urllib3
-  - urllib3-secure-extra
-  - userpath
-  - uuid6
-  - varname
-  - venusian
-  - versioningit
-  - vertica-python
-  - visidata
-  - vobject
-  - warlock
-  - wcmatch
-  - webargs
-  - webdriver-manager
-  - webtest
-  - wfdb
-  - wikipedia-api
-  - willow
-  - wsgidav
-  - wurlitzer
-  - xarray
-  - xarray-einstats
-  - xdg
-  - xdoctest
-  - xenon
-  - xlsx2csv
-  - xlwt
-  - xmldiff
-  - xmlschema
-  - yacs
-  - yamlloader
-  - yamlordereddictloader
-  - yapf
-  - yaspin
-  - yfinance
-  - you-get
-  - yq
-  - zarr
-  - zeroconf
+- actions-toolkit
+- addict
+- adjusttext
+- aif360
+- aiocache
+- aiolimiter
+- aiomultiprocess
+- aioredis
+- aiorun
+- aiorwlock
+- aiosmtpd
+- aiosmtplib
+- aiosqlite
+- allure-behave
+- allure-pytest
+- allure-pytest-bdd
+- allure-python-commons
+- allure-robotframework
+- amundsen-common
+- anyascii
+- apache-atlas
+- apache-libcloud
+- apipkg
+- applicationinsights
+- apprise
+- argh
+- arpeggio
+- asgi-correlation-id
+- astropy
+- asyncer
+- asyncstdlib
+- autocommand
+- autots
+- awacs
+- aws-error-utils
+- awslimitchecker
+- base58
+- bc-detect-secrets
+- bc-jsonpath-ng
+- beartype
+- beautifulsoup4
+- behave
+- betamax
+- bitstruct
+- black
+- borb
+- boto
+- boto3-stubs
+- boto3-stubs-lite
+- bottle
+- bqplot
+- brewer2mpl
+- bump2version
+- bumpversion
+- captcha
+- casefy
+- census
+- chameleon
+- chardet
+- chart-studio
+- chess
+- chevron
+- chromedriver-autoinstaller
+- cinemagoer
+- circuitbreaker
+- cirq-aqt
+- cirq-core
+- cirq-ionq
+- cirq-pasqal
+- cirq-web
+- click-default-group
+- click-spinner
+- cligj
+- cloup
+- cma
+- codespell
+- codetiming
+- cognite-sdk
+- colorcet
+- colorful
+- colorhash
+- colour-science
+- colourmap
+- commonmark
+- conllu
+- connexion
+- cons
+- constantly
+- construct
+- contourpy
+- coolname
+- copulas
+- corner
+- cpplint
+- crccheck
+- cron-descriptor
+- cryptography-vectors
+- cyclonedx-python-lib
+- dash-bootstrap-components
+- dash-core-components
+- dash-html-components
+- dash-mantine-components
+- dash-table
+- databricks-cli
+- databricks-sdk
+- dataclass-wizard
+- dataclassy
+- dataproperty
+- datascience
+- datetimerange
+- dawg-python
+- dbf
+- ddsketch
+- ddt
+- deepmerge
+- devpi-client
+- devpi-common
+- dgllife
+- dicttoxml
+- diff-cover
+- diffprivlib
+- diskcache
+- dlint
+- dockerfile-parse
+- docutils
+- dohq-artifactory
+- dpkt
+- drf-yasg
+- dvc-render
+- dynaconf
+- ecs-logging
+- einops
+- email-validator
+- eradicate
+- eth-hash
+- eth-typing
+- etils
+- exchange-calendars
+- exifread
+- expandvars
+- expecttest
+- exrex
+- ezdxf
+- fastprogress
+- filetype
+- fixtures
+- flake8-broken-line
+- flake8-eradicate
+- flake8-markdown
+- flake8-no-pep420
+- flake8-pep3101
+- flake8-plugin-utils
+- flake8-polyfill
+- flake8-pyi
+- flake8-pytest-style
+- flake8-simplify
+- flake8-tidy-imports
+- flake8-type-checking
+- flake8-use-pathlib
+- flake8-variables-names
+- flask-apispec
+- flask-httpauth
+- flask-injector
+- flask-marshmallow
+- flask-migrate
+- flask-oidc
+- flask-openid
+- flask-restful
+- flask-smorest
+- flynt
+- flyteidl
+- formulae
+- formulas
+- fredapi
+- freetype-py
+- freezegun
+- frozen-flask
+- frozendict
+- funcsigs
+- furl
+- furo
+- gekko
+- geojson
+- ghp-import
+- gitdb
+- gitdb2
+- giturlparse
+- gprof2dot
+- gptcache
+- gql
+- grafana-client
+- graphql-core
+- graphql-relay
+- graypy
+- gtts
+- h2
+- habanero
+- haversine
+- hcloud
+- hijri-converter
+- hologram
+- honcho
+- hpack
+- hsluv
+- hstspreload
+- htbuilder
+- humanize
+- humbug
+- hupper
+- hyperopt
+- ib-insync
+- icdiff
+- icecream
+- icontract
+- identify
+- ijson
+- imapclient
+- immutabledict
+- imodels
+- importlab
+- importlib-metadata
+- importlib-resources
+- inflect
+- influxdb-client
+- inject
+- injector
+- install-jdk
+- intake
+- intelhex
+- ipyevents
+- ipylab
+- ipyleaflet
+- ipysheet
+- ipython-sql
+- ipyvolume
+- itables
+- iterative-telemetry
+- janome
+- janus
+- jaxtyping
+- jdcal
+- jeepney
+- jinja2-simple-tags
+- jinjasql
+- json-rpc
+- json-spec
+- jsonargparse
+- jsonlines
+- jsonmerge
+- jsonref
+- junitparser
+- jupytext
+- k3d
+- kazoo
+- kfp-pipeline-spec
+- kneed
+- kubeflow-training
+- label-studio-tools
+- language-tags
+- lark
+- laspy
+- launchdarkly-server-sdk
+- lazy-imports
+- ldap3
+- lesscpy
+- license-expression
+- lifelines
+- lifetimes
+- lightning-utilities
+- linkchecker
+- linkify-it-py
+- lit
+- lizard
+- lkml
+- loky
+- looseversion
+- lsprotocol
+- luqum
+- lxml-stubs
+- magicgui
+- makefun
+- mangum
+- mapbox
+- mapclassify
+- mapie
+- markdown-include
+- markdown2
+- marko
+- marquez-python
+- marshmallow-dataclass
+- marshmallow-jsonschema
+- mbstrdecoder
+- md-toc
+- mdformat
+- mdutils
+- measurement
+- mechanicalsoup
+- mercantile
+- metaflow
+- mf2py
+- mido
+- mimesis
+- missingno
+- mistletoe
+- mixer
+- mkdocs-glightbox
+- mkdocs-material-extensions
+- ml-wrappers
+- mlxtend
+- mmengine
+- mo-dots
+- mo-future
+- mo-imports
+- mo-kwargs
+- mo-logs
+- monty
+- motmetrics
+- mpld3
+- mplhep
+- msoffcrypto-tool
+- multimethod
+- multiprocessing-logging
+- music21
+- mutagen
+- mypy-boto3-appflow
+- mypy-boto3-batch
+- mypy-boto3-cloudwatch
+- mypy-boto3-glue
+- mypy-boto3-logs
+- mypy-boto3-redshift-data
+- mypy-boto3-s3
+- mypy-boto3-secretsmanager
+- mypy-boto3-ses
+- mypy-boto3-ssm
+- myst-parser
+- naked
+- nameparser
+- natsort
+- nbqa
+- nbstripout
+- nest-asyncio
+- netaddr
+- netsuitesdk
+- neurokit2
+- nibabel
+- nilearn
+- notifiers
+- notion-client
+- nptyping
+- npy-append-array
+- numcodecs
+- numdifftools
+- numpydoc
+- oauth2client
+- objsize
+- openpulse
+- openpyxl
+- openqasm3
+- opentelemetry-exporter-otlp-proto-common
+- opentelemetry-proto
+- owslib
+- packageurl-python
+- paho-mqtt
+- palettable
+- pamela
+- pandas-flavor
+- pandas-market-calendars
+- pandas-vet
+- param
+- parliament
+- parsimonious
+- paste
+- pathlib
+- pathlib-mate
+- pathvalidate
+- pdf2image
+- pdm-pep517
+- pdoc
+- pdoc3
+- pebble
+- pefile
+- pep8
+- pep8-naming
+- pgzip
+- phonenumbers
+- pika
+- pingouin
+- pip-requirements-parser
+- pipdeptree
+- pkgutil-resolve-name
+- plac
+- plaster
+- plotext
+- plotly
+- plux
+- plyfile
+- podman-compose
+- polib
+- polyfactory
+- polyline
+- pony
+- pooch
+- port-for
+- portalocker
+- portend
+- posthog
+- pox
+- prawcore
+- pre-commit
+- premailer
+- presto-python-client
+- price-parser
+- psycopg-pool
+- psygnal
+- py-serializable
+- py-solc-x
+- py3dmol
+- pyaescrypt
+- pyaml
+- pyapacheatlas
+- pyasn1
+- pyasn1-modules
+- pycep-parser
+- pyclean
+- pycognito
+- pycoingecko
+- pycountry
+- pyct
+- pydash
+- pydeequ
+- pydeps
+- pydicom
+- pydispatcher
+- pydocstyle
+- pydot
+- pydub
+- pydyf
+- pyfakefs
+- pyfiglet
+- pyfunctional
+- pygad
+- pygam
+- pygeoif
+- pygls
+- pyhumps
+- pyinstaller-versionfile
+- pyjanitor
+- pyld
+- pylogbeat
+- pymap3d
+- pymdown-extensions
+- pymemcache
+- pyment
+- pymodbus
+- pympler
+- pynamodb
+- pyngrok
+- pynmea2
+- pyocr
+- pyotp
+- pypdf
+- pyphen
+- pypinyin
+- pyproject-api
+- pyproject-flake8
+- pyproject-metadata
+- pyqtgraph
+- pyquery
+- pyrate-limiter
+- pysaml2
+- pysbd
+- pyserde
+- pyshp
+- pysimplegui
+- pyspellchecker
+- pystac
+- pystache
+- pytablewriter
+- pyte
+- python-arango
+- python-barcode
+- python-benedict
+- python-bidi
+- python-can
+- python-engineio
+- python-fsutil
+- python-gitlab
+- python-hcl2
+- python-iso639
+- python-keycloak
+- python-liquid
+- python-logstash-async
+- python-pptx
+- python-redmine
+- python-sonarqube-api
+- python-statemachine
+- python-subunit
+- python-swiftclient
+- python-ulid
+- python-vagrant
+- pythonnet
+- pythran
+- pythreejs
+- pytimeparse
+- pytools
+- pytrends
+- pytube
+- pyudev
+- pyupgrade
+- pyvis
+- pyvisa
+- pyvisa-py
+- pyvo
+- pywavelets
+- pyxlsb
+- qasync
+- qdarkstyle
+- qrcode
+- quantities
+- quantstats
+- radon
+- raiutils
+- raven
+- rdflib
+- reactivex
+- readchar
+- recommonmark
+- recurring-ical-events
+- redo
+- reportportal-client
+- requests-cache
+- requirements-parser
+- respx
+- retrying
+- rich-argparse
+- rich-click
+- robocorp-storage
+- robotframework-assertion-engine
+- robotframework-databaselibrary
+- robotframework-datadriver
+- robotframework-pythonlibcore
+- robotframework-requests
+- robotframework-robocop
+- rollbar
+- rq
+- rstr
+- runtype
+- ruptures
+- rx
+- s3path
+- sacrebleu
+- sacremoses
+- sanic-ext
+- sanic-routing
+- sanic-testing
+- saspy
+- scalecodec
+- schedula
+- schedule
+- schema
+- schematics
+- schwifty
+- scienceplots
+- scikit-base
+- scikit-build
+- scikit-optimize
+- scooby
+- sdmetrics
+- securesystemslib
+- sentinelsat
+- setupmeta
+- sf-hamilton
+- shimmy
+- shtab
+- signxml
+- simpervisor
+- simpful
+- simple-parsing
+- simple-pid
+- simple-term-menu
+- simple-websocket
+- simpleeval
+- simpy
+- singledispatch
+- siuba
+- skorch
+- slack-bolt
+- slackclient
+- slowapi
+- smartsheet-python-sdk
+- smbus2
+- smdebug-rulesconfig
+- smmap2
+- snapshottest
+- snoop
+- sorl-thumbnail
+- spacy-legacy
+- spacy-loggers
+- spacy-lookups-data
+- sparqlwrapper
+- spdx-tools
+- spectral
+- speedtest-cli
+- spotipy
+- sql-metadata
+- sqladmin
+- sqlakeyset
+- sqlfluff
+- sqlglot
+- sqllineage
+- sqlparams
+- sse-starlette
+- sshuttle
+- stackprinter
+- starlette-admin
+- starlette-context
+- starlette-exporter
+- starlette-testclient
+- starsessions
+- statsd
+- statsmodels
+- stdlib-list
+- stdlibs
+- stone
+- storage3
+- strawberry-graphql
+- strawberry-graphql-django
+- stream-zip
+- strenum
+- striprtf
+- submitit
+- subprocess-tee
+- superqt
+- sweetviz
+- syrupy
+- tabledata
+- tableschema-to-template
+- tabulate
+- tatsu
+- tcolorpy
+- telepath
+- tempora
+- testfixtures
+- testtools
+- textstat
+- textual
+- throttler
+- tinydb
+- tokenize-rt
+- towncrier
+- tox
+- traceml
+- tracerite
+- trailrunner
+- traits
+- transitions
+- trimesh
+- troposphere
+- trustme
+- ttp
+- tuspy
+- tweepy
+- twython
+- typepy
+- types-awscrt
+- types-backports
+- types-characteristic
+- types-click
+- types-dataclasses
+- types-enum34
+- types-fb303
+- types-filelock
+- types-flask
+- types-freezegun
+- types-frozendict
+- types-futures
+- types-geoip2
+- types-ipaddress
+- types-itsdangerous
+- types-jinja2
+- types-kazoo
+- types-lxml
+- types-markupsafe
+- types-maxminddb
+- types-nmap
+- types-orjson
+- types-pathlib2
+- types-pyjwt
+- types-pymssql
+- types-routes
+- types-s3transfer
+- types-scribe
+- types-tornado
+- types-werkzeug
+- typing-extensions
+- uc-micro-py
+- unearth
+- unidiff
+- unlzw3
+- urllib3
+- urllib3-secure-extra
+- userpath
+- uuid6
+- varname
+- venusian
+- versioningit
+- vertica-python
+- visidata
+- vobject
+- warlock
+- wcmatch
+- webargs
+- webdriver-manager
+- webtest
+- wfdb
+- wikipedia-api
+- willow
+- wsgidav
+- wurlitzer
+- xarray
+- xarray-einstats
+- xdg
+- xdoctest
+- xenon
+- xlsx2csv
+- xlwt
+- xmldiff
+- xmlschema
+- yacs
+- yamlloader
+- yamlordereddictloader
+- yapf
+- yaspin
+- yfinance
+- you-get
+- yq
+- zarr
+- zeroconf
 
 
 
