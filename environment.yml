@@ -29,7 +29,6 @@ dependencies:
   - packaging
   - matplotlib
   - joblib
-  - ipykernel
   - executing
   - decorator
   - cycler
@@ -43,11 +42,8 @@ dependencies:
   - autopep8
   - backcall
   - beniget
-  - billiard
   - bleach
-  - bokeh
   - branca
-  - celery
   - certifi
   - cffi
   - chardet
@@ -57,8 +53,6 @@ dependencies:
   - cryptography
   - cytoolz
   - dash
-  - dask
-  - debugpy
   - defusedxml
   - dill
   - docrepr
@@ -69,7 +63,6 @@ dependencies:
   - fsspec
   - future
   - gast
-  - h5py
   - html5lib
   - idna
   - imageio
@@ -83,7 +76,6 @@ dependencies:
   - jsonschema
   - jupyter_core
   - kiwisolver
-  - kombu
   - locket
   - lxml
   - mccabe
