@@ -37,7 +37,6 @@ dependencies:
   - amqp
   - anyio
   - appdirs
-  - astroid
   - attrs
   - autopep8
   - backcall
