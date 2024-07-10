@@ -10,6 +10,7 @@ dependencies:
   - ipydatagrid
   - nbformat
   - numpy<2
+  - numpy
   - matplotlib
   - ipywidgets
   - pandas
@@ -89,6 +90,65 @@ dependencies:
   - black
   - httpx
   - beautifulsoup4
+  - annotated-types
+  - async-timeout
+  - charset-normalizer
+  - distro
+  - h11
+  - httpcore
+  - jsonpatch
+  - jsonpointer
+  - micropip
+  - openai
+  - pydantic
+  - pyyaml
+  - regex
+  - sniffio
+  - starlette
+  - appnope
+  - async_generator
+  - et-xmlfile
+  - frozendict
+  - ipycanvas
+  - ipython
+  - ipython_genutils
+  - jinja2
+  - jupyterlab_pygments
+  - markupsafe
+  - matplotlib-inline
+  - multitasking
+  - nest-asyncio
+  - networkx
+  - pandas-datareader
+  - pandocfilters
+  - pexpect
+  - pickleshare
+  - pillow
+  - prometheus_client
+  - ptyprocess
+  - pycparser
+  - pygments
+  - pyrsistent
+  - pysocks
+  - python-dateutil
+  - scikit-learn
+  - send2trash
+  - setuptools
+  - setuptools-scm
+  - simplegeneric
+  - soupsieve
+  - sympy
+  - testpath
+  - tiktoken
+  - tinycss2
+  - tomli
+  - tqdm
+  - urllib3
+  - version_information
+  - webencodings
+  - widgetsnbextension
+  - xlrd
+  - yfinance
   
 
 
