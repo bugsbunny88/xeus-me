@@ -73,8 +73,6 @@ dependencies:
   - json5
   - jsonpickle
   - jsonschema
-  - jupyter_core
-  - kiwisolver
   - locket
   - lxml
   - mccabe
@@ -82,15 +80,6 @@ dependencies:
   - mock
   - mpmath
   - munkres
-  - xeus-python
-  - openpyxl
-  - bqplot
-  - ipydatagrid
-  - nbformat
-  - numpy
-  - matplotlib
-  - ipywidgets
-  - pandas
 
 
 
