@@ -5,6 +5,7 @@ channels:
 dependencies:
   - xeus-python
   - openpyxl
+  - seaborn
   - bqplot
   - ipydatagrid
   - nbformat
@@ -12,13 +13,13 @@ dependencies:
   - matplotlib
   - ipywidgets
   - pandas
+  - requests
   - threadpoolctl
   - tenacity
   - traitlets
   - typing-extensions
   - wcwidth
   - six
-  - seaborn
   - scipy
   - pytz
   - pyparsing
@@ -27,7 +28,6 @@ dependencies:
   - patsy
   - parso
   - packaging
-  - matplotlib
   - joblib
   - executing
   - decorator
@@ -73,6 +73,8 @@ dependencies:
   - json5
   - jsonpickle
   - jsonschema
+  - jupyter_core
+  - kiwisolver
   - locket
   - lxml
   - mccabe
@@ -80,13 +82,12 @@ dependencies:
   - mock
   - mpmath
   - munkres
-  - markdown
   - statsmodels
+  - markdown
   - sqlite
   - sqlalchemy
   - black
   - httpx
-  - requests
   - beautifulsoup4
   
 
