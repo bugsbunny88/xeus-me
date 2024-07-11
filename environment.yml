@@ -39,7 +39,6 @@ dependencies:
   - asyncstdlib
   - atomicwrites
   - attrs
-  - Augmentor
   - autocommand
   - autoflake
   - awacs
@@ -49,7 +48,6 @@ dependencies:
   - base58
   - beartype
   - beniget
-  - bibtexparser
   - bidict
   - bitarray
   - bitstring
@@ -57,7 +55,6 @@ dependencies:
   - blinker
   - boltons
   - botocore
-  - bottle
   - bqplot
   - bracex
   - branca
@@ -92,7 +89,6 @@ dependencies:
   - construct
   - contextlib2
   - contourpy
-  - cpplint
   - crashtest
   - crccheck
   - croniter
@@ -121,7 +117,6 @@ dependencies:
   - diskcache
   - distlib
   - distro
-  - dlint
   - dnslib
   - doit
   - dominate
@@ -136,7 +131,6 @@ dependencies:
   - elementpath
   - emcee
   - emoji
-  - empack
   - entrypoints
   - envier
   - environs
@@ -161,7 +155,6 @@ dependencies:
   - flexparser
   - fqdn
   - freezegun
-  - fs
   - fsspec
   - funcy
   - furl
@@ -180,7 +173,6 @@ dependencies:
   - haversine
   - headerparser
   - hexbytes
-  - holidays
   - honcho
   - hsluv
   - hstspreload
@@ -203,7 +195,6 @@ dependencies:
   - imageio
   - imagesize
   - immutabledict
-  - importlab
   - importlib_metadata
   - importlib_resources
   - incremental
@@ -247,7 +238,6 @@ dependencies:
   - latexcodec
   - leather
   - lesscpy
-  - littleutils
   - lkml
   - locket
   - looseversion
@@ -285,11 +275,8 @@ dependencies:
   - multitasking
   - munch
   - mutagen
-  - nameparser
   - natsort
   - nbformat
-  - networkx
-  - nose
   - numpy
   - objsize
   - olefile
@@ -356,7 +343,6 @@ dependencies:
   - pydash
   - pydeps
   - pydruid
-  - pydub
   - pydyf
   - pyfakefs
   - pyflakes
@@ -426,7 +412,6 @@ dependencies:
   - sqlparams
   - sqlparse
   - squarify
-  - stackprinter
   - starlette
   - statsd
   - stdlibs
@@ -461,7 +446,6 @@ dependencies:
   - tqdm
   - traceml
   - traitlets
-  - traittypes
   - transitions
   - translationstring
   - treelib
@@ -506,7 +490,6 @@ dependencies:
   - xarray
   - xdoctest
   - xlrd
-  - xlsx2csv
   - xmltodict
   - xyzservices
   - yacs
