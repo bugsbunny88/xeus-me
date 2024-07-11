@@ -4,501 +4,497 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
-  - addict
-  - aenum
-  - affine
-  - aiocache
-  - aioconsole
-  - aiofiles
-  - aioitertools
-  - aiolimiter
-  - aiomultiprocess
-  - aiorun
-  - aiorwlock
-  - aiosmtpd
-  - aiosqlite
-  - aiounittest
-  - alabaster
-  - altgraph
-  - aniso8601
-  - anyascii
-  - anyconfig
-  - anytree
-  - apispec
-  - appdirs
-  - archspec
-  - argcomplete
-  - argh
-  - arrow
-  - asdf
-  - asgiref
-  - asn1
-  - asn1crypto
-  - asttokens
-  - astunparse
-  - asyncstdlib
-  - atomicwrites
-  - attrs
-  - autocommand
-  - autoflake
-  - awacs
-  - AWSIoTPythonSDK
-  - backcall
-  - backoff
-  - base58
-  - beartype
-  - beniget
-  - bidict
-  - bitarray
-  - bitstring
-  - bleach
-  - blinker
-  - boltons
-  - botocore
-  - bqplot
-  - bracex
-  - branca
-  - cachelib
-  - cachetools
-  - cachey
-  - canopen
-  - captcha
-  - casefy
-  - catalogue
-  - cattrs
-  - cfgv
-  - chess
-  - chevron
-  - circuitbreaker
-  - click
-  - cligj
-  - cloudpickle
-  - cloudsplaining
-  - cmaes
-  - colander
-  - colorama
-  - colorcet
-  - colorhash
-  - comm
-  - commonmark
-  - configparser
-  - confuse
-  - conllu
-  - cons
-  - consolekit
-  - construct
-  - contextlib2
-  - contourpy
-  - crashtest
-  - crccheck
-  - croniter
-  - cryptography
-  - cssselect
-  - cssselect2
-  - cssutils
-  - cycler
-  - dacite
-  - databases
-  - dataclassy
-  - dbf
-  - ddsketch
-  - ddt
-  - debtcollector
-  - debuglater
-  - decorator
-  - deepdiff
-  - deepmerge
-  - defusedxml
-  - deprecat
-  - deprecation
-  - dictdiffer
-  - dicttoxml
-  - dill
-  - diskcache
-  - distlib
-  - distro
-  - dnslib
-  - doit
-  - dominate
-  - dparse
-  - dpath
-  - dpkt
-  - dramatiq
-  - dunamai
-  - dynaconf
-  - editables
-  - einops
-  - elementpath
-  - emcee
-  - emoji
-  - entrypoints
-  - envier
-  - environs
-  - eradicate
-  - escapism
-  - everett
-  - exceptiongroup
-  - execnet
-  - executing
-  - expandvars
-  - exrex
-  - face
-  - fasteners
-  - fastprogress
-  - filelock
-  - filetype
-  - findpython
-  - findspark
-  - flake8
-  - flaky
-  - flexcache
-  - flexparser
-  - fqdn
-  - freezegun
-  - fsspec
-  - funcy
-  - furl
-  - genson
-  - geographiclib
-  - geojson
-  - geomet
-  - gidgethub
-  - gitdb
-  - giturlparse
-  - gprof2dot
-  - graphene
-  - griffe
-  - h11
-  - h2
-  - haversine
-  - headerparser
-  - hexbytes
-  - honcho
-  - hsluv
-  - hstspreload
-  - htbuilder
-  - html2text
-  - html5lib
-  - html5tagger
-  - htmltools
-  - humanize
-  - hupper
-  - hyperframe
-  - hyperlink
-  - hypothesis
-  - icalendar
-  - icdiff
-  - icecream
-  - icontract
-  - idna
-  - ijson
-  - imageio
-  - imagesize
-  - immutabledict
-  - importlib_metadata
-  - importlib_resources
-  - incremental
-  - inflection
-  - iniconfig
-  - injector
-  - intake
-  - intelhex
-  - intervaltree
-  - invoke
-  - ipdb
-  - ipycanvas
-  - ipydatagrid
-  - ipython_genutils
-  - ipywidgets
-  - iso3166
-  - iso8601
-  - isodate
-  - isoduration
-  - isort
-  - itemadapter
-  - itemloaders
-  - itsdangerous
-  - janus
-  - jedi
-  - jmespath
-  - joblib
-  - json5
-  - jsondiff
-  - jsonlines
-  - jsonpatch
-  - jsonpickle
-  - jsons
-  - jsonschema
-  - junitparser
-  - jupyterlab_pygments
-  - jupyterlab_widgets
-  - kazoo
-  - knack
-  - lark
-  - latexcodec
-  - leather
-  - lesscpy
-  - lkml
-  - locket
-  - looseversion
-  - lsprotocol
-  - lunr
-  - luqum
-  - lxml
-  - macholib
-  - makefun
-  - mangum
-  - markdown2
-  - markdownify
-  - marko
-  - MarkupPy
-  - marshmallow
-  - mashumaro
-  - matplotlib
-  - mbstrdecoder
-  - mccabe
-  - mdformat
-  - mdurl
-  - mdutils
-  - mercantile
-  - mergedeep
-  - mido
-  - minimalmodbus
-  - mistletoe
-  - mistune
-  - mock
-  - mockito
-  - monotonic
-  - monty
-  - mpmath
-  - multimethod
-  - multitasking
-  - munch
-  - mutagen
-  - natsort
-  - nbformat
-  - numpy
-  - objsize
-  - olefile
-  - openpyxl
-  - orderedmultidict
-  - oscrypto
-  - outcome
-  - overrides
-  - packaging
-  - palettable
-  - pamqp
-  - pandas
-  - pandocfilters
-  - param
-  - parameterized
-  - parse
-  - parsedatetime
-  - parsel
-  - parso
-  - parsy
-  - partd
-  - pastel
-  - pathable
-  - pathspec
-  - pathvalidate
-  - patsy
-  - pbr
-  - pdf2image
-  - peewee
-  - pefile
-  - pem
-  - pep517
-  - pexpect
-  - pg8000
-  - pgzip
-  - pickleshare
-  - pipdeptree
-  - plac
-  - platformdirs
-  - plotext
-  - plotly
-  - pluggy
-  - ply
-  - polib
-  - polling2
-  - polyline
-  - pony
-  - posthog
-  - pox
-  - prettytable
-  - proglog
-  - prompt_toolkit
-  - psygnal
-  - py
-  - py2vega
-  - py4j
-  - pyaml
-  - pyasn1
-  - pycodestyle
-  - pycountry
-  - pycparser
-  - pyct
-  - pydantic
-  - pydash
-  - pydeps
-  - pydruid
-  - pydyf
-  - pyfakefs
-  - pyflakes
-  - pygal
-  - pygls
-  - pygtrie
-  - pyngrok
-  - pynmea2
-  - pyocr
-  - pyotp
-  - pyparsing
-  - pypdf
-  - pyproject_hooks
-  - pyrsistent
-  - pysbd
-  - pystac
-  - pystache
-  - pyte
-  - pytools
-  - pytrends
-  - pytube
-  - pytz
-  - pytzdata
-  - pyudev
-  - pyupgrade
-  - pyxlsb
-  - pyzbar
-  - qrcode
-  - queuelib
-  - radon
-  - rdflib
-  - reactivex
-  - redo
-  - requests
-  - resolvelib
-  - rfc3986
-  - rich
-  - rstr
-  - runtype
-  - s3transfer
-  - schedula
-  - schedule
-  - schema
-  - schemdraw
-  - scipy
-  - scooby
-  - scramp
-  - screed
-  - seaborn
-  - securesystemslib
-  - semver
-  - shellingham
-  - shortuuid
-  - shtab
-  - sigtools
-  - simpervisor
-  - simpleeval
-  - simpy
-  - six
-  - slicer
-  - smmap
-  - sniffio
-  - snowballstemmer
-  - sortedcontainers
-  - soupsieve
-  - sqlglot
-  - sqlparams
-  - sqlparse
-  - squarify
-  - starlette
-  - statsd
-  - stdlibs
-  - stevedore
-  - stone
-  - striprtf
-  - strsimpy
-  - structlog
-  - submitit
-  - svgwrite
-  - sympy
-  - tabledata
-  - tablib
-  - tblib
-  - tenacity
-  - termcolor
-  - terminaltables
-  - testfixtures
-  - testpath
-  - testtools
-  - texttable
-  - textual
-  - threadpoolctl
-  - throttler
-  - tinycss2
-  - tinydb
-  - tldextract
-  - toml
-  - tomli
-  - tomlkit
-  - toolz
-  - tqdm
-  - traceml
-  - traitlets
-  - transitions
-  - translationstring
-  - treelib
-  - troposphere
-  - ttp
-  - txaio
-  - typepy
-  - typer
-  - typing_extensions
-  - typish
-  - tzlocal
-  - uncertainties
-  - unlzw3
-  - uritemplate
-  - uritools
-  - userpath
-  - vaderSentiment
-  - validators
-  - varint
-  - varname
-  - venusian
-  - versioneer
-  - versioningit
-  - vine
-  - voluptuous
-  - w3lib
-  - waitress
-  - wasabi
-  - watchdog
-  - watermark
-  - wcmatch
-  - wcwidth
-  - webargs
-  - webcolors
-  - webencodings
-  - whatthepatch
-  - wheel
-  - whichcraft
-  - windrose
-  - wrapt
-  - wsproto
-  - xarray
-  - xdoctest
-  - xlrd
-  - xmltodict
-  - xyzservices
-  - yacs
-  - yagmail
-  - yamllint
-  - yamlloader
-  - yaspin
-  - zict
-  - zipp
+  - addict >=2.4.0,<2.5
+  - aenum >=3.1.15,<3.2
+  - affine >=2.4.0,<2.5
+  - aiocache >=0.12.2,<0.13
+  - aioconsole >=0.7.1,<0.8
+  - aiofiles >=24.1.0,<24.2
+  - aioitertools >=0.11.0,<0.12
+  - aiolimiter >=1.1.0,<1.2
+  - aiomultiprocess >=0.9.1,<0.10
+  - aiorun >=2024.5.1,<2024.6
+  - aiorwlock >=1.3.0,<1.4
+  - aiosmtpd >=1.4.6,<1.5
+  - aiosqlite >=0.20.0,<0.21
+  - aiounittest >=1.4.2,<1.5
+  - alabaster >=0.7.16,<0.8
+  - altgraph >=0.17.4,<0.18
+  - aniso8601 >=9.0.1,<9.1
+  - anyascii >=0.3.2,<0.4
+  - anyconfig >=0.14.0,<0.15
+  - anytree >=2.8.0,<2.9
+  - apispec >=6.6.1,<6.7
+  - appdirs >=1.4.4,<1.5
+  - archspec >=0.2.3,<0.3
+  - argcomplete >=3.4.0,<3.5
+  - argh >=0.31.2,<0.32
+  - arrow >=1.3.0,<1.4
+  - asdf >=3.2.0,<3.3
+  - asgiref >=3.8.1,<3.9
+  - asn1 >=2.4.1,<2.8
+  - asn1crypto >=1.5.1,<1.6
+  - asttokens >=2.4.1,<2.5
+  - astunparse >=1.6.3,<1.7
+  - asyncstdlib >=3.12.4,<3.13
+  - atomicwrites >=1.4.1,<1.5
+  - attrs >=23.2.0,<23.3
+  - autocommand >=2.2.2,<2.3
+  - autoflake >=1.7.5,<1.8
+  - awacs >=2.4.1,<2.5
+  - awsiotpythonsdk >=1.5.2,<1.6
+  - backcall >=0.2.0,<0.3
+  - backoff >=2.2.1,<2.3
+  - base58 >=2.1.1,<2.2
+  - beartype >=0.18.5,<0.19
+  - beniget >=0.4.2.post1,<0.4.3
+  - bidict >=0.23.1,<0.24
+  - bitarray >=2.9.2,<2.10
+  - bitstring >=4.2.3,<4.3
+  - bleach >=6.1.0,<6.2
+  - blinker >=1.8.2,<1.9
+  - boltons >=24.0.0,<24.1
+  - botocore >=1.34.143,<1.35
+  - bqplot >=0.12.43,<0.13
+  - bracex >=2.2.1,<2.3
+  - branca >=0.7.2,<0.8
+  - cachelib >=0.13.0,<0.14
+  - cachetools >=5.3.3,<5.4
+  - cachey >=0.2.1,<0.3
+  - canopen >=2.3.0,<2.4
+  - captcha >=0.5.0,<0.6
+  - casefy >=0.1.7,<0.2
+  - cattrs >=23.2.3,<23.3
+  - cfgv >=3.3.1,<3.4
+  - chess >=1.10.0,<1.11
+  - chevron >=0.14.0,<0.15
+  - circuitbreaker >=1.4.0,<1.5
+  - click >=8.1.7,<8.2
+  - cligj >=0.7.2,<0.8
+  - cloudpickle >=3.0.0,<3.1
+  - cloudsplaining >=0.6.2,<0.7
+  - cmaes >=0.10.0,<0.11
+  - colander >=2.0,<3
+  - colorama >=0.4.6,<0.5
+  - colorcet >=3.1.0,<3.2
+  - colorhash >=1.0.4,<1.1
+  - comm >=0.2.2,<0.3
+  - commonmark >=0.9.1,<0.10
+  - configparser >=7.0.0,<7.1
+  - confuse >=2.0.1,<2.1
+  - conllu >=4.5.3,<4.6
+  - cons >=0.4.6,<0.5
+  - consolekit >=1.7.0,<1.8
+  - construct >=2.10.70,<2.11
+  - contextlib2 >=21.6.0,<21.7
+  - contourpy >=1.2.1,<1.3
+  - crashtest >=0.4.1,<0.5
+  - crccheck >=1.3.0,<1.4
+  - croniter >=2.0.5,<2.1
+  - cryptography >=42.0.8,<42.1
+  - cssselect >=1.2.0,<1.3
+  - cssselect2 >=0.2.1,<0.3
+  - cssutils >=2.11.0,<2.12
+  - cycler >=0.12.1,<0.13
+  - dacite >=1.8.1,<1.9
+  - databases >=0.9.0,<0.10
+  - dataclassy >=1.0.1,<1.1
+  - dbf >=0.99.9,<0.100
+  - ddsketch >=2.0.4,<2.1
+  - ddt >=1.7.2,<1.8
+  - debtcollector >=3.0.0,<3.1
+  - debuglater >=1.4.4,<1.5
+  - decorator >=5.1.1,<5.2
+  - deepdiff >=7.0.1,<7.1
+  - deepmerge >=1.1.1,<1.2
+  - defusedxml >=0.7.1,<0.8
+  - deprecat >=2.1.1,<2.2
+  - deprecation >=2.1.0,<2.2
+  - dictdiffer >=0.9.0,<0.10
+  - dicttoxml >=1.7.16,<1.8
+  - dill >=0.3.8,<0.4
+  - diskcache >=5.6.3,<5.7
+  - distlib >=0.3.8,<0.4
+  - distro >=1.9.0,<1.10
+  - dnslib >=0.9.25,<0.10
+  - doit >=0.36.0,<0.37
+  - dominate >=2.9.1,<2.10
+  - dparse >=0.6.3,<0.7
+  - dpath >=2.2.0,<2.3
+  - dpkt >=1.9.8,<1.10
+  - dramatiq >=1.17.0,<1.18
+  - dunamai >=1.21.2,<1.22
+  - dynaconf >=3.2.5,<3.3
+  - editables >=0.5,<1
+  - einops >=0.8.0,<0.9
+  - elementpath >=4.4.0,<4.5
+  - emcee >=3.1.6,<3.2
+  - emoji >=2.12.1,<2.13
+  - entrypoints >=0.4,<1
+  - envier >=0.4.0,<0.5
+  - environs >=11.0.0,<11.1
+  - eradicate >=2.3.0,<2.4
+  - escapism >=1.0.1,<1.1
+  - everett >=3.3.0,<3.4
+  - exceptiongroup >=1.2.0,<1.3
+  - execnet >=2.1.1,<2.2
+  - executing >=2.0.1,<2.1
+  - expandvars >=0.9.0,<0.10
+  - exrex >=0.11.0,<0.12
+  - face >=20.1.1,<20.2
+  - fasteners >=0.17.3,<0.18
+  - fastprogress >=1.0.3,<1.1
+  - filelock >=3.15.4,<3.16
+  - filetype >=1.2.0,<1.3
+  - findpython >=0.6.1,<0.7
+  - findspark >=2.0.1,<2.1
+  - flake8 >=5.0.4,<5.1
+  - flaky >=3.8.1,<3.9
+  - flexcache >=0.3,<1
+  - flexparser >=0.3.1,<0.4
+  - fqdn >=1.5.1,<1.6
+  - freezegun >=1.5.0,<1.6
+  - fsspec >=2024.6.1,<2024.7
+  - funcy >=2.0,<3
+  - furl >=2.1.3,<2.2
+  - genson >=1.2.2,<1.3
+  - geographiclib >=2.0,<3
+  - geojson >=3.1.0,<3.2
+  - geomet >=1.1.0,<1.2
+  - gidgethub >=5.3.0,<5.4
+  - gitdb >=4.0.11,<4.1
+  - giturlparse >=0.12.0,<0.13
+  - gprof2dot >=2019.11.30,<2019.12
+  - graphene >=3.3,<4
+  - griffe >=0.47.0,<0.48
+  - h11 >=0.14.0,<0.15
+  - h2 >=4.1.0,<4.2
+  - haversine >=2.8.1,<2.9
+  - headerparser >=0.5.1,<0.6
+  - hexbytes >=1.2.1,<1.3
+  - honcho >=1.1.0,<1.2
+  - hsluv >=5.0.4,<5.1
+  - hstspreload >=2024.6.1,<2024.7
+  - htbuilder >=0.6.2,<0.7
+  - html2text >=2024.2.26,<2024.3
+  - html5lib >=1.1,<2
+  - html5tagger >=1.3.0,<1.4
+  - htmltools >=0.5.2,<0.6
+  - humanize >=4.10.0,<4.11
+  - hupper >=1.12.1,<1.13
+  - hyperframe >=6.0.1,<6.1
+  - hyperlink >=21.0.0,<21.1
+  - icalendar >=5.0.13,<5.1
+  - icdiff >=2.0.7,<2.1
+  - icecream >=2.1.3,<2.2
+  - icontract >=2.6.6,<2.7
+  - idna >=3.7,<4
+  - ijson >=3.3.0,<3.4
+  - imageio >=2.34.2,<2.35
+  - imagesize >=1.4.1,<1.5
+  - immutabledict >=4.2.0,<4.3
+  - importlib_metadata >=8.0.0,<8.1
+  - importlib_resources >=6.4.0,<6.5
+  - incremental >=22.10.0,<22.11
+  - inflection >=0.5.1,<0.6
+  - iniconfig >=2.0.0,<2.1
+  - injector >=0.22.0,<0.23
+  - intake >=2.0.5,<2.1
+  - intelhex >=2.3.0,<2.4
+  - intervaltree >=3.1.0,<3.2
+  - invoke >=2.2.0,<2.3
+  - ipdb >=0.13.13,<0.14
+  - ipycanvas >=0.13.2,<0.14
+  - ipydatagrid >=1.3.2,<1.4
+  - ipython_genutils >=0.2.0,<0.3
+  - ipywidgets >=8.1.3,<8.2
+  - iso3166 >=2.1.1,<2.2
+  - iso8601 >=2.1.0,<2.2
+  - isodate >=0.6.1,<0.7
+  - isoduration >=20.11.0,<20.12
+  - isort >=5.13.2,<5.14
+  - itemadapter >=0.9.0,<0.10
+  - itemloaders >=1.3.1,<1.4
+  - itsdangerous >=2.2.0,<2.3
+  - janus >=1.0.0,<1.1
+  - jedi >=0.19.1,<0.20
+  - jmespath >=1.0.1,<1.1
+  - joblib >=1.4.2,<1.5
+  - json5 >=0.9.25,<0.10
+  - jsondiff >=2.0.0,<2.1
+  - jsonlines >=4.0.0,<4.1
+  - jsonpatch >=1.33,<2
+  - jsonpickle >=3.2.2,<3.3
+  - jsons >=1.6.3,<1.7
+  - jsonschema >=4.23.0,<4.24
+  - junitparser >=3.1.2,<3.2
+  - jupyterlab_pygments >=0.3.0,<0.4
+  - jupyterlab_widgets >=3.0.11,<3.1
+  - kazoo >=2.10.0,<2.11
+  - knack >=0.11.0,<0.12
+  - lark >=1.1.9,<1.2
+  - latexcodec >=2.0.1,<2.1
+  - leather >=0.3.4,<0.4
+  - lesscpy >=0.15.1,<0.16
+  - lkml >=1.3.4,<1.4
+  - locket >=1.0.0,<1.1
+  - looseversion >=1.3.0,<1.4
+  - lsprotocol >=2023.0.1,<2023.1
+  - lunr >=0.7.0.post1,<0.7.1
+  - luqum >=0.13.0,<0.14
+  - lxml >=5.2.2,<5.3
+  - macholib >=1.16.3,<1.17
+  - makefun >=1.15.3,<1.16
+  - mangum >=0.17.0,<0.18
+  - markdown2 >=2.4.13,<2.5
+  - markdownify >=0.11.6,<0.12
+  - marko >=2.1.2,<2.2
+  - markuppy >=1.14,<2
+  - marshmallow >=3.21.3,<3.22
+  - mashumaro >=3.13.1,<3.14
+  - matplotlib >=3.9.1,<3.10
+  - mbstrdecoder >=1.1.3,<1.2
+  - mccabe >=0.7.0,<0.8
+  - mdformat >=0.7.17,<0.8
+  - mdurl >=0.1.2,<0.2
+  - mdutils >=1.6.0,<1.7
+  - mercantile >=1.2.1,<1.3
+  - mergedeep >=1.3.4,<1.4
+  - mido >=1.2.10,<1.3
+  - minimalmodbus >=2.1.1,<2.2
+  - mistletoe >=1.3.0,<1.4
+  - mistune >=3.0.2,<3.1
+  - mock >=5.1.0,<5.2
+  - mockito >=1.4.0,<1.5
+  - monotonic >=1.5,<2
+  - monty >=2024.5.24,<2024.6
+  - mpmath >=1.3.0,<1.4
+  - multimethod >=1.12,<2
+  - multitasking >=0.0.9,<0.1
+  - munch >=4.0.0,<4.1
+  - mutagen >=1.47.0,<1.48
+  - natsort >=8.4.0,<8.5
+  - nbformat >=5.10.4,<5.11
+  - numpy >=2.0.0,<2.1
+  - objsize >=0.7.0,<0.8
+  - olefile >=0.47,<1
+  - openpyxl >=3.1.4,<3.2
+  - orderedmultidict >=1.0.1,<1.1
+  - oscrypto >=1.2.1,<1.3
+  - outcome >=1.3.0.post0,<1.3.1
+  - overrides >=7.7.0,<7.8
+  - packaging >=24.1,<25
+  - palettable >=3.3.3,<3.4
+  - pamqp >=3.2.1,<3.3
+  - pandas >=2.2.2,<2.3
+  - pandocfilters >=1.5.0,<1.6
+  - param >=2.1.1,<2.2
+  - parameterized >=0.9.0,<0.10
+  - parse >=1.20.2,<1.21
+  - parsedatetime >=2.6,<3
+  - parsel >=1.9.1,<1.10
+  - parso >=0.8.4,<0.9
+  - parsy >=2.1,<3
+  - partd >=1.4.2,<1.5
+  - pastel >=0.2.1,<0.3
+  - pathable >=0.4.3,<0.5
+  - pathspec >=0.12.1,<0.13
+  - pathvalidate >=3.2.0,<3.3
+  - patsy >=0.5.6,<0.6
+  - pbr >=6.0.0,<6.1
+  - pdf2image >=1.17.0,<1.18
+  - peewee >=3.17.6,<3.18
+  - pefile >=2023.2.7,<2023.3
+  - pem >=23.1.0,<23.2
+  - pep517 >=0.13.0,<0.14
+  - pexpect >=4.9.0,<4.10
+  - pg8000 >=1.29.3,<1.30
+  - pgzip >=0.3.5,<0.4
+  - pickleshare >=0.7.5,<0.8
+  - pipdeptree >=2.23.0,<2.24
+  - plac >=1.4.3,<1.5
+  - platformdirs >=4.2.2,<4.3
+  - plotext >=5.2.8,<5.3
+  - plotly >=5.22.0,<5.23
+  - pluggy >=1.5.0,<1.6
+  - ply >=3.11,<4
+  - polib >=1.2.0,<1.3
+  - polling2 >=0.5.0,<0.6
+  - polyline >=2.0.2,<2.1
+  - pony >=0.7.17,<0.8
+  - posthog >=3.5.0,<3.6
+  - pox >=0.3.4,<0.4
+  - prettytable >=3.10.0,<3.11
+  - proglog >=0.1.9,<0.2
+  - prompt_toolkit >=3.0.47,<3.1
+  - psygnal >=0.11.1,<0.12
+  - py >=1.11.0,<1.12
+  - py2vega >=0.6.0,<0.7
+  - py4j >=0.10.9.7,<0.10.10
+  - pyaml >=24.4.0,<24.5
+  - pyasn1 >=0.6.0,<0.7
+  - pycodestyle >=2.9.1,<2.10
+  - pycountry >=24.6.1,<24.7
+  - pycparser >=2.22,<3
+  - pyct >=0.5.0,<0.6
+  - pydantic >=2.8.2,<2.9
+  - pydash >=8.0.1,<8.1
+  - pydeps >=1.12.20,<1.13
+  - pydruid >=0.6.9,<0.7
+  - pydyf >=0.10.0,<0.11
+  - pyfakefs >=5.5.0,<5.6
+  - pyflakes >=2.5.0,<2.6
+  - pygal >=3.0.0,<3.1
+  - pygls >=1.3.1,<1.4
+  - pygtrie >=2.5.0,<2.6
+  - pyngrok >=7.1.6,<7.2
+  - pynmea2 >=1.19.0,<1.20
+  - pyocr >=0.8.5,<0.9
+  - pyotp >=2.9.0,<2.10
+  - pyparsing >=3.1.2,<3.2
+  - pypdf >=4.2.0,<4.3
+  - pyproject_hooks >=1.1.0,<1.2
+  - pyrsistent >=0.20.0,<0.21
+  - pysbd >=0.3.4,<0.4
+  - pystac >=1.10.1,<1.11
+  - pystache >=0.6.5,<0.7
+  - pyte >=0.8.1,<0.9
+  - pytools >=2024.1.6,<2024.2
+  - pytrends >=4.9.0,<4.10
+  - pytube >=15.0.0,<15.1
+  - pytz >=2024.1,<2025
+  - pytzdata >=2020.1,<2021
+  - pyudev >=0.24.3,<0.25
+  - pyupgrade >=3.16.0,<3.17
+  - pyxlsb >=1.0.10,<1.1
+  - pyzbar >=0.1.8,<0.2
+  - qrcode >=7.4.2,<7.5
+  - queuelib >=1.7.0,<1.8
+  - radon >=5.1.0,<5.2
+  - rdflib >=7.0.0,<7.1
+  - reactivex >=4.0.4,<4.1
+  - redo >=2.0.4,<2.1
+  - requests >=2.32.3,<2.33
+  - resolvelib >=1.0.1,<1.1
+  - rfc3986 >=2.0.0,<2.1
+  - rich >=13.7.1,<13.8
+  - rstr >=3.2.2,<3.3
+  - runtype >=0.5.0,<0.6
+  - s3transfer >=0.10.2,<0.11
+  - schedula >=1.5.11,<1.6
+  - schedule >=1.2.2,<1.3
+  - schema >=0.7.7,<0.8
+  - schemdraw >=0.19,<1
+  - scipy >=1.14.0,<1.15
+  - scooby >=0.10.0,<0.11
+  - scramp >=1.4.4,<1.5
+  - screed >=1.1.3,<1.2
+  - seaborn >=0.13.2,<0.14
+  - securesystemslib >=0.30.0,<0.31
+  - semver >=3.0.2,<3.1
+  - shellingham >=1.5.4,<1.6
+  - shortuuid >=1.0.13,<1.1
+  - shtab >=1.7.1,<1.8
+  - sigtools >=4.0.1,<4.1
+  - simpervisor >=1.0.0,<1.1
+  - simpleeval >=0.9.13,<0.10
+  - simpy >=4.1.1,<4.2
+  - six >=1.16.0,<1.17
+  - slicer >=0.0.8,<0.1
+  - smmap >=5.0.0,<5.1
+  - sniffio >=1.3.1,<1.4
+  - snowballstemmer >=2.2.0,<2.3
+  - sortedcontainers >=2.4.0,<2.5
+  - soupsieve >=2.5,<3
+  - sqlglot >=25.5.1,<25.6
+  - sqlparams >=6.0.1,<6.1
+  - sqlparse >=0.5.0,<0.6
+  - squarify >=0.4.3,<0.5
+  - starlette >=0.37.2,<0.38
+  - statsd >=4.0.1,<4.1
+  - stdlibs >=2024.1.28,<2024.2
+  - stevedore >=5.2.0,<5.3
+  - stone >=3.3.6,<3.4
+  - striprtf >=0.0.26,<0.1
+  - strsimpy >=0.1.9,<0.2
+  - structlog >=24.2.0,<24.3
+  - submitit >=1.5.1,<1.6
+  - svgwrite >=1.4.3,<1.5
+  - sympy >=1.12.1,<1.13
+  - tabledata >=1.3.3,<1.4
+  - tablib >=3.6.1,<3.7
+  - tblib >=3.0.0,<3.1
+  - tenacity >=8.5.0,<8.6
+  - termcolor >=2.4.0,<2.5
+  - terminaltables >=3.1.10,<3.2
+  - testfixtures >=8.3.0,<8.4
+  - testpath >=0.6.0,<0.7
+  - testtools >=2.7.2,<2.8
+  - texttable >=1.7.0,<1.8
+  - textual >=0.72.0,<0.73
+  - threadpoolctl >=3.5.0,<3.6
+  - throttler >=1.2.2,<1.3
+  - tinycss2 >=1.3.0,<1.4
+  - tinydb >=4.8.0,<4.9
+  - tldextract >=5.1.2,<5.2
+  - toml >=0.10.2,<0.11
+  - tomli >=2.0.1,<2.1
+  - tomlkit >=0.13.0,<0.14
+  - toolz >=0.12.1,<0.13
+  - tqdm >=4.66.4,<4.67
+  - traceml >=1.1.4,<1.2
+  - traitlets >=5.14.3,<5.15
+  - transitions >=0.9.1,<0.10
+  - translationstring >=1.4,<2
+  - treelib >=1.7.0,<1.8
+  - troposphere >=4.8.0,<4.9
+  - ttp >=0.9.5,<0.10
+  - txaio >=23.1.1,<23.2
+  - typepy >=1.3.2,<1.4
+  - typer >=0.12.3,<0.13
+  - typing_extensions >=4.12.2,<4.13
+  - typish >=1.9.3,<1.10
+  - tzlocal >=5.2,<6
+  - uncertainties >=3.2.2,<3.3
+  - unlzw3 >=0.2.2,<0.3
+  - uritemplate >=4.1.1,<4.2
+  - uritools >=4.0.2,<4.1
+  - userpath >=1.7.0,<1.8
+  - vadersentiment >=3.3.2,<3.4
+  - validators >=0.32.0,<0.33
+  - varint >=1.0.2,<1.1
+  - varname >=0.13.1,<0.14
+  - venusian >=3.1.0,<3.2
+  - versioneer >=0.29,<1
+  - versioningit >=3.1.1,<3.2
+  - vine >=5.1.0,<5.2
+  - voluptuous >=0.15.2,<0.16
+  - w3lib >=2.2.1,<2.3
+  - waitress >=3.0.0,<3.1
+  - watermark >=2.4.3,<2.5
+  - wcmatch >=8.5.2,<8.6
+  - wcwidth >=0.2.13,<0.3
+  - webargs >=8.4.0,<8.5
+  - webcolors >=24.6.0,<24.7
+  - webencodings >=0.5.1,<0.6
+  - whatthepatch >=1.0.5,<1.1
+  - wheel >=0.43.0,<0.44
+  - whichcraft >=0.6.1,<0.7
+  - windrose >=1.9.1,<1.10
+  - wrapt >=1.16.0,<1.17
+  - wsproto >=1.2.0,<1.3
+  - xarray >=2024.6.0,<2024.7
+  - xdoctest >=1.1.5,<1.2
+  - xlrd >=2.0.1,<2.1
+  - xmltodict >=0.13.0,<0.14
+  - xyzservices >=2024.6.0,<2024.7
+  - yacs >=0.1.8,<0.2
+  - yagmail >=0.15.293,<0.16
+  - yamllint >=1.35.1,<1.36
+  - yamlloader >=1.3.2,<1.4
+  - yaspin >=2.2.0,<2.3
+  - zict >=3.0.0,<3.1
+  - zipp >=3.19.2,<3.20
   
 
 
