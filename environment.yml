@@ -159,7 +159,6 @@ dependencies:
   - flaky
   - flexcache
   - flexparser
-  - flyteidl
   - fqdn
   - freezegun
   - fs
@@ -376,7 +375,6 @@ dependencies:
   - pystac
   - pystache
   - pyte
-  - pythonnet
   - pytools
   - pytrends
   - pytube
