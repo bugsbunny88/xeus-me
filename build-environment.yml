@@ -5,6 +5,7 @@ dependencies:
   - python==3.11
   - pip
   - jupyter_server
+  - jupyterlab_server
   - ipywidgets
   - jupyterlab_execute_time
   - jupyterlite-core >=0.3.0,<0.4.0
