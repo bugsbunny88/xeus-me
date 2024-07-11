@@ -581,7 +581,6 @@ dependencies:
   - service-identity
   - setuptools_scm
   - setuptools
-  - shapely
   - shellingham
   - shortuuid
   - shtab
@@ -649,7 +648,6 @@ dependencies:
   - tomli
   - tomlkit
   - toolz
-  - topojson
   - tqdm
   - trace-updater
   - traceml
