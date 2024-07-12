@@ -4,6 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
+  - nomkl
   - addict >=2.4.0,<2.5
   - aenum >=3.1.15,<3.2
   - affine >=2.4.0,<2.5
