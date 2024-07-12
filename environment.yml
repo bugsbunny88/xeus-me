@@ -5,7 +5,7 @@ channels:
 dependencies:
   - xeus-python
   - nomkl >=1.0,<2
-  - minio >=7.2.7,<7.3
+  - minio <7.2.7
   - addict >=2.4.0,<2.5
   - aenum >=3.1.15,<3.2
   - affine >=2.4.0,<2.5
