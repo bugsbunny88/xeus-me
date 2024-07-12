@@ -58,6 +58,7 @@ dependencies:
   - cachetools >=5.3.3,<5.4
   - casefy >=0.1.7,<0.2
   - cattrs >=23.2.3,<23.3
+  - cffi >=1.15.0,<1.16
   - cfgv >=3.3.1,<3.4
   - chess >=1.10.0,<1.11
   - chevron >=0.14.0,<0.15
@@ -136,6 +137,7 @@ dependencies:
   - flaky >=3.8.1,<3.9
   - flexcache >=0.3,<1
   - flexparser >=0.3.1,<0.4
+  - fqdn >=1.5.1,<1.6
   - freezegun >=1.5.0,<1.6
   - fsspec >=2024.6.1,<2024.7
   - funcy >=2.0,<3
@@ -149,6 +151,7 @@ dependencies:
   - gprof2dot >=2019.11.30,<2019.12
   - griffe >=0.47.0,<0.48
   - h11 >=0.14.0,<0.15
+  - h2 >=4.1.0,<4.2
   - haversine >=2.8.1,<2.9
   - hexbytes >=1.2.1,<1.3
   - honcho >=1.1.0,<1.2
@@ -203,6 +206,7 @@ dependencies:
   - jsonpatch >=1.33,<2
   - jsonpickle >=3.2.2,<3.3
   - jsons >=1.6.3,<1.7
+  - jsonschema >=4.17.3,<4.18
   - junitparser >=3.1.2,<3.2
   - jupyterlab_pygments >=0.3.0,<0.4
   - jupyterlab_widgets >=3.0.11,<3.1
@@ -228,6 +232,7 @@ dependencies:
   - markuppy >=1.14,<2
   - marshmallow >=3.21.3,<3.22
   - mashumaro >=3.13.1,<3.14
+  - matplotlib >=3.8.4,<3.9
   - mbstrdecoder >=1.1.3,<1.2
   - mccabe >=0.7.0,<0.8
   - mdformat >=0.7.17,<0.8
@@ -373,6 +378,7 @@ dependencies:
   - squarify >=0.4.3,<0.5
   - starlette >=0.37.2,<0.38
   - statsd >=4.0.1,<4.1
+  - statsmodels >=0.14,<0.14.3
   - stdlibs >=2024.1.28,<2024.2
   - stone >=3.3.6,<3.4
   - striprtf >=0.0.26,<0.1
@@ -381,6 +387,7 @@ dependencies:
   - submitit >=1.5.1,<1.6
   - svgwrite >=1.4.3,<1.5
   - sympy >=1.12.1,<1.13
+  - tabulate >=0.9.0,<0.10
   - tblib >=3.0.0,<3.1
   - tenacity >=8.5.0,<8.6
   - termcolor >=2.4.0,<2.5
@@ -448,55 +455,6 @@ dependencies:
   - yaspin >=2.2.0,<2.3
   - zict >=3.0.0,<3.1
   - zipp >=3.19.2,<3.20
-  - pyyaml ==6.0
-  - importlib-metadata >=8.0.0,<8.1
-  - python-dateutil >=2.9.0,<2.10
-  - matplotlib >=3.8.4,<3.9
-  - anyio >=4.4.0,<4.5
-  - beautifulsoup4 >=4.12.3,<4.13
-  - typing-extensions >=4.12.2,<4.13
-  - markdown-it-py >=3.0.0,<3.1
-  - ipython ==8.25.0
-  - jupyter_core ==4.5.0
-  - sqlalchemy >=2.0.31,<2.1
-  - future >=1.0.0,<1.1
-  - types-python-dateutil >=2.9.0.20240316,<2.9.1
-  - jsonpointer >=3.0.0,<3.1
-  - fqdn >=1.5.1,<1.6
-  - cached-property >=1.5.2,<1.6
-  - cached_property >=1.5.2,<1.6
-  - rfc3339-validator >=0.1.4,<0.2
-  - rfc3986-validator >=0.1.1,<0.2
-  - uri-template >=1.3.0,<1.4
-  - matplotlib-inline >=0.1.7,<0.2
-  - prompt-toolkit >=3.0.47,<3.1
-  - pygments >=2.18.0,<2.19
-  - stack_data >=0.6.2,<0.7
-  - pure_eval >=0.2.2,<0.3
-  - statsmodels >=0.14,<0.14.3
-  - pooch >=1.8.2,<1.9
-  - more-itertools >=10.3.0,<10.4
-  - pillow >=10.4.0,<10.5
-  - annotated-types >=0.7.0,<0.8
-  - pydantic-core >=2.18.4,<2.19
-  - certifi >=2024.7.4,<2024.8
-  - charset-normalizer >=3.3.2,<3.4
-  - typing_utils >=0.1.0,<0.2
-  - setuptools >=70.2.0,<70.3
-  - urllib3 >=2.2.2,<2.3
-  - et_xmlfile >=1.1.0,<1.2
-  - tabulate >=0.9.0,<0.10
-  - chardet >=5.2.0,<5.3
-  - jsonschema >=4.17.3,<4.18
-  - pkgutil-resolve-name >=1.3.10,<1.4
-  - h2 >=4.1.0,<4.2
-  - pysocks >=1.7.1,<1.8
-  - hpack >=4.0.0,<4.1
-  - widgetsnbextension >=4.0.11,<4.1
-  - jinja2 >=3.1.4,<3.2
-  - markupsafe >=2.1.5,<2.2
-  - cffi >=1.16.0,<1.17
-  
 
 
 
