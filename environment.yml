@@ -4,7 +4,8 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
-  - nomkl
+  - nomkl >=1.0,<2
+  - minio >=7.2.7,<7.3
   - addict >=2.4.0,<2.5
   - aenum >=3.1.15,<3.2
   - affine >=2.4.0,<2.5
@@ -51,7 +52,6 @@ dependencies:
   - bleach >=6.1.0,<6.2
   - blinker >=1.8.2,<1.9
   - boltons >=24.0.0,<24.1
-  - botocore >=1.34.143,<1.35
   - bqplot >=0.12.43,<0.13
   - bracex >=2.2.1,<2.3
   - branca >=0.7.2,<0.8
