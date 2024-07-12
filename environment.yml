@@ -4,6 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
+  - great_tables >=0.10.0,<0.11
   - nomkl >=1.0,<2
   - minio <7.2.7
   - addict >=2.4.0,<2.5
