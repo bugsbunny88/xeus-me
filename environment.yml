@@ -4,6 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
+  - numpy <2
   - aiomultiprocess
   - aiorun
   - aiorwlock
