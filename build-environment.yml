@@ -68,23 +68,6 @@ dependencies:
   - wheel
   # cli
   - wheel
-  # docs
-  - docutils >=0.18
-  - myst-nb >=1
-  - pydata-sphinx-theme
-  - sphinx >=5.1,<6
-  - sphinx-autodoc-typehints
-  - sphinx-jsonschema
-  - sphinxcontrib-mermaid
-  - sphinxext-rediraffe
-  # check
-  - pytest-check-links
-  # test
-  - ansi2html
-  - pytest-console-scripts >=1.4.0
-  - pytest-cov
-  - pytest-html
-  - pytest-xdist
   # language packs and contents
   - jupyter_server >=1.11,<3
   - jupyterlab_server >=2.27.1,<3
