@@ -33,7 +33,6 @@ dependencies:
   - pywavelets
   - pyyaml
   - regex
-  - scikit-image
   - scikit-learn
   - setuptools
   - spatialgeometry
