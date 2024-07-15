@@ -1,10 +1,52 @@
 name: xeus-python-kernel
 channels:
   - https://repo.mamba.pm/emscripten-forge
-  - conda-forge
+  - https://repo.mamba.pm/conda-forge
 dependencies:
   - xeus-python
-  - emscripten-forge::statsmodels==0.14.1
+  - astropy
+  - awkward-cpp
+  - biopython
+  - boost-histogram
+  - brotli
+  - cartopy
+  - cftime
+  - cryptography
+  - cytoolz
+  - docutils
+  - fonttools
+  - future
+  - gmpy2
+  - ipython
+  - kiwisolver
+  - logbook
+  - markupsafe
+  - nlohmann_json
+  - nlopt
+  - numcodecs
+  - peewee
+  - pillow
+  - protobuf
+  - pybind11
+  - pydantic-core
+  - pyerfa
+  - pyomo
+  - pyproj
+  - pysocks
+  - pytest
+  - pythran
+  - pywavelets
+  - pyyaml
+  - regex
+  - scikit-image
+  - scikit-learn
+  - setuptools
+  - shapely
+  - spatialgeometry
+  - sqlalchemy
+  - swiglpk
+  - traits
+  - zarr
   - aiorun >=2024.5.1,<2024.6
   - aiorwlock >=1.3.0,<1.4
   - aiounittest >=1.4.2,<1.5
