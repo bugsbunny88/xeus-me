@@ -111,7 +111,6 @@ dependencies:
   - janus >=1.0.0,<1.1
   - jsondiff >=2.0.0,<2.1
   - jsonlines >=4.0.0,<4.1
-  - jsons >=1.6.3,<1.7
   - junitparser >=3.1.2,<3.2
   - lark >=1.1.9,<1.2
   - latexcodec >=2.0.1,<2.1
@@ -131,7 +130,6 @@ dependencies:
   - mockito >=1.4.0,<1.5
   - monotonic >=1.5,<2
   - monty >=2024.5.24,<2024.6
-  - multimethod >=1.11,<2
   - multitasking >=0.0.9,<0.1
   - munch >=4.0.0,<4.1
   - mutagen >=1.47.0,<1.48
@@ -175,7 +173,6 @@ dependencies:
   - pyotp >=2.9.0,<2.10
   - pystache >=0.6.5,<0.7
   - pyte >=0.8.1,<0.9
-  - pytools >=2024.1.3,<2024.2
   - pytube >=15.0.0,<15.1
   - pytzdata >=2020.1,<2021
   - pyudev >=0.24.3,<0.25
@@ -237,7 +234,6 @@ dependencies:
   - xlrd >=2.0.1,<2.1
   - xyzservices >=2024.4.0,<2024.5
   - yaspin >=2.2.0,<3.0.3
-  - xeus-python >=0.17.0,<0.18
   - alabaster >=0.7.16,<0.8
   - backcall >=0.2.0,<0.3
   - bleach >=6.1.0,<6.2
@@ -246,7 +242,6 @@ dependencies:
   - entrypoints >=0.4,<1
   - html5lib >=1.1,<2
   - imagesize >=1.4.1,<1.5
-  - ipydatagrid >=1.3.2,<1.4
   - isort >=5.13.2,<5.14
   - itsdangerous >=2.2.0,<2.3
   - joblib >=1.4.0,<1.4.2
@@ -262,6 +257,21 @@ dependencies:
   - seaborn >=0.13.2,<0.14
   - threadpoolctl >=3.5.0,<3.6
   - uncertainties >=3.1.7,<3.2
+  - python-dateutil >=2.9.0,<2.10
+  - bqplot >=0.12.43,<0.13
+  - ipython >=8.26.0,<8.27
+  - stack_data >=0.6.2,<0.7
+  - typing_utils >=0.1.0,<0.2
+  - typing_extensions >=4.12.2,<4.13
+  - prompt-toolkit >=3.0.47,<3.1
+  - pillow ==10.3.0
+  - more-itertools >=10.3.0,<10.4
+  - matplotlib-inline >=0.1.7,<0.2
+  - markdown-it-py >=3.0.0,<3.1
+  - importlib-metadata >=8.0.0,<8.1
+  - importlib-resources >=6.4.0,<6.5
+  - fonttools >=4.53.1,<4.54
+  - et-xmlfile >=1.0.1,<1.1
 
 
 
