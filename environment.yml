@@ -35,7 +35,6 @@ dependencies:
   - asttokens
   - alabaster
   - amqp
-  - anyio
   - appdirs
   - attrs
   - autopep8
@@ -77,12 +76,7 @@ dependencies:
   - kiwisolver
   - locket
   - lxml
-  - mccabe
   - mistune
-  - mock
-  - mpmath
-  - munkres
-
 
 
 
