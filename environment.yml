@@ -257,7 +257,7 @@ dependencies:
   - mock >=5.1.0,<5.2
   - nbformat >=5.10.3,<5.10.5
   - numpy >=1.25.2,<1.26
-  - openpyxl >=3.1.0,<3.2
+  - openpyxl >=3.0,<3.1
   - plotly >=5.22.0,<5.23
   - seaborn >=0.13.2,<0.14
   - threadpoolctl >=3.5.0,<3.6
