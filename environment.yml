@@ -8,7 +8,7 @@ dependencies:
   - bqplot
   - ipydatagrid
   - nbformat
-  - numpy
+  - numpy <2
   - matplotlib
   - ipywidgets
   - pandas
