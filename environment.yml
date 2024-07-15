@@ -9,7 +9,6 @@ dependencies:
   - biopython
   - boost-histogram
   - brotli
-  - cartopy
   - cftime
   - cryptography
   - cytoolz
@@ -28,7 +27,6 @@ dependencies:
   - pybind11
   - pydantic-core
   - pyerfa
-  - pyproj
   - pysocks
   - pytest
   - pythran
@@ -38,7 +36,6 @@ dependencies:
   - scikit-image
   - scikit-learn
   - setuptools
-  - shapely
   - spatialgeometry
   - sqlalchemy
   - swiglpk
