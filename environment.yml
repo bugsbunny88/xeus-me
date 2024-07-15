@@ -4,10 +4,13 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
-  - aiomultiprocess >=0.9.1,<0.10
+    - aiomultiprocess >=0.9.1,<0.10
   - aiorun >=2024.5.1,<2024.6
   - aiorwlock >=1.3.0,<1.4
+  - aiounittest >=1.4.2,<1.5
   - anyascii >=0.3.2,<0.4
+  - anyconfig >=0.14.0,<0.15
+  - anytree >=2.8.0,<2.9
   - argh >=0.31.2,<0.32
   - asgiref >=3.8.1,<3.9
   - asyncstdlib >=3.12.3,<3.13
@@ -32,12 +35,10 @@ dependencies:
   - colorcet >=3.1.0,<3.2
   - colorhash >=1.0.4,<1.1
   - commonmark >=0.9.1,<0.10
-  - confuse >=2.0.1,<2.1
   - conllu >=4.5.3,<4.6
   - construct >=2.10.70,<2.11
   - crashtest >=0.4.1,<0.5
   - crccheck >=1.3.0,<1.4
-  - croniter >=2.0.5,<2.1
   - cssselect2 >=0.2.1,<0.3
   - cssutils >=2.11.0,<2.12
   - dacite >=1.8.1,<1.9
@@ -55,7 +56,6 @@ dependencies:
   - dnslib >=0.9.24,<0.10
   - doit >=0.36.0,<0.37
   - dominate >=2.9.1,<2.10
-  - dparse >=0.6.3,<0.7
   - dpath >=2.1.6,<2.2
   - dpkt >=1.9.8,<1.10
   - dunamai >=1.21.1,<1.22
@@ -80,8 +80,6 @@ dependencies:
   - findspark >=2.0.1,<2.1
   - flake8 >=5.0.4,<5.1
   - flaky >=3.8.1,<3.9
-  - fqdn >=1.5.1,<1.6
-  - freezegun >=1.5.0,<1.6
   - funcy >=2.0,<3
   - furl >=2.1.3,<2.2
   - genson >=1.2.2,<1.3
@@ -101,7 +99,6 @@ dependencies:
   - humanize >=4.9.0,<4.10
   - hupper >=1.12.1,<1.13
   - hyperlink >=21.0.0,<21.1
-  - icalendar >=5.0.12,<5.1
   - icdiff >=2.0.7,<2.1
   - icecream >=2.1.3,<2.2
   - icontract >=2.6.6,<2.7
@@ -111,13 +108,10 @@ dependencies:
   - inflection >=0.5.1,<0.6
   - iniconfig >=2.0.0,<2.1
   - injector >=0.21.0,<0.22
-  - intake >=2.0.5,<2.1
   - intelhex >=2.3.0,<2.4
   - intervaltree >=3.1.0,<3.2
   - invoke >=2.2.0,<2.3
-  - ipdb >=0.13.13,<0.14
   - iso3166 >=2.1.1,<2.2
-  - isoduration >=20.11.0,<20.12
   - itemadapter >=0.9.0,<0.10
   - janus >=1.0.0,<1.1
   - jsondiff >=2.0.0,<2.1
@@ -126,22 +120,17 @@ dependencies:
   - junitparser >=3.1.2,<3.2
   - jupyterlab_pygments >=0.3.0,<0.4
   - kazoo >=2.10.0,<2.11
-  - knack >=0.11.0,<0.12
   - lark >=1.1.9,<1.2
   - latexcodec >=2.0.1,<2.1
   - leather >=0.3.4,<0.4
   - lesscpy >=0.15.1,<0.16
   - lkml >=1.3.4,<1.4
   - looseversion >=1.3.0,<1.4
-  - lunr >=0.7.0.post1,<0.7.1
   - luqum >=0.13.0,<0.14
   - macholib >=1.16.3,<1.17
   - makefun >=1.15.2,<1.16
-  - mangum >=0.17.0,<0.18
   - markdown2 >=2.4.13,<2.5
-  - markdownify >=0.11.6,<0.12
   - marko >=2.0.3,<2.1
-  - mashumaro >=3.13,<4
   - mbstrdecoder >=1.1.3,<1.2
   - mdformat >=0.7.17,<0.8
   - mdutils >=1.6.0,<1.7
@@ -175,7 +164,6 @@ dependencies:
   - pathvalidate >=3.2.0,<3.3
   - pem >=23.1.0,<23.2
   - pep517 >=0.13.0,<0.14
-  - pg8000 >=1.29.3,<1.30
   - pgzip >=0.3.5,<0.4
   - plac >=1.4.3,<1.5
   - plotext >=5.2.8,<5.3
@@ -187,25 +175,19 @@ dependencies:
   - prettytable >=3.10.0,<3.11
   - proglog >=0.1.9,<0.2
   - py4j >=0.10.9.7,<0.10.10
-  - pyaml >=24.4.0,<24.5
   - pyasn1 >=0.6.0,<0.7
   - pydash >=8.0.1,<8.1
-  - pydruid >=0.6.9,<0.7
   - pydyf >=0.10.0,<0.11
   - pyfakefs >=5.5.0,<5.6
   - pygal >=3.0.0,<3.1
-  - pygls >=1.0.1,<1.3.2
   - pygtrie >=2.5.0,<2.6
-  - pyngrok >=7.1.6,<7.2
   - pynmea2 >=1.19.0,<1.20
   - pyotp >=2.9.0,<2.10
   - pypdf >=4.2.0,<4.3
   - pysbd >=0.3.4,<0.4
-  - pystac >=1.10.1,<1.11
   - pystache >=0.6.5,<0.7
   - pyte >=0.8.1,<0.9
   - pytools >=2024.1.3,<2024.2
-  - pytrends >=4.9.0,<4.10
   - pytube >=15.0.0,<15.1
   - pytzdata >=2020.1,<2021
   - pyudev >=0.24.3,<0.25
@@ -213,7 +195,6 @@ dependencies:
   - pyzbar >=0.1.8,<0.2
   - queuelib >=1.7.0,<1.8
   - rdflib >=7.0.0,<7.1
-  - reactivex >=4.0.4,<4.1
   - redo >=2.0.4,<2.1
   - resolvelib >=1.0.1,<1.1
   - rfc3986 >=2.0.0,<2.1
@@ -237,7 +218,6 @@ dependencies:
   - sqlglot >=18.12.0,<24.2
   - sqlparams >=6.0.1,<6.1
   - sqlparse >=0.4.4,<0.6
-  - starlette >=0.37.2,<0.38
   - statsd >=4.0.1,<4.1
   - stdlibs >=2024.1.28,<2024.2
   - stone >=3.3.6,<3.4
@@ -252,7 +232,6 @@ dependencies:
   - testpath >=0.6.0,<0.7
   - testtools >=2.7.1,<2.8
   - texttable >=1.7.0,<1.8
-  - textual >=0.63.6,<0.64
   - throttler >=1.2.2,<1.3
   - tinydb >=4.8.0,<4.9
   - tomlkit >=0.12.5,<0.13
@@ -280,15 +259,11 @@ dependencies:
   - xlrd >=2.0.1,<2.1
   - xmltodict >=0.13.0,<0.14
   - xyzservices >=2024.4.0,<2024.5
-  - yacs >=0.1.8,<0.2
-  - yamllint >=1.35.1,<1.36
-  - yamlloader >=1.3.2,<1.5
   - yaspin >=2.2.0,<3.0.3
   - xeus-python >=0.17.0,<0.18
   - alabaster >=0.7.16,<0.8
   - backcall >=0.2.0,<0.3
   - bleach >=6.1.0,<6.2
-  - branca >=0.7.2,<0.8
   - defusedxml >=0.7.1,<0.8
   - dill >=0.3.8,<0.4
   - entrypoints >=0.4,<1
@@ -301,12 +276,11 @@ dependencies:
   - json5 >=0.9.25,<0.10
   - jsonpickle >=3.2.1,<3.3
   - matplotlib >=3.8.3,<3.9
-  - minio >=7,<7.2.7
   - mistune >=3.0.2,<3.1
   - mock >=5.1.0,<5.2
   - nbformat >=5.10.3,<5.10.5
   - numpy >=1.25.2,<1.26
-  - openpyxl >=3.0,<3.1
+  - openpyxl >=3.1.0,<3.2
   - plotly >=5.22.0,<5.23
   - seaborn >=0.13.2,<0.14
   - threadpoolctl >=3.5.0,<3.6
