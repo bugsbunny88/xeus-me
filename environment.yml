@@ -50,7 +50,6 @@ dependencies:
   - colorama
   - cryptography
   - cytoolz
-  - dash
   - defusedxml
   - dill
   - docrepr
