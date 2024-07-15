@@ -4,6 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
+  - statsmodels==0.14.1
   - aiorun >=2024.5.1,<2024.6
   - aiorwlock >=1.3.0,<1.4
   - aiounittest >=1.4.2,<1.5
