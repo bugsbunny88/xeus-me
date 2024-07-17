@@ -267,7 +267,7 @@ dependencies:
   - treelib >=1.7.0,<1.8
   - ttp >=0.9.5,<0.10
   - txaio >=23.1.1,<23.2
-  - tzlocal >=5.2,<6
+  - tzlocal <5.2
   - uncertainties >=3.2.2,<3.3
   - unlzw3 >=0.2.2,<0.3
   - uritemplate >=4.1.1,<4.2
