@@ -215,7 +215,7 @@ dependencies:
   - pystac >=1.10.1,<1.11
   - pystache >=0.6.5,<0.7
   - pytube >=15.0.0,<15.1
-  - pytzdata >=2020.1,<2021
+  - pytzdata
   - pyudev >=0.24.3,<0.25
   - pyxlsb >=1.0.10,<1.1
   - queuelib >=1.7.0,<1.8
