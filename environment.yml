@@ -105,7 +105,6 @@ dependencies:
   - expandvars
   - exrex
   - face
-  - fastjsonschema
   - fastprogress
   - filelock
   - filetype
@@ -175,11 +174,9 @@ dependencies:
   - jsonpickle
   - jsons
   - jsonschema
-  - jsonschema-specifications
   - junitparser
-  - jupyter-core
-  - jupyterlab-pygments
-  - jupyterlab-widgets
+  - jupyter_core
+  - jupyterlab_widgets
   - kazoo
   - kiwisolver
   - knack
@@ -259,7 +256,7 @@ dependencies:
   - pox
   - prettytable
   - prompt-toolkit
-  - pure-eval
+  - pure_eval
   - py2vega
   - py4j
   - pyaml
@@ -288,7 +285,6 @@ dependencies:
   - pytz
   - pytzdata
   - pyudev
-  - pywin32
   - pyxlsb
   - pyyaml
   - queuelib
@@ -324,7 +320,7 @@ dependencies:
   - soupsieve
   - sqlglot
   - sqlparams
-  - stack-data
+  - stack_data
   - starlette
   - statsd
   - stdlibs
