@@ -102,7 +102,6 @@ dependencies:
   - astunparse  >=1.6.3,<1.7
   - asyncstdlib  >=3.12.3,<3.13
   - atomicwrites  >=1.4.1,<1.5
-  - attrs  >=22.2.0,<23.2
   - augmentor  >=0.2.12,<0.3
   - autocommand  >=2.2.2,<2.3
   - autoflake  >=1.7.5,<1.8
@@ -185,7 +184,6 @@ dependencies:
   - diskcache  >=5.6.3,<5.7
   - distlib  >=0.3.8,<0.4
   - distro  >=1.9.0,<1.10
-  - dlint  >=0.14.1,<0.15
   - dnslib  >=0.9.24,<0.10
   - docutils  >=0.18.1,<0.20.2
   - doit  >=0.36.0,<0.37
@@ -219,7 +217,6 @@ dependencies:
   - filetype  >=1.2.0,<1.3
   - findpython  >=0.6.1,<0.7
   - findspark  >=2.0.1,<2.1
-  - flake8  >=5.0.4,<5.1
   - flaky  >=3.8.1,<3.9
   - flyteidl  >=1.12.0,<1.13
   - formulaic  >=1.0.1,<1.1
@@ -293,7 +290,6 @@ dependencies:
   - jsondiff  >=2.0.0,<2.1
   - jsonlines  >=4.0.0,<4.1
   - jsonpatch  >=1.33,<2
-  - jsonpickle  >=3.0.4,<3.1
   - jsons  >=1.6.3,<1.7
   - junitparser  >=3.1.2,<3.2
   - jupyterlab_pygments  >=0.3.0,<0.4
@@ -481,7 +477,6 @@ dependencies:
   - tablib  >=3.6.1,<3.7
   - tabulate  >=0.9.0,<0.10
   - tblib  >=3.0.0,<3.1
-  - tenacity  >=8.3.0,<8.4
   - terminaltables  >=3.1.10,<3.2
   - testfixtures  >=8.2.0,<8.3
   - testpath  >=0.6.0,<0.7
