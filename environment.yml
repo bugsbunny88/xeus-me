@@ -276,7 +276,6 @@ dependencies:
   - pyotp
   - pyparsing
   - pypdf
-  - pyproject-hooks
   - pysbd
   - pystac
   - pystache
@@ -291,11 +290,9 @@ dependencies:
   - rdflib
   - reactivex
   - redo
-  - referencing
   - requests
   - resolvelib
   - rfc3986
-  - rpds-py
   - rstr
   - runtype
   - schedula
