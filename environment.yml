@@ -233,6 +233,46 @@ dependencies:
   - threadpoolctl = 3.5.0
   - traitlets = 5.14.3
   - wcwidth = 0.2.13
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - statsmodels
+  - seaborn
+  - plotly
+  - joblib
+  - wrapt
+  - requests
+  - regex
+  - pytest
+  - pyrsistent
+  - ipython
+  - zlib
+  - zstd
+  - brotli-python
+  - lz4
+  - msgpack
+  - astropy
+  - biopython
+  - cftime
+  - hdf5
+  - pillow
+  - protobuf
+  - libxml2
+  - libxslt
+  - cryptography
+  - cffi
+  - arrow-python
+  - awkward-cpp
+  - boost-histogram
+  - cytoolz
+  - docutils
+  - pyerfa
+  - pyjs
+  - sqlalchemy
+  - zarr
 
 
 
