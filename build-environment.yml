@@ -30,7 +30,6 @@ dependencies:
   # rewriting `anaconda.org` links to `conda-forge`'s GitHub releases
   ### FEDERATED EXTENSIONS ###
   - ipycytoscape
-  - jupyterlab_miami_nights >=0.4.0
   - jupyterlab_widgets >=3.0.4,<4.0.0
   - jupyterlab-fasta >=3,<4
   - jupyterlab-geojson >=3,<4
