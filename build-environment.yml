@@ -3,13 +3,16 @@ channels:
   - conda-forge
 dependencies:
   - python==3.11
+  - micromamba
   - pip==24.0
   #- jupyter_server >=2.10.0,<2.14.1
   #- jupyterlab_server >=2.24.0,<2.27.2
   #- ipywidgets >=8.1.3,<8.2
+  - jupyterlab-cell-flash
+  - jupyterlab-night
   - jupyterlab_execute_time >=3.1.2,<3.2
   - jupyterlite-core >=0.3.0,<0.4.0
-  - jupyterlite-xeus >=0.1.2,<0.2
+  #- jupyterlite-xeus >=0.1.2,<0.2
   - empack >=3,<4
     # build stuff
   - depfinder
@@ -72,3 +75,5 @@ dependencies:
   - jupyter_server >=1.11,<3
   - jupyterlab_server >=2.27.1,<3
   ### DOCS ENV ###
+  - pip:
+    - jupyterlite-xeus==0.2.0a0
