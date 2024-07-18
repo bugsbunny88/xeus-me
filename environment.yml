@@ -243,7 +243,6 @@ dependencies:
   - cytoolz >=0.12.3,<0.13
   - sqlalchemy
   - altair
-  - ydata-profiling
   - pycountry
   - geopy
   - folium
