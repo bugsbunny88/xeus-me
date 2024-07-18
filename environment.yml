@@ -243,9 +243,7 @@ dependencies:
   - cytoolz >=0.12.3,<0.13
   - sqlalchemy
   - pycountry
-  - geopy
   - folium
-  - missingno
   - ipympl
   - ipydatagrid
   - ipycanvas
