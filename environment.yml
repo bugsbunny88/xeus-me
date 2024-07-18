@@ -242,7 +242,6 @@ dependencies:
   - cffi >=1.15.0,<1.17
   - cytoolz >=0.12.3,<0.13
   - sqlalchemy
-  - altair
   - pycountry
   - geopy
   - folium
