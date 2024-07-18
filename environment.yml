@@ -259,7 +259,6 @@ dependencies:
   - hdf5
   - pillow
   - protobuf
-  - libxml2
   - libxslt
   - cryptography
   - cffi
