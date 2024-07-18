@@ -236,10 +236,10 @@ dependencies:
   - urllib3 >=2.2.2,<2.3
   - jupytext >=1.16.3,<1.17
   - wrapt >=1.16.0,<1.17
-  - pyrsistent >=0.20.0,<0.21
-  - cftime >=1.6.4,<1.7
-  - cryptography >=42.0.8,<42.1
-  - cffi >=1.16.0,<1.17
+  - pyrsistent >=0.18.1,<0.21
+  - cftime >=1.6.2,<1.7
+  - cryptography >=42.0.2,<42.1
+  - cffi >=1.15.0,<1.17
   - cytoolz >=0.12.3,<0.13
 
 
