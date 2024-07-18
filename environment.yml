@@ -63,7 +63,6 @@ dependencies:
   - fqdn >=1.5.1,<1.6
   - funcy >=2.0,<3
   - genson >=1.2.2,<1.3
-  - geojson >=3.1.0,<3.2
   - giturlparse >=0.12.0,<0.13
   - gprof2dot >=2019.11.30,<2019.12
   - haversine >=2.8.1,<2.9
@@ -233,44 +232,15 @@ dependencies:
   - threadpoolctl = 3.5.0
   - traitlets = 5.14.3
   - wcwidth = 0.2.13
-  - numpy
-  - pandas
-  - matplotlib
-  - scipy
-  - scikit-learn
-  - scikit-image
-  - statsmodels
-  - seaborn
-  - plotly
-  - joblib
-  - wrapt
-  - requests
-  - regex
-  - pytest
-  - pyrsistent
-  - ipython
-  - zlib
-  - zstd
-  - brotli-python
-  - msgpack
-  - astropy
-  - biopython
-  - cftime
-  - hdf5
-  - pillow
-  - protobuf
-  - libxslt
-  - cryptography
-  - cffi
-  - arrow-python
-  - awkward-cpp
-  - boost-histogram
-  - cytoolz
-  - docutils
-  - pyerfa
-  - pyjs
-  - sqlalchemy
-  - zarr
+  - requests >=2.32.3,<2.33
+  - urllib3 >=2.2.2,<2.3
+  - jupytext >=1.16.3,<1.17
+  - wrapt >=1.16.0,<1.17
+  - pyrsistent >=0.20.0,<0.21
+  - cftime >=1.6.4,<1.7
+  - cryptography >=42.0.8,<42.1
+  - cffi >=1.16.0,<1.17
+  - cytoolz >=0.12.3,<0.13
 
 
 
