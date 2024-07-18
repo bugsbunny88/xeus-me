@@ -252,7 +252,6 @@ dependencies:
   - zlib
   - zstd
   - brotli-python
-  - lz4
   - msgpack
   - astropy
   - biopython
