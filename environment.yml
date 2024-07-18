@@ -241,6 +241,16 @@ dependencies:
   - cryptography >=42.0.2,<42.1
   - cffi >=1.15.0,<1.17
   - cytoolz >=0.12.3,<0.13
+  - sqlalchemy
+  - altair
+  - ydata-profiling
+  - pycountry
+  - geopy
+  - folium
+  - missingno
+  - ipympl
+  - ipydatagrid
+  - ipycanvas
 
 
 
