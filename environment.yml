@@ -4,6 +4,8 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
+  - bqplot
+  - ipywidgets
   - aiomultiprocess
   - aiorun
   - aiorwlock
@@ -24,13 +26,11 @@ dependencies:
   - beartype
   - bidict
   - blinker
-  - bqplot
   - cachelib
   - cachetools
   - casefy
   - certifi
   - cfgv
-  - charset-normalizer
   - chevron
   - circuitbreaker
   - cloudpickle
@@ -72,6 +72,7 @@ dependencies:
   - executing
   - expandvars
   - exrex
+  - fastjsonschema
   - fastprogress
   - filetype
   - findspark
@@ -96,8 +97,6 @@ dependencies:
   - ijson
   - imagesize
   - immutabledict
-  - importlib-metadata
-  - importlib-resources
   - incremental
   - inflection
   - iniconfig
@@ -105,7 +104,6 @@ dependencies:
   - intelhex
   - invoke
   - ipython
-  - ipywidgets
   - iso3166
   - itemadapter
   - itsdangerous
@@ -116,6 +114,7 @@ dependencies:
   - jsonpickle
   - jsonschema
   - junitparser
+  - jupyter_core
   - jupyterlab_widgets
   - jupytext
   - kazoo
@@ -126,22 +125,17 @@ dependencies:
   - lunr
   - lxml
   - makefun
-  - markdown-it-py
   - markdown2
   - marko
   - matplotlib
-  - matplotlib-inline
-  - mdit-py-plugins
   - mdurl
   - mdutils
   - mergedeep
   - mido
-  - minio
   - mistletoe
   - mistune
   - mock
   - mockito
-  - monty
   - multimethod
   - munch
   - mutagen
@@ -150,6 +144,7 @@ dependencies:
   - numpy
   - objsize
   - olefile
+  - openpyxl
   - overrides
   - packaging
   - pamqp
@@ -167,10 +162,9 @@ dependencies:
   - pexpect
   - pgzip
   - pickleshare
-  - pillow
   - pip
-  - pkgutil-resolve-name
   - plac
+  - platformdirs
   - plotext
   - plotly
   - polib
@@ -178,13 +172,12 @@ dependencies:
   - polyline
   - pony
   - pox
-  - prompt-toolkit
   - ptyprocess
   - pure_eval
+  - py
   - py4j
   - pydyf
   - pyfakefs
-  - pygments
   - pygtrie
   - pynmea2
   - pyparsing
@@ -195,7 +188,6 @@ dependencies:
   - pytzdata
   - pyudev
   - pyxlsb
-  - pyyaml
   - queuelib
   - redo
   - requests
@@ -240,9 +232,8 @@ dependencies:
   - traittypes
   - ttp
   - txaio
-  - typing-extensions
+  - tzdata
   - uncertainties
-  - unlzw3
   - uritemplate
   - urllib3
   - validators
@@ -260,6 +251,7 @@ dependencies:
   - xmltodict
   - xyzservices
   - zipp
+ 
 
 
 
