@@ -116,12 +116,7 @@ dependencies:
   - jsonpickle >=3.2.2,<4
   - jsonschema >=4.17.3,<4.23
   - junitparser >=3.1.2,<4
-  - jupyter_server >=2.14.2,<3
-  - jupyterlab-night >=0.4.6,<0.5
-  - jupyterlab_execute_time >=3.1.2,<4
   - jupyterlab_widgets >=3.0.11,<4
-  - jupyterlite-core >=0.3.0,<0.4
-  - jupyterlite-xeus >=0.1.9,<0.2
   - jupytext >=1.16.4,<2
   - kazoo >=2.10.0,<3
   - lark >=1.1.9,<2
@@ -144,7 +139,6 @@ dependencies:
   - mutagen >=1.47.0,<2
   - natsort >=8.4.0,<9
   - nbformat >=5.10.3,<5.10.4
-  - notebook >=7.2.1,<8
   - numpy >=1.25.2,<2
   - objsize >=0.7.0,<0.8
   - olefile >=0.47,<0.48
@@ -235,7 +229,6 @@ dependencies:
   - traitlets >=5.14.3,<6
   - traittypes >=0.2.1,<0.3
   - ttp >=0.9.5,<0.10
-  - twine >=5.1.0,<6
   - txaio >=23.1.1,<24
   - tzdata >=2024a,<2025a
   - uncertainties >=3.2.2,<4
