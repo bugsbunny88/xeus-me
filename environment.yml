@@ -4,8 +4,6 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
-  - bqplot
-  - ipywidgets
   - aiomultiprocess
   - aiorun
   - aiorwlock
@@ -26,10 +24,10 @@ dependencies:
   - beartype
   - bidict
   - blinker
+  - bqplot
   - cachelib
   - cachetools
   - casefy
-  - certifi
   - cfgv
   - chevron
   - circuitbreaker
@@ -76,7 +74,6 @@ dependencies:
   - filetype
   - findspark
   - flaky
-  - fonttools
   - fqdn
   - fsspec
   - funcy
@@ -102,7 +99,7 @@ dependencies:
   - injector
   - intelhex
   - invoke
-  - ipython
+  - ipywidgets
   - iso3166
   - itemadapter
   - itsdangerous
@@ -113,11 +110,9 @@ dependencies:
   - jsonpickle
   - jsonschema
   - junitparser
-  - jupyter_core
   - jupyterlab_widgets
   - jupytext
   - kazoo
-  - kiwisolver
   - lark
   - locket
   - looseversion
@@ -126,7 +121,6 @@ dependencies:
   - makefun
   - markdown2
   - marko
-  - matplotlib
   - mdurl
   - mdutils
   - mergedeep
@@ -171,7 +165,6 @@ dependencies:
   - polyline
   - pony
   - pox
-  - ptyprocess
   - pure_eval
   - py
   - py4j
@@ -199,7 +192,6 @@ dependencies:
   - schema
   - scipy
   - scooby
-  - seaborn
   - securesystemslib
   - semver
   - shortuuid
@@ -234,7 +226,6 @@ dependencies:
   - tzdata
   - uncertainties
   - uritemplate
-  - urllib3
   - validators
   - venusian
   - versioneer
@@ -243,7 +234,6 @@ dependencies:
   - waitress
   - wcwidth
   - wheel
-  - widgetsnbextension
   - wrapt
   - xdoctest
   - xlrd
