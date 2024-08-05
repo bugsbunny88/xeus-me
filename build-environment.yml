@@ -11,7 +11,6 @@ dependencies:
   - jupyterlite-xeus >=0.1.9,<0.2
   - empack >=3.0.0,<4.0
   - bqplot
-  - ipympl
   - nomkl
   - jupyterlab_widgets >=3.0.4,<4.0.0
   - ipyvue
