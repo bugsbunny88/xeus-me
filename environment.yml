@@ -72,7 +72,6 @@ dependencies:
   - executing
   - expandvars
   - exrex
-  - fastjsonschema
   - fastprogress
   - filetype
   - findspark
