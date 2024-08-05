@@ -6,6 +6,8 @@ dependencies:
   - xeus-python
   - seaborn
   - matplotlib-inline
+  - pycairo
+  - tkinter
   - aiomultiprocess
   - aiorun
   - aiorwlock
