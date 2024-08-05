@@ -4,29 +4,27 @@ channels:
 dependencies:
   - python >=3.10,<3.13
   - pip >=24.2,<25
-  - jupyter_server >=2.14.2,<2.15
-  - ipywidgets >=8.0.4,<8.2
-  - jupyterlab_execute_time >=3.1.2,<3.2
+  - jupyter_server >=2.14.2,<3
+  - ipywidgets >=8.0.4,<9
+  - jupyterlab >=4.2.4,<4.3
+  - jupyterlab_execute_time >=3.1.2,<4
   - jupyterlite-core >=0.3.0,<0.4
   - jupyterlite-xeus >=0.1.9,<0.2
-  - empack >=3.0.0,<4.0
-  - bqplot
-  - nomkl
-  - jupyterlab_widgets >=3.0.4,<4.0.0
-  - ipyvue
-  - ipyvuetify
-  - plotly >=5.12.0
-  - jupyterlab-night
-    # build
-  - doit >=0.34,<1
+  - empack >=3.0.0,<4
+  - bqplot >=0.12.43,<0.13
+  - nomkl >=1.0,<2
+  - jupyterlab_widgets >=3.0.4,<4
+  - ipyvue >=1.11.0,<2
+  - ipyvuetify >=1.10.0,<2
+  - plotly >=5.12.0,<6
+  - jupyterlab-night >=0.4.6,<0.5
+  - doit >=0.34.0,<0.37
   - hatch >=1.6.3,<2
-  - importlib_metadata
-  - jsonschema >=3
-  - jupyterlab >=4.2.4,<4.3
+  - importlib_metadata >=8.2.0,<9
+  - jsonschema >=3.0,<5
   - notebook >=7.2.0,<7.3
-  - pip
-  - pkginfo
-  - python-libarchive-c
-  - requests_cache
-  - twine >=5.1.1
-  - wheel
+  - pkginfo >=1.11.1,<2
+  - python-libarchive-c >=5.1,<6
+  - requests_cache >=0.4.13,<0.5
+  - twine >=5.1.1,<6
+  - wheel >=0.44.0,<0.45
