@@ -84,7 +84,6 @@ dependencies:
   - gprof2dot >=2019.11.30,<2020
   - haversine >=2.8.1,<3
   - hexbytes >=1.2.1,<2
-  - hsluv >=5.0.4,<6
   - hstspreload >=2024.8.1,<2025
   - html2text >=2024.2.26,<2025
   - html5tagger >=1.3.0,<2
@@ -132,7 +131,6 @@ dependencies:
   - mockito >=1.4.0,<2
   - multimethod >=1.12,<2
   - munch >=4.0.0,<5
-  - mutagen >=1.47.0,<2
   - natsort >=8.4.0,<9
   - nbformat >=5.10.3,<5.10.4
   - numpy >=1.25.2,<2
@@ -172,7 +170,6 @@ dependencies:
   - pydyf >=0.11.0,<0.12
   - pyfakefs >=5.6.0,<6
   - pygtrie >=2.5.0,<3
-  - pynmea2 >=1.19.0,<2
   - pyparsing >=3.1.2,<4
   - pyrsistent >=0.18.1,<0.20
   - pysbd >=0.3.4,<0.4
