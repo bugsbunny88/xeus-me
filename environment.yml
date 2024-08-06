@@ -164,7 +164,6 @@ dependencies:
   - plac >=1.4.3,<2
   - platformdirs >=4.2.2,<5
   - plotext >=5.2.8,<6
-  - plotly >=5.23.0,<6
   - polib >=1.2.0,<2
   - polling2 >=0.5.0,<0.6
   - polyline >=2.0.2,<3
