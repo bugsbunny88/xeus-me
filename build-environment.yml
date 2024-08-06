@@ -8,8 +8,6 @@ dependencies:
   - empack >=3.0.0,<4
   - hatch >=1.6.3,<2
   - importlib_metadata >=8.2.0,<9
-  - ipyvue >=1.11.0,<2
-  - ipyvuetify >=1.10.0,<2
   - ipywidgets >=8.0.4,<9
   - jsonschema >=3.0,<5
   - jupyter_server >=2.14.2,<3
@@ -22,7 +20,6 @@ dependencies:
   - nomkl >=1.0,<2
   - notebook >=7.2.0,<7.3
   - pip >=24.2,<25
-  - plotly >=5.12.0,<6
   - python-libarchive-c >=5.1,<6
   - requests_cache >=0.4.13,<0.5
   - wheel >=0.44.0,<0.45
