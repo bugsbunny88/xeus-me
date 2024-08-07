@@ -4,6 +4,8 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
+  - seaborn
+  - sqlalchemy
   - pandas <2
   - aiomultiprocess >=0.9.1,<0.10
   - aiorun >=2024.5.1,<2024.8.1
@@ -131,14 +133,13 @@ dependencies:
   - pastel >=0.2.1,<0.3
   - pathable >=0.4.3,<0.5
   - pathvalidate >=3.2.0,<4
-  - patsy >=0.5.6,<0.6
+  - patsy >=0.5.3,<0.6
   - pem >=23.1.0,<24
-  - pexpect >=4.9.0,<5
+  - pexpect >=4.8.0,<5
   - pgzip >=0.3.5,<0.4
   - pickleshare >=0.7.5,<0.8
-  - pip >=24.2,<25
   - plac >=1.4.3,<2
-  - platformdirs >=4.2.2,<5
+  - platformdirs >=4,<5
   - plotext >=5.2.8,<6
   - polib >=1.2.0,<2
   - polling2 >=0.5.0,<0.6
@@ -151,11 +152,11 @@ dependencies:
   - pydyf >=0.11.0,<0.12
   - pyfakefs >=5.6.0,<6
   - pygtrie >=2.5.0,<3
-  - pyparsing >=3.1.2,<4
+  - pyparsing >=3.0.9,<4
   - pyrsistent >=0.18.1,<0.20
   - pysbd >=0.3.4,<0.4
   - pystache >=0.6.5,<0.7
-  - pytz >=2024.1,<2025
+  - pytz >=2022.7.1,<2025
   - pytzdata >=2020.1,<2021
   - pyudev >=0.24.3,<0.25
   - pyxlsb >=1.0.10,<2
@@ -174,7 +175,6 @@ dependencies:
   - securesystemslib >=0.30.0,<0.31
   - semver >=3.0.2,<4
   - shortuuid >=1.0.13,<2
-  - shtab >=1.7.1,<2
   - simpervisor >=1.0.0,<2
   - simpleeval >=0.9.13,<0.10
   - simpy >=4.1.1,<5
@@ -191,7 +191,6 @@ dependencies:
   - tblib >=3.0.0,<4
   - tenacity >=9.0.0,<10
   - terminaltables >=3.1.10,<4
-  - testfixtures >=8.3.0,<9
   - texttable >=1.7.0,<2
   - threadpoolctl >=3.5.0,<4
   - throttler >=1.2.2,<2
@@ -211,7 +210,7 @@ dependencies:
   - vine >=5.1.0,<6
   - voluptuous >=0.15.2,<0.16
   - waitress >=3.0.0,<4
-  - wcwidth >=0.2.13,<0.3
+  - wcwidth >=0.2.6,<0.3
   - wheel >=0.44.0,<0.45
   - wrapt >=1.16.0,<2
   - xlrd >=2.0.1,<3
