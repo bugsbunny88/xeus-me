@@ -201,7 +201,6 @@ dependencies:
   - traittypes >=0.2.1,<0.3
   - ttp >=0.9.5,<0.10
   - txaio >=23.1.1,<24
-  - tzdata >=2024a,<2025a
   - uncertainties >=3.2.2,<4
   - uritemplate >=4.1.1,<5
   - validators >=0.33.0,<0.34
