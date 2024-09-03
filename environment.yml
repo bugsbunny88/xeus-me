@@ -161,7 +161,6 @@ dependencies:
   - httpx
   - fqdn
   - dynaconf
-  - wordcloud
   - icdiff
   - asyncstdlib
   - mock
@@ -257,7 +256,6 @@ dependencies:
   - jsonschema
   - numpy
   - scipy
-  - optuna
   - requests
  
 
