@@ -136,7 +136,7 @@ dependencies:
   - overrides
   - html5lib
   - cytoolz
-  - topojson
+  #- topojson
   - snowballstemmer
   - appdirs
   - elementpath
