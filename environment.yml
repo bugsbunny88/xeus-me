@@ -85,7 +85,7 @@ dependencies:
   - uncertainties
   - chevron
   - bleach
-  #- geopy
+  - geopy
   - rfc3986
   - iso3166
   - pgzip
