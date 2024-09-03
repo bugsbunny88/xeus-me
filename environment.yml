@@ -45,7 +45,6 @@ dependencies:
   - immutabledict
   - queuelib
   - alabaster
-  - mypy
   - terminaltables
   - executing
   - backoff
@@ -76,7 +75,6 @@ dependencies:
   - base58
   - execnet
   - shortuuid
-  - ipykernel
   - structlog
   - resolvelib
   - simpervisor
@@ -105,7 +103,6 @@ dependencies:
   - defusedxml
   - pip
   - tenacity
-  - xgboost
   - construct
   - pastel
   - schedula
@@ -114,7 +111,6 @@ dependencies:
   - zipp
   - semver
   - pyudev
-  - lightgbm
   - iniconfig
   - polyline
   - attrs
@@ -145,7 +141,6 @@ dependencies:
   - appdirs
   - elementpath
   - wheel
-  - datasette
   - venusian
   - svgwrite
   - diskcache
@@ -170,7 +165,6 @@ dependencies:
   - icdiff
   - asyncstdlib
   - mock
-  - pyclipper
   - giturlparse
   - mdurl
   - commonmark
@@ -188,7 +182,6 @@ dependencies:
   - envier
   - olefile
   - aiomultiprocess
-  - reportlab
   - eradicate
   - securesystemslib
   - simpleeval
@@ -207,10 +200,8 @@ dependencies:
   - asttokens
   - deepdiff
   - plotext
-  - panel
   - param
   - parso
-  - pyomo
   - branca
   - looseversion
   - jsondiff
@@ -232,7 +223,6 @@ dependencies:
   - gast
   - dpath
   - pycountry
-  - pyright
   - stdlibs
   - expandvars
   - humanize
@@ -251,8 +241,6 @@ dependencies:
   - doit
   - pipdeptree
   - dataclassy
-  - selenium
-  - hvplot
   - editables
   - sphinx
   - dill
