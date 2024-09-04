@@ -184,7 +184,6 @@ dependencies:
   - schema
   - scipy
   - scooby
-  - securesystemslib
   - semver
   - shortuuid
   - simpervisor
