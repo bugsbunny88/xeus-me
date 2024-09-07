@@ -8,6 +8,7 @@ dependencies:
   - empack >=3.0.0,<4
   - hatch >=1.6.3,<2
   - nbconvert
+  - conda-index
   - importlib_metadata >=8.2.0,<9
   - ipywidgets >=8.0.4,<9
   - jsonschema >=3.0,<5
