@@ -6,6 +6,10 @@ dependencies:
   - xeus-python
   - itables
   - ipywidgets
+  - reacton
+  - ipyvuetify
+  - markdown
+  - pymdown-extensions
   - aiomultiprocess >=0.9.1,<0.10
   - aiorun >=2024.8.1,<2025
   - aiorwlock >=1.3.0,<2
