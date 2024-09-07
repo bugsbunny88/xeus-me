@@ -6,6 +6,7 @@ dependencies:
   - xeus-python
   - itables
   - ipywidgets
+  - jupyterlab_widgets
   - reacton
   - ipyvuetify
   - markdown
