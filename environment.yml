@@ -45,7 +45,6 @@ dependencies:
   - brotli >=1.1.0,<2
   - cachelib >=0.13.0,<0.14
   - cachetools >=5.3.3,<6
-  - cartopy >=0.23.0,<0.24
   - casefy >=0.1.7,<0.2
   - certifi >=2024.2.2,<2025
   - cffi >=1.15.1,<2
@@ -278,7 +277,6 @@ dependencies:
   - securesystemslib >=0.30.0,<0.31
   - semver >=3.0.2,<4
   - setuptools >=69.5.1,<74
-  - shapely >=2.0.2,<3
   - shortuuid >=1.0.13,<2
   - simpervisor >=1.0.0,<2
   - simpleeval >=0.9.13,<0.10
