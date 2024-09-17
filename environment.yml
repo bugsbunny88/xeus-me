@@ -109,9 +109,6 @@ dependencies:
   - mistune
   - ipycanvas
   - numpy
-  - altair
-  - anywidget
-  - vega_datasets
   - sqlalchemy
 
  
