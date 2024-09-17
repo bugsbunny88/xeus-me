@@ -9,4 +9,3 @@ dependencies:
   - jupyter_server
   - jupyterlab-night
   - jupyterlab_execute_time
-  - python-libarchive-c
