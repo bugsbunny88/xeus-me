@@ -2,24 +2,11 @@ name: build-env
 channels:
   - conda-forge
 dependencies:
-  - python >=3.10,<3.13
-  - bqplot >=0.12.43,<0.13
-  - doit >=0.34.0,<0.37
-  - empack >=3.0.0,<4
-  - hatch >=1.6.3,<2
-  - importlib_metadata >=8.2.0,<9
-  - ipywidgets >=8.0.4,<9
-  - jsonschema >=3.0,<5
-  - jupyter_server >=2.14.2,<3
-  - jupyterlab >=4.2.4,<4.3
-  - jupyterlab-night >=0.4.6,<0.5
-  - jupyterlab_execute_time >=3.1.2,<4
-  - jupyterlab_widgets >=3.0.4,<4
-  - jupyterlite-core >=0.3.0,<0.4
-  - jupyterlite-xeus >=0.1.9,<0.2
-  - nomkl >=1.0,<2
-  - notebook >=7.2.0,<7.3
-  - pip >=24.2,<25
-  - python-libarchive-c >=5.1,<6
-  - requests_cache >=0.4.13,<0.5
-  - wheel >=0.44.0,<0.45
+  - python
+  - bqplot
+  - plotly
+  - ipywidgets
+  - jupyter_server
+  - jupyterlab-night
+  - jupyterlab_execute_time
+  - python-libarchive-c
