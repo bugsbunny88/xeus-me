@@ -9,8 +9,6 @@ dependencies:
   - bleach  # HTML sanitization tool to prevent XSS attacks by cleaning untrusted content
   - dill  # Extended serialization/pickling support for complex Python objects (supports lambdas, closures, etc.)
   - dominate  # Pythonic library for generating HTML documents dynamically
-  - fastprogress  # Lightweight, customizable progress bar, helpful for tracking progress in long-running loops or tasks
-  - filetype  # Utility for file type identification, detects the type of a file from its binary signature
   - html5lib  # Library for parsing and serializing HTML and XHTML documents, adhering to the HTML5 standard
   - humanize  # Makes numbers, dates, and other data more human-readable (e.g., 1,000 → 1k)
   - itables  # Adds interactivity to tables within Jupyter notebooks, such as sorting, filtering, and pagination
@@ -18,7 +16,6 @@ dependencies:
   - itemadapter  # A utility for adapting different types of data containers (lists, dicts) into a uniform interface
   - jupytext  # Enables Jupyter notebooks to be represented as Markdown or script files, allowing version control and text editing
   - lark  # A modern parsing toolkit for constructing grammars and parsers (useful for language processing)
-  - matplotlib  # Widely-used 2D plotting library for generating static, animated, and interactive visualizations
   - munch  # Provides dictionary-like objects with attribute-style access (e.g., `obj.key` instead of `obj['key']`)
   - openpyxl  # Excel file reader/writer for xlsx/xlsm formats, useful for interacting with spreadsheet data
   - orjson  # Ultra-fast JSON library for encoding and decoding JSON data, especially useful for large datasets or high-performance applications
@@ -32,8 +29,6 @@ dependencies:
   - sqlglot  # SQL query parsing, optimization, and transpilation; useful for working with SQL databases and translating between SQL dialects
   - uncertainties  # Propagates uncertainties in calculations (useful for physical sciences, error analysis, etc.)
   - validators  # Provides functions to validate data such as URLs, emails, and IP addresses, ensuring user input or API data is valid
-  - statsmodels  # Powerful library for statistical modeling and hypothesis testing, including linear and time series models
-  - numpy  # Core library for numerical computing with support for large, multi-dimensional arrays and matrices
  
 
 
