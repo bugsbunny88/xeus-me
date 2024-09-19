@@ -5,30 +5,20 @@ channels:
 dependencies:
   - xeus-python  # Jupyter kernel based on the xeus library for improved execution and debugging in notebooks
   - alabaster  # A minimal, clean theme for Sphinx-generated documentation
-  - autograd  # Library for automatic differentiation, useful in machine learning and optimization tasks
   - bleach  # HTML sanitization tool to prevent XSS attacks by cleaning untrusted content
   - dill  # Extended serialization/pickling support for complex Python objects (supports lambdas, closures, etc.)
-  - dominate  # Pythonic library for generating HTML documents dynamically
   - html5lib  # Library for parsing and serializing HTML and XHTML documents, adhering to the HTML5 standard
-  - humanize  # Makes numbers, dates, and other data more human-readable (e.g., 1,000 → 1k)
   - itables  # Adds interactivity to tables within Jupyter notebooks, such as sorting, filtering, and pagination
   - ipywidgets  # Provides interactive widgets in Jupyter notebooks for creating forms, sliders, dropdowns, etc.
-  - itemadapter  # A utility for adapting different types of data containers (lists, dicts) into a uniform interface
   - jupytext  # Enables Jupyter notebooks to be represented as Markdown or script files, allowing version control and text editing
-  - lark  # A modern parsing toolkit for constructing grammars and parsers (useful for language processing)
-  - munch  # Provides dictionary-like objects with attribute-style access (e.g., `obj.key` instead of `obj['key']`)
   - openpyxl  # Excel file reader/writer for xlsx/xlsm formats, useful for interacting with spreadsheet data
   - orjson  # Ultra-fast JSON library for encoding and decoding JSON data, especially useful for large datasets or high-performance applications
   - pandas  # Essential library for data manipulation and analysis, especially for tabular data (DataFrames)
   - plotly  # Interactive plotting library that supports rich, interactive graphs in the browser
-  - pgzip  # Parallelized GZip compression/decompression for faster file compression operations
-  - pydyf  # Lightweight library for creating PDFs in Python, useful for generating reports or documents in a web app
   - requests  # Easy-to-use HTTP library for making web requests and interacting with APIs
   - scipy  # Core scientific computing library that provides functions for optimization, integration, interpolation, and more
   - seaborn  # Statistical data visualization built on top of matplotlib, provides a high-level interface for drawing attractive graphs
   - sqlglot  # SQL query parsing, optimization, and transpilation; useful for working with SQL databases and translating between SQL dialects
-  - uncertainties  # Propagates uncertainties in calculations (useful for physical sciences, error analysis, etc.)
-  - validators  # Provides functions to validate data such as URLs, emails, and IP addresses, ensuring user input or API data is valid
  
 
 
