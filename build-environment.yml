@@ -9,5 +9,3 @@ dependencies:
   - jupyterlite-xeus>=2.0.0,<3
   - plotly
   - ipywidgets
-  - jupyterlab-night
-  - jupyterlab_execute_time
