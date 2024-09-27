@@ -12,7 +12,7 @@ dependencies:
   - ipywidgets  # Provides interactive widgets in Jupyter notebooks for creating forms, sliders, dropdowns, etc.
   - openpyxl  # Excel file reader/writer for xlsx/xlsm formats, useful for interacting with spreadsheet data
   - orjson  # Ultra-fast JSON library for encoding and decoding JSON data, especially useful for large datasets or high-performance applications
-  - pandas  # Essential library for data manipulation and analysis, especially for tabular data (DataFrames)
+  - pandas >1.5,<2  # Essential library for data manipulation and analysis, especially for tabular data (DataFrames)
   - plotly  # Interactive plotting library that supports rich, interactive graphs in the browser
   - requests  # Easy-to-use HTTP library for making web requests and interacting with APIs
   - scipy  # Core scientific computing library that provides functions for optimization, integration, interpolation, and more
