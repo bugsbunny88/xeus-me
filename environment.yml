@@ -16,7 +16,7 @@ dependencies:
   - plotly  # Interactive plotting library that supports rich, interactive graphs in the browser
   - requests  # Easy-to-use HTTP library for making web requests and interacting with APIs
   - scipy  # Core scientific computing library that provides functions for optimization, integration, interpolation, and more
-  - seaborn  # Statistical data visualization built on top of matplotlib, provides a high-level interface for drawing attractive graphs
+  - matplotlib==3.5.2  # Statistical data visualization built on top of matplotlib, provides a high-level interface for drawing attractive graphs
   - sqlglot  # SQL query parsing, optimization, and transpilation; useful for working with SQL databases and translating between SQL dialects
   - numpy <2 
 
