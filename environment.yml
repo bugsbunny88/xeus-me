@@ -5,7 +5,6 @@ channels:
 dependencies:
   - xeus-python  # Jupyter kernel based on the xeus library for improved execution and debugging in notebooks
   - alabaster  # A minimal, clean theme for Sphinx-generated documentation
-  - bleach  # HTML sanitization tool to prevent XSS attacks by cleaning untrusted content
   - dill  # Extended serialization/pickling support for complex Python objects (supports lambdas, closures, etc.)
   - html5lib  # Library for parsing and serializing HTML and XHTML documents, adhering to the HTML5 standard
   - itables  # Adds interactivity to tables within Jupyter notebooks, such as sorting, filtering, and pagination
