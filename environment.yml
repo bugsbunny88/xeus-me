@@ -8,6 +8,7 @@ dependencies:
   - dill  # Extended serialization/pickling support for complex Python objects (supports lambdas, closures, etc.)
   - html5lib  # Library for parsing and serializing HTML and XHTML documents, adhering to the HTML5 standard
   - itables  # Adds interactivity to tables within Jupyter notebooks, such as sorting, filtering, and pagination
+  - jupytext
   - ipywidgets  # Provides interactive widgets in Jupyter notebooks for creating forms, sliders, dropdowns, etc.
   - openpyxl  # Excel file reader/writer for xlsx/xlsm formats, useful for interacting with spreadsheet data
   - orjson  # Ultra-fast JSON library for encoding and decoding JSON data, especially useful for large datasets or high-performance applications
