@@ -9,4 +9,4 @@ dependencies:
   - jupyterlite-xeus>=2.0.0,<3
   - empack >=3.0.0,<4
   - plotly
-  - ipywidgets >=8.1
+  - ipywidgets >=8.0.4,<8.2
