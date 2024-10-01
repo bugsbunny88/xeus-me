@@ -7,18 +7,17 @@ dependencies:
   - alabaster  # A minimal, clean theme for Sphinx-generated documentation
   - dill  # Extended serialization/pickling support for complex Python objects (supports lambdas, closures, etc.)
   - html5lib  # Library for parsing and serializing HTML and XHTML documents, adhering to the HTML5 standard
-  - itables  # Adds interactivity to tables within Jupyter notebooks, such as sorting, filtering, and pagination
   - jupytext
-  - ipywidgets  # Provides interactive widgets in Jupyter notebooks for creating forms, sliders, dropdowns, etc.
+  - ipywidgets >8.1,<9  # Provides interactive widgets in Jupyter notebooks for creating forms, sliders, dropdowns, etc.
   - openpyxl  # Excel file reader/writer for xlsx/xlsm formats, useful for interacting with spreadsheet data
   - orjson  # Ultra-fast JSON library for encoding and decoding JSON data, especially useful for large datasets or high-performance applications
-  - pandas >=1.5,<2  # Essential library for data manipulation and analysis, especially for tabular data (DataFrames)
-  - plotly  # Interactive plotting library that supports rich, interactive graphs in the browser
+  - pandas==1.5.3  # Essential library for data manipulation and analysis, especially for tabular data (DataFrames)
   - requests  # Easy-to-use HTTP library for making web requests and interacting with APIs
   - scipy  # Core scientific computing library that provides functions for optimization, integration, interpolation, and more
   - matplotlib==3.5.2  # Statistical data visualization built on top of matplotlib, provides a high-level interface for drawing attractive graphs
   - sqlglot  # SQL query parsing, optimization, and transpilation; useful for working with SQL databases and translating between SQL dialects
-  - numpy <2 
+  - numpy==1.25.2
+  - seaborn
 
 
 
