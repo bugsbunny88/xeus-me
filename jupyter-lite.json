@@ -3,6 +3,10 @@
   "jupyter-config-data": {
     "appName": "Jupylite",
     "collaborative": false,
+    "exposeAppInBrowser": true,
+    "enableMemoryStorage": true,
+    "contentStorageDrivers": ["memoryStorageDriver"],
+    "settingsStorageDrivers": ["memoryStorageDriver"]
     "disabledExtensions": ["@jupyterlab/application-extension:logo",
                           "@jupyterlab/application-extension:logo",
                           "@jupyterlab/help-extension:about",
