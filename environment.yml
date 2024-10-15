@@ -14,10 +14,8 @@ dependencies:
   - pandas # Essential library for data manipulation and analysis, especially for tabular data (DataFrames)
   - requests  # Easy-to-use HTTP library for making web requests and interacting with APIs
   - scipy  # Core scientific computing library that provides functions for optimization, integration, interpolation, and more
-  - matplotlib  # Statistical data visualization built on top of matplotlib, provides a high-level interface for drawing attractive graphs
-  #- sqlglot  # SQL query parsing, optimization, and transpilation; useful for working with SQL databases and translating between SQL dialects
-  - numpy
-  - seaborn
+  - bqplot
+  - ipywidgets
 
 
 
