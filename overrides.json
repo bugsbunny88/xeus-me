@@ -10,9 +10,5 @@
         "rank": 50
       }
     ]
-  },
-  "@jupyterlab/apputils-extension:themes": {
-    "theme": "JupyterLab Dark",
-    "theme-scrollbars": true
   }
 }
