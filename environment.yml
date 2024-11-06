@@ -16,6 +16,7 @@ dependencies:
   - scipy  # Core scientific computing library that provides functions for optimization, integration, interpolation, and more
   - matplotlib
   - seaborn
+  - statsmodels
   - numpy
   #- ipywidgets
 
