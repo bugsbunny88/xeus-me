@@ -3,21 +3,5 @@
   "jupyter-config-data": {
     "appName": "Jupylite",
     "collaborative": false,
-    "exposeAppInBrowser": true,
-    "enableMemoryStorage": true,
-    "contentStorageDrivers": ["memoryStorageDriver"],
-    "settingsStorageDrivers": ["memoryStorageDriver"]
-    "disabledExtensions": ["@jupyterlab/application-extension:logo",
-                          "@jupyterlab/application-extension:logo",
-                          "@jupyterlab/help-extension:about",
-                          "@jupyterlite/notebook-application-extension:logo",
-                          "@jupyterlab/application-extension:logo",
-                          "@jupyterlite/application-extension:logo",
-                          "@jupyterlite/retro-application-extension:logo",
-                          "@jupyterlab/application-extension:logo",
-                          "@jupyterlite/application-extension:logo",
-                          "@jupyterlite/retro-application-extension:logo",
-                          "jupyterlab-kernel-spy",
-                          "jupyterlab-tour"]
   }
 }
