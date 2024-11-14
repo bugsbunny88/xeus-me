@@ -107,7 +107,6 @@ dependencies:
   - parso
   - pathspec
   - patsy
-  - peewee
   - pillow
   - platformdirs
   - plotly
@@ -136,7 +135,6 @@ dependencies:
   - retrying
   - rich
   - scipy
-  - screed
   - seaborn
   - setuptools
   - shapely
