@@ -5,9 +5,9 @@ channels:
 dependencies:
   - python=3.11
   - xeus-python  # Jupyter kernel based on the xeus library for improved execution and debugging in notebooks
-  - dill  # Extended serialization/pickling support for complex Python objects (supports lambdas, closures, etc.)
-  - html5lib  # Library for parsing and serializing HTML and XHTML documents, adhering to the HTML5 standard
-  - jupytext
+  #- dill  # Extended serialization/pickling support for complex Python objects (supports lambdas, closures, etc.)
+  #- html5lib  # Library for parsing and serializing HTML and XHTML documents, adhering to the HTML5 standard
+  #- jupytext
   #- ipywidgets >8.1,<9  # Provides interactive widgets in Jupyter notebooks for creating forms, sliders, dropdowns, etc.
   - openpyxl  # Excel file reader/writer for xlsx/xlsm formats, useful for interacting with spreadsheet data
   - orjson  # Ultra-fast JSON library for encoding and decoding JSON data, especially useful for large datasets or high-performance applications
@@ -19,33 +19,17 @@ dependencies:
   - statsmodels
   - numpy
   #- ipywidgets
-  - chardet >=3.0.4,<4
-  - dill >=0.3.9,<0.4
-  - docutils >=0.18.1,<0.19
-  - humanize >=4.11.0,<5
-  - hypothesis >=6.47.1,<7
-  - ipydatagrid >=1.3.2,<2
-  - ipyvuetify >=1.10.0,<2
-  - itables >=2.2.3,<3
-  - jupytext >=1.16.4,<2
-  - lxml >=4.9.4,<5
-  - matplotlib >=3.9.1,<4
-  - mistune >=3.0.2,<4
-  - mlxtend >=0.23.3,<0.24
-  - multipledispatch >=0.6.0,<0.7
-  - numdifftools >=0.9.41,<0.10
-  - openpyxl >=3.0.9,<4
-  - orjson >=3.10.6,<4
-  - outcome >=1.3.0.post0,<2
-  - pandocfilters >=1.5.0,<2
-  - plotly >=5.24.1,<6
-  - pydantic >=2.8.2,<3
-  - reacton >=1.8.3,<2
-  - seaborn >=0.13.2,<0.14
-  - sqlglot >=25.30.0,<26
-  - tblib >=3.0.0,<4
-  - wrapt >=1.16.0,<2
-  - xarray >=2024.10.0,<2025
+  #- chardet >=3.0.4,<4
+  #- dill >=0.3.9,<0.4
+  #- docutils >=0.18.1,<0.19
+  #- humanize >=4.11.0,<5
+  #- hypothesis >=6.47.1,<7
+  #- ipydatagrid >=1.3.2,<2
+  #- matplotlib >=3.9.1,<4
+  #- openpyxl >=3.0.9,<4
+  #- plotly >=5.24.1,<6
+  #- seaborn >=0.13.2,<0.14
+
 
 
 
