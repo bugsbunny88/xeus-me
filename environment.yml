@@ -5,10 +5,7 @@ channels:
 dependencies:
   - python=3.11
   - xeus-python  # Jupyter kernel based on the xeus library for improved execution and debugging in notebooks
-  - dill >=0.3.9,<0.4  # Extended serialization/pickling support for complex Python objects (supports lambdas, closures, etc.)
-  - html5lib  # Library for parsing and serializing HTML and XHTML documents, adhering to the HTML5 standard
   - openpyxl >=3.0.9,<4  # Excel file reader/writer for xlsx/xlsm formats, useful for interacting with spreadsheet data
-  - orjson  # Ultra-fast JSON library for encoding and decoding JSON data, especially useful for large datasets or high-performance applications
   - pandas==1.5.3 # Essential library for data manipulation and analysis, especially for tabular data (DataFrames)
   - requests  # Easy-to-use HTTP library for making web requests and interacting with APIs
   - scipy==1.11.1  # Core scientific computing library that provides functions for optimization, integration, interpolation, and more
