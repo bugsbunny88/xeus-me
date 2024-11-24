@@ -9,8 +9,8 @@ dependencies:
   - pandas==1.5.3 # Essential library for data manipulation and analysis, especially for tabular data (DataFrames)
   - requests  # Easy-to-use HTTP library for making web requests and interacting with APIs
   - scipy==1.11.1  # Core scientific computing library that provides functions for optimization, integration, interpolation, and more
-  - matplotlib==3.5.1
-  - seaborn >=0.11.2,<0.13
+  - matplotlib==3.8.3
+  - seaborn
   - statsmodels
   - numpy==1.25.2
 
