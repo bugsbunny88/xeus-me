@@ -10,7 +10,7 @@ dependencies:
   - requests  # Easy-to-use HTTP library for making web requests and interacting with APIs
   - scipy==1.11.1  # Core scientific computing library that provides functions for optimization, integration, interpolation, and more
   - matplotlib==3.5.1
-  - seaborn >=0.13.2,<0.14
+  - seaborn >=0.11.2,<0.13
   - statsmodels
   - numpy==1.25.2
 
