@@ -32,24 +32,10 @@ jobs:
         run: |
           cp README.md content
           jupyter lite build --contents content --output-dir dist
-
-      # Upload for GitHub Pages
-      - name: Upload GitHub Pages artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
-
-      # Create Azure-specific artifact
-      - name: Prepare Azure artifact
-        run: |
-          cp staticwebapp.config.json dist/
-          zip -r azure-dist.zip dist/*
-
-      - name: Upload Azure artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: azure-dist
-          path: azure-dist.zip
 
   deploy:
     needs: build
