@@ -6,13 +6,13 @@ dependencies:
   - python=3.11
   - xeus-python  # Jupyter kernel based on the xeus library for improved execution and debugging in notebooks
   - openpyxl >=3.0.9,<4  # Excel file reader/writer for xlsx/xlsm formats, useful for interacting with spreadsheet data
-  - pandas==1.5.3 # Essential library for data manipulation and analysis, especially for tabular data (DataFrames)
+  #- pandas==1.5.3 # Essential library for data manipulation and analysis, especially for tabular data (DataFrames)
   - requests  # Easy-to-use HTTP library for making web requests and interacting with APIs
-  - scipy==1.11.1  # Core scientific computing library that provides functions for optimization, integration, interpolation, and more
-  - matplotlib==3.8.3
+  #- scipy==1.11.1  # Core scientific computing library that provides functions for optimization, integration, interpolation, and more
+  #- matplotlib==3.8.3
   - seaborn
   - statsmodels
-  - numpy==1.25.2
+  #- numpy==1.25.2
   - matplotlib
   - absl-py
   - aiofiles
