@@ -64,7 +64,6 @@ dependencies:
   - cmaes
   - codespell
   - colorama
-  - colorlog
   - comm
   - commonmark
   - configargparse
@@ -183,7 +182,6 @@ dependencies:
   - oauthlib
   - objsize
   - opt-einsum
-  - optuna
   - ordered-set
   - orjson
   - oscrypto
