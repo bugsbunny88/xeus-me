@@ -29,6 +29,19 @@ dependencies:
   - sympy
   - tabulate
   - thefuzz
+  - plotly
+  - tinydb
+  - peewee
+  - orjson
+  - markdown
+  - ipywidgets
+  - itables
+  - httpx
+  - sqlglot
+  - lxml
+  - pydantic
+  - hyperopt
+  
  
 
 
