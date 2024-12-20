@@ -13,19 +13,8 @@ dependencies:
   - seaborn
   - statsmodels
   - numpy==1.25.2
-  - beautifulsoup4
-  - imbalanced-learn
-  - mlxtend
-  - nltk
-  - networkx
-  - pillow
-  - pywavelets
-  - qrcode
   - scikit-learn
-  - snowballstemmer
   - sympy
-  - tabulate
-  - thefuzz
   - plotly
   - tinydb
   - peewee
@@ -38,7 +27,6 @@ dependencies:
   - sqlglot
   - lxml
   - pydantic
-  - hyperopt
   
  
 
