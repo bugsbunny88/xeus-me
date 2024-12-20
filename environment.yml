@@ -13,8 +13,6 @@ dependencies:
   - seaborn
   - statsmodels
   - numpy==1.25.2
-  - faker
-  - astropy
   - beautifulsoup4
   - imbalanced-learn
   - mlxtend
@@ -25,7 +23,6 @@ dependencies:
   - qrcode
   - scikit-learn
   - snowballstemmer
-  - squarify
   - sympy
   - tabulate
   - thefuzz
@@ -36,6 +33,7 @@ dependencies:
   - markdown
   - ipywidgets
   - itables
+  - great_tables
   - httpx
   - sqlglot
   - lxml
