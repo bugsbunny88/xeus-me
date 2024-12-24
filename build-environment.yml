@@ -9,3 +9,7 @@ dependencies:
   - empack >=3,<4
   - jupyterlite-core
   - jupyterlite-xeus
+  - ipywidgets
+  - ipyvuetify
+  - jupyterlab-night
+  - jupyterlab_execute_time
