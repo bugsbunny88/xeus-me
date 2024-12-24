@@ -13,3 +13,5 @@ dependencies:
   - ipyvuetify
   - jupyterlab-night
   - jupyterlab_execute_time
+  - jupytext
+  - plotly
