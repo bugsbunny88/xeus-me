@@ -22,6 +22,8 @@ dependencies:
   - orjson
   - markdown
   - ipywidgets
+  - ipyvuetify
+  - reacton
   - itables
   - great_tables
   - httpx
