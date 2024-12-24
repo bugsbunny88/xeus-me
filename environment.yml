@@ -16,6 +16,7 @@ dependencies:
   - statsmodels
   - numpy==1.25.2
   - scikit-learn
+  - sqlalchemy
   - sympy
   - tinydb
   - peewee
