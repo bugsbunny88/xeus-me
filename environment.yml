@@ -12,7 +12,6 @@ dependencies:
   - matplotlib==3.5.2
   - seaborn
   - plotly
-  - bqplot
   - statsmodels
   - numpy==1.25.2
   - scikit-learn
