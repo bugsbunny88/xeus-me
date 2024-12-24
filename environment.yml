@@ -11,11 +11,12 @@ dependencies:
   - scipy==1.11.1  # Core scientific computing library that provides functions for optimization, integration, interpolation, and more
   - matplotlib==3.5.2
   - seaborn
+  - plotly
+  - bqplot
   - statsmodels
   - numpy==1.25.2
   - scikit-learn
   - sympy
-  - plotly
   - tinydb
   - peewee
   - orjson
@@ -29,6 +30,7 @@ dependencies:
   - pydantic
   - dill 
   - lxml
+  - voici
   
  
 
