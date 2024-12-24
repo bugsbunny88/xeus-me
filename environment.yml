@@ -32,7 +32,6 @@ dependencies:
   - pydantic
   - dill 
   - lxml
-  - voici
   - jupytext
   
  
