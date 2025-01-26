@@ -33,7 +33,7 @@ dependencies:
   - sympy>=1.13.3,<2
   - tinydb>=4.8.2,<5
   - ipydatagrid
-  - solara
+  - solara==1.25.0
   
  
 
