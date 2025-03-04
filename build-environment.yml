@@ -10,8 +10,6 @@ dependencies:
   - python-libarchive-c
   #- empack >=3,<4
   - ipywidgets
-  - ipyvuetify
-  - jupyterlab-night
   - jupyterlab_execute_time
   - jupytext
   - plotly
