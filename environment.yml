@@ -20,7 +20,6 @@ dependencies:
   - requests>=2.32.3,<3  # Easy-to-use HTTP library for making web requests and interacting with APIs
   - scipy==1.11.1  # Core scientific computing library that provides functions for optimization, integration, interpolation, and more
   - seaborn>=0.13.2,<0.14
-  - sqlglot>=26.0.0,<27
   - statsmodels>=0.14.1,<0.15
  
 
