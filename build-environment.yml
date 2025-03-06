@@ -7,8 +7,6 @@ dependencies:
   - jupyter_server
   - jupyterlite-core >=0.5.0,<0.6
   - jupyterlite-xeus >=3.0.0,<4
-  - python-libarchive-c
-  #- empack >=3,<4
   - ipywidgets
   - jupyterlab_execute_time
   - jupytext
