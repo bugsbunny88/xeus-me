@@ -16,10 +16,6 @@ dependencies:
   - requests>=2.32.3,<3  # Easy-to-use HTTP library for making web requests and interacting with APIs
   - scipy==1.11.1  # Core scientific computing library that provides functions for optimization, integration, interpolation, and more
   - seaborn>=0.13.2,<0.14
-  - ipydatagrid>=1.4.0,<2
-  - bqplot>=0.12.43,<0.13
-  - ipyvuetify>=1.11.0,<2 # optional
-  - reacton>=1.9.1,<2 # optional
 
  
 
