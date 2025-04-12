@@ -5,12 +5,8 @@ channels:
 dependencies:
   - python=3.11
   - xeus-python  # Jupyter kernel based on the xeus library for improved execution and debugging in notebooks
-  - great_tables>=0.14.0,<0.15
   - ipywidgets>=8.1.5,<9
-  - jupyterlab_widgets>=3.0.13,<4
   - jupytext>=1.16.6,<2
-  - lxml>=4.9.4,<5
-  - markdown>=3.6,<4
   - matplotlib==3.5.2
   - numpy==1.25.2
   - openpyxl >=3.0.9,<4  # Excel file reader/writer for xlsx/xlsm formats, useful for interacting with spreadsheet data
@@ -20,7 +16,6 @@ dependencies:
   - requests>=2.32.3,<3  # Easy-to-use HTTP library for making web requests and interacting with APIs
   - scipy==1.11.1  # Core scientific computing library that provides functions for optimization, integration, interpolation, and more
   - seaborn>=0.13.2,<0.14
-  - statsmodels>=0.14.1,<0.15
  
 
 
