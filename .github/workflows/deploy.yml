@@ -1,56 +1,69 @@
 name: Build and Deploy
 
+# ───────────────────────────── Triggers ─────────────────────────────
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - '*'
+  push:          { branches: [main] }
+  pull_request:  { branches: ['*'] }
 
+# ───────────────────────────── Jobs ─────────────────────────────
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+    steps:
+      # 1. check out the repo
+      - uses: actions/checkout@v4
+
+      # 2. (optional) system Python – not strictly required by micromamba,
+      #    but keeps the image tidy for ad-hoc scripts
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Install mamba
-        uses: mamba-org/setup-micromamba@v1
+      # 3. create & cache the Conda-for-WebAssembly stack
+      - name: Install micromamba + env
+        uses: mamba-org/setup-micromamba@v1       # v1.9.0+ uses actions/cache@v4
         with:
-          micromamba-version: '1.5.8-0'
+          micromamba-version: 1.5.8-0
           environment-file: build-environment.yml
-          cache-download: true        # replaces old flag
+          # NEW flags (replace old cache-environment)
+          cache-download: true
           cache-upload:   true
+          # optional: unique prefix to avoid collisions when several
+          # workflows share the same runner
+          cache-prefix: ${{ runner.os }}-micromamba-${{ github.job }}-
 
+      # 4. build the static JupyterLite site
       - name: Build the JupyterLite site
-        shell: bash -l {0}
+        shell: bash -l {0}                       # -l activates the env micromamba just made
         run: |
           cp README.md content
-          jupyter lite build --apps lab --no-sourcemaps --no-unused-shared-packages --contents content --output-dir dist
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+          jupyter lite build \
+            --apps lab \
+            --no-sourcemaps \
+            --no-unused-shared-packages \
+            --contents content \
+            --output-dir dist
+
+      # 5. stage artefact for the deploy job
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
+  # ───────────────────────────── Deploy (GitHub Pages) ─────────────────────────────
   deploy:
     needs: build
     if: github.ref == 'refs/heads/main'
+
     permissions:
-      pages: write
-      id-token: write
+      pages: write          # to push
+      id-token: write       # to sign the artifact
 
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url:  ${{ steps.deployment.outputs.page_url }}
 
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to GitHub Pages
+      - uses: actions/deploy-pages@v4
         id: deployment
-        uses: actions/deploy-pages@v4
