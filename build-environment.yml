@@ -5,11 +5,11 @@ dependencies:
   # ── core ───────────────────────────────────────────────
   - python=3.11
   # ALWAYS pin jupyterlite-core *and* jupyterlite-xeus together
-  - jupyterlite-core =0.5.4    # brings in JupyterLab 4.4.1
-  - jupyterlite-xeus =3.1.*    # last 3.x build linked to Lab 4.4
+  - jupyterlite-core=0.5.4    # brings in JupyterLab 4.4.1
+  - jupyterlite-xeus=3.1.*    # last 3.x build linked to Lab 4.4
   # ── optional lab extensions compiled for Lab 4.4 ───────
-  - jupyterlab_execute_time =4.4.*   # underscore variant!
-  - ipywidgets =8.*
+  - jupyterlab_execute_time=4.4.*   # underscore variant!
+  - ipywidgets=8.*
   # ── any pure-python packages you need at build time ────
   - plotly
   - jupytext
