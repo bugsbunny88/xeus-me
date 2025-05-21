@@ -2,7 +2,6 @@ name: build-env
 channels:
   - conda-forge
 dependencies:
-  # ── core ───────────────────────────────────────────────
   - python=3.11
   - pip
   # ALWAYS pin jupyterlite-core *and* jupyterlite-xeus together
