@@ -2,12 +2,13 @@ name: build-env
 channels:
   - conda-forge
 dependencies:
-  - python
-  - pip
+  - python=3.11
+  # core tooling
   - jupyter_server
-  - jupyterlite-core >=0.5.0,<0.6
-  - jupyterlite-xeus >=3.0.0,<4
-  - ipywidgets
+  - jupyterlite-core      >=0.5.0,<0.6
+  - jupyterlite-xeus      >=3.0.0,<4
+  # nice-to-have runtime extensions (pre-built WebAssembly wheels)
+  - ipywidgets            >=8,<9
   - jupyterlab_execute_time
-  - jupytext
-  - plotly
+  - jupytext              >=1.16,<2
+  - plotly                >=5,<6
