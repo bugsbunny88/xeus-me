@@ -1,7 +1,7 @@
 name: xeus-python-kernel
 channels:
   - https://repo.mamba.pm/emscripten-forge
-  - conda-forge
+  - https://repo.mamba.pm/conda-forge
 dependencies:
   - python=3.11
   - xeus-python  # Jupyter kernel based on the xeus library for improved execution and debugging in notebooks
@@ -16,10 +16,10 @@ dependencies:
   - requests>=2.32.3,<3  # Easy-to-use HTTP library for making web requests and interacting with APIs
   - scipy==1.11.1  # Core scientific computing library that provides functions for optimization, integration, interpolation, and more
   - seaborn>=0.13.2,<0.14
-  - altair
   - aiofiles
   - aiohttp
   - aiomultiprocess
+  - altair
   - appdirs
   - argh
   - arrow
@@ -31,11 +31,10 @@ dependencies:
   - beartype
   - beniget
   - bidict
-  - black
   - bleach
+  - botocore
   - bqplot
   - branca
-  - botocore
   - cachelib
   - casefy
   - certifi
@@ -66,15 +65,15 @@ dependencies:
   - distro
   - docutils
   - dominate
-  - dpkt
   - dpath
+  - dpkt
   - dynaconf
   - einops
   - envier
   - everett
+  - exceptiongroup
   - execnet
   - executing
-  - exceptiongroup
   - fastcore
   - fastprogress
   - filetype
@@ -96,10 +95,10 @@ dependencies:
   - incremental
   - intelhex
   - invoke
-  - ipyvue
-  - ipywidgets
-  - ipyvuetify
   - ipyleaflet
+  - ipyvue
+  - ipyvuetify
+  - ipywidgets
   - itables
   - itsdangerous
   - jmespath
@@ -132,15 +131,15 @@ dependencies:
   - param
   - parameterized
   - parsy
-  - patsy
   - pathspec
+  - patsy
   - pgzip
-  - pydantic
-  - py4j
   - py
+  - py4j
   - pyaml
   - pycountry
   - pyct
+  - pydantic
   - pygad
   - pyparsing
   - pystache
