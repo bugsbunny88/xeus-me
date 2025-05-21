@@ -25,7 +25,8 @@ jobs:
         with:
           micromamba-version: '1.5.8-0'
           environment-file: build-environment.yml
-          cache-environment: true
+          cache-download: true        # replaces old flag
+          cache-upload:   true
 
       - name: Build the JupyterLite site
         shell: bash -l {0}
