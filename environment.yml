@@ -47,7 +47,6 @@ dependencies:
   - colorama
   - colorcet
   - colorhash
-  - colorlog
   - comm
   - commonmark
   - configparser
@@ -58,7 +57,6 @@ dependencies:
   - cycler
   - cython
   - dacite
-  - datasette
   - decorator
   - deepdiff
   - deepmerge
