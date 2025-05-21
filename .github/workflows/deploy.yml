@@ -22,16 +22,20 @@ jobs:
 
       # 3. create & cache the Conda-for-WebAssembly stack
       - name: Install micromamba + env
-        uses: mamba-org/setup-micromamba@v1       # v1.9.0+ uses actions/cache@v4
+        uses: mamba-org/setup-micromamba@v1
         with:
           micromamba-version: 1.5.8-0
+      
+          # the file that describes the env to create
           environment-file: build-environment.yml
-          # NEW flags (replace old cache-environment)
-          cache-download: true
-          cache-upload:   true
-          # optional: unique prefix to avoid collisions when several
-          # workflows share the same runner
-          cache-prefix: ${{ runner.os }}-micromamba-${{ github.job }}-
+      
+          # ---------- caching (v1 syntax) ----------
+          cache-downloads:   true          # keep .tar.bz2 downloads
+          cache-environment: true          # keep the unpacked env
+      
+          # optional: customise the cache key so it busts when the file changes
+          cache-environment-key: |
+            ${{ runner.os }}-micromamba-${{ hashFiles('build-environment.yml') }}
 
       # 4. build the static JupyterLite site
       - name: Build the JupyterLite site
