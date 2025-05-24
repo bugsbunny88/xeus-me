@@ -25,31 +25,22 @@ dependencies:
   - dynaconf
   - einops
   - fastcore
-  - folium
-  - httpx
-  - imageio
-  - itables
   - joblib
   - json5
   - jsonschema
   - marshmallow
   - nbformat
-  - networkx
   - param
   - pathspec
   - patsy
   - pyaml
-  - pydantic
   - pygad
   - pytz
   - rich
   - sqlglot
-  - sympy
   - tenacity
-  - toolz
   - tqdm
   - typer
-  - xarray
 
  
 
