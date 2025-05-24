@@ -6,7 +6,6 @@ dependencies:
   - python=3.11
   - xeus-python  # Jupyter kernel based on the xeus library for improved execution and debugging in notebooks
   - ipywidgets>=8.1.5,<9
-  - jupytext>=1.16.6,<2
   - matplotlib==3.5.2
   - numpy==1.25.2
   - openpyxl >=3.0.9,<4  # Excel file reader/writer for xlsx/xlsm formats, useful for interacting with spreadsheet data
