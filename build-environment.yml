@@ -7,31 +7,31 @@ dependencies:
   # ALWAYS pin jupyterlite-core *and* jupyterlite-xeus together
   - jupyterlite-core>0.5
   - jupyterlite-xeus>3    # last 3.x build linked to Lab 4.4
+  - ipywidgets ~= 7.7      # gives @jupyter-widgets/base ^3 or ^4
+  - jupyterlab_widgets ~= 3
   # ── optional lab extensions compiled for Lab 4.4 ───────
   - jupyterlab_execute_time
-  - ipywidgets=8.*
+  #- ipywidgets=8.*
   # ── any pure-python packages you need at build time ────
   - plotly
   - jupytext
   - nbdime>=3.2.1,<4
-  - ipywidgets>=8.1.7,<9
+  #- ipywidgets>=8.1.7,<9
   - ipyleaflet>=0.19.2,<0.20
   - sidecar>=0.5.2,<0.6
   - pythreejs>=2.4.2,<3
   - jupyterlab-git>=0.44.0,<0.45
-  - jupyterlab-github>=3.0.1,<4
   - jupyterlab-latex>=3.1.0,<4
   - jupyter-lsp>=2.2.5,<3
   - bqplot>=0.12.43,<0.13
   - jupyterlab_execute_time>=3.0.1,<4
   - perspective>=3.6.1,<4
   - jupyterlab-templates>=0.4.1,<0.5
-  - jupyter-fs>=0.3.1,<0.4
   - ipylab>=1.0.0,<2
-  - jupyterlab-system-monitor>=0.8.0,<0.9
+  #- jupyterlab-system-monitor>=0.8.0,<0.9
   - ipyvolume>=0.6.3,<0.7
-  - ipyvue>=1.11.2,<2
-  - ipyvuetify>=1.11.0,<2
+  #- ipyvue>=1.11.2,<2
+  #- ipyvuetify>=1.11.0,<2
   - ipympl>=0.9.7,<0.10
   - plotly>=6.1.1,<7
   - ipygany>=0.5.0,<0.6
