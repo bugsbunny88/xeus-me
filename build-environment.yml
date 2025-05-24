@@ -20,7 +20,6 @@ dependencies:
   - ipyleaflet>=0.19.2,<0.20
   - sidecar>=0.5.2,<0.6
   - pythreejs>=2.4.2,<3
-  - jupyterlab-git>=0.44.0,<0.45
   - jupyterlab-latex>=3.1.0,<4
   - jupyter-lsp>=2.2.5,<3
   - bqplot>=0.12.43,<0.13
@@ -41,5 +40,3 @@ dependencies:
   - ipydatawidgets>=4.3.2,<5
   - ipyscales>=0.7.0,<0.8
   - voila>=0.5.8,<0.6
-  - pip:
-    - jupyterlab-visualpython==3.0.2
