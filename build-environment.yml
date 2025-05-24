@@ -23,7 +23,6 @@ dependencies:
   - jupyterlab-latex>=3.1.0,<4
   - jupyter-lsp>=2.2.5,<3
   - bqplot>=0.12.43,<0.13
-  - dask-labextension>=6.2.0,<7
   - jupyterlab_execute_time>=3.0.1,<4
   - perspective>=3.6.1,<4
   - jupyterlab-templates>=0.4.1,<0.5
