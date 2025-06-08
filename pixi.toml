@@ -33,7 +33,7 @@ build-dist = { cmd = "pixi run build --output-dir dist" }
 cmd = "jupyter lite build --XeusAddon.prefix=.pixi/envs/wasm"
 depends-on = ["setup-wasm"]
 outputs = ["_output"]
-inputs = ["pixi.lock", "files/"]
+inputs = ["pixi.lock", "content/"]
 
 # serve the jupyterlite app with a "simple server"
 [feature.host.tasks.start]
