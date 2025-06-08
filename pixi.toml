@@ -53,17 +53,7 @@ typer       = "*"
 channels = ["conda-forge"]
 platforms = ["osx-arm64", "osx-64", "linux-64"]
 dependencies = { python = "*", jupyterlite-xeus = ">=2.0.0,<3", jupyterlite "==0.2.3", jupyter_server = "*", ipywidgets = ">=8,<9", jupyterlab_widgets = ">=4,<5" plotly = ">=5,<7", jupytext = "*", jupyterlab_execute_time = ">=3.0.1,<4"}
-  - jupyterlite==0.2.3
-  - jupyterlite-xeus>=2.0.0,<3
 
-  - jupyterlab_widgets ~= 3
-  # ── optional lab extensions compiled for Lab 4.4 ───────
-  - jupyterlab_execute_time
-  - jupytext
-  - ipywidgets>=8,<9 # gives @jupyter-widgets/base ^3 or ^4
-  - jupyterlab_execute_time>=3.0.1,<4
-
-  - plotly>=6.1.1,<7
 # make sure that we have the WASM environment installed before building the app
 [feature.host.tasks]
 setup-wasm = { cmd = "pixi install -e wasm", inputs = ["pixi.lock"] }
