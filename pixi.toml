@@ -52,7 +52,7 @@ typer       = "*"
 [feature.host]
 channels = ["conda-forge"]
 platforms = ["osx-arm64", "osx-64", "linux-64"]
-dependencies = { python = "*", jupyterlite-xeus = ">=2.0.0,<3", jupyterlite "==0.2.3", jupyter_server = "*", ipywidgets = ">=8,<9", jupyterlab_widgets = ">=4,<5" plotly = ">=5,<7", jupytext = "*", jupyterlab_execute_time = ">=3.0.1,<4"}
+dependencies = { python = "*", jupyterlite-xeus = ">=2.0.0,<3", jupyterlite "==0.2.3", jupyter_server = "*", ipywidgets = ">=8,<9", plotly = ">=5,<7", jupyterlab_execute_time = ">=3,<4"}
 
 # make sure that we have the WASM environment installed before building the app
 [feature.host.tasks]
