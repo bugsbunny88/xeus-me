@@ -1,65 +1,41 @@
 name: Build and Deploy
 
-# ───────────────────────────── Triggers ─────────────────────────────
 on:
-  push:          { branches: [main] }
-  pull_request:  { branches: ['*'] }
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - '*'
 
-# ───────────────────────────── Jobs ─────────────────────────────
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      # 1. check out the repo
-      - uses: actions/checkout@v4
-
-      # 2. (optional) system Python – not strictly required by micromamba,
-      #    but keeps the image tidy for ad-hoc scripts
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-
-      # 3. create & cache the Conda-for-WebAssembly stack
-      - name: Install micromamba + env
-        uses: mamba-org/setup-micromamba@v1
-        with:
-          micromamba-version: 1.5.8-0
-          # the file that describes the env to create
-          environment-file: build-environment.yml
-
-
-      # 4. build the static JupyterLite site
-      - name: Build the JupyterLite site
-        shell: bash -l {0}                       # -l activates the env micromamba just made
-        run: |
-          cp README.md content
-          jupyter lite build \
-            --apps lab \
-            --no-sourcemaps \
-            --no-unused-shared-packages \
-            --contents content \
-            --output-dir dist
-
-      # 5. stage artefact for the deploy job
-      - uses: actions/upload-pages-artifact@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup pixi project
+        uses: prefix-dev/setup-pixi@v0.8.1
+      - name: Build dist
+        run: pixi run build-dist
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
-  # ───────────────────────────── Deploy (GitHub Pages) ─────────────────────────────
   deploy:
     needs: build
     if: github.ref == 'refs/heads/main'
-
     permissions:
-      pages: write          # to push
-      id-token: write       # to sign the artifact
+      pages: write
+      id-token: write
 
     environment:
       name: github-pages
-      url:  ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
 
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/deploy-pages@v4
+      - name: Deploy to GitHub Pages
         id: deployment
+        uses: actions/deploy-pages@v4
