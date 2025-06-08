@@ -18,7 +18,7 @@ jobs:
       #    but keeps the image tidy for ad-hoc scripts
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.10'
 
       # 3. create & cache the Conda-for-WebAssembly stack
       - name: Install micromamba + env
