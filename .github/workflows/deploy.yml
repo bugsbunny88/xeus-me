@@ -30,7 +30,7 @@ jobs:
           environment-file: build-environment.yml
       
           # ---------- caching (v1 syntax) ----------
-          cache-downloads:   true          # keep .tar.bz2 downloads
+          cache-downloads:   false          # keep .tar.bz2 downloads
           cache-environment: true          # keep the unpacked env
       
           # optional: customise the cache key so it busts when the file changes
