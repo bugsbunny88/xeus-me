@@ -20,7 +20,6 @@ python = "*"
 xeus-python = "*"  # Jupyter kernel for JupyterLite
 ipywidgets = ">=8.1.7,<9"  # Interactive widgets for notebooks
 nbformat = ">=5.10.4,<6"  # Jupyter notebook format
-jupytext = ">=1.17.3,<2"  # Jupyter notebooks as plain text
 
 # ============================================================================
 # Data & Numerical Computing
