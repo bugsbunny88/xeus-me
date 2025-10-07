@@ -36,7 +36,6 @@ dependencies:
   - tqdm
   - typer
   - burr
-  - sf-hamilton
   - langgraph
   - swiglpk
   - optlang
