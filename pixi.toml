@@ -12,71 +12,118 @@ channels = ["https://repo.mamba.pm/emscripten-forge"]
 platforms = ["emscripten-wasm32"]
 
 [feature.wasm.dependencies]
-# we always need the xeus-python kernel for jupyterlite
-xeus-python = "*"
+
+# ============================================================================
+# Core Runtime & Jupyter
+# ============================================================================
 python = "*"
-# add any extra packages from emscripten-forge here
-ipywidgets  = ">=8.1.5,<9"
-matplotlib  = "==3.5.2"
-numpy       = "==1.25.2"
-openpyxl    = ">=3.0.9,<4"
-orjson      = ">=3.10.6,<4"
-pandas      = "==1.5.3"
-plotly      = ">=5.24.1"
-requests    = ">=2.32.3,<3"
-scipy       = "==1.11.1"
-seaborn     = ">=0.13.2,<0.14"
-# new
-typer       = ">=0.19.2,<0.20"
-tqdm        = ">=4.67.1,<5"
-toolz       = ">=1.0.0,<2"
-tenacity    = ">=9.1.2,<10"
-sympy = ">=1.14.0,<2"
-swiglpk = ">=5.0.10,<6"
-sqlglot = ">=27.20.0,<28"
-seaborn = ">=0.13.2,<0.14"
-scipy = "==1.11.1"
-scikit-learn = ">=1.1.3,<2"
-rich = ">=14.1.0,<15"
-requests = ">=2.32.3,<3"
-pytz = ">=2025.2,<2026"
-pygad = ">=3.5.0,<4"
-pydantic = ">=2.8.2,<3"
-pyaml = ">=25.7.0,<26"
-plotly = ">=6.3.0,<7"
-pillow = ">=10.3.0,<11"
-peewee = ">=3.17.3,<4"
-pathspec = ">=0.12.1,<0.13"
-param = ">=2.2.0,<3"
-pandas = "==1.5.3"
-orjson = ">=3.10.6,<4"
-optlang = ">=1.8.2,<2"
-openpyxl = ">=3.0.9,<4"
-numpy = "==1.25.2"
-networkx = ">=3.2,<4"
-nbformat = ">=5.10.4,<6"
-mlxtend = ">=0.23.4,<0.24"
-matplotlib = ">=3.5,<3.9"
-marshmallow = ">=3.26.1,<4"
-lxml = ">=4.9.4,<5"
-langgraph = ">=0.2.28,<0.3"
-jupytext = ">=1.17.3,<2"
-jsonschema = ">=4.17.3,<5"
-json5 = ">=0.12.1,<0.13"
-joblib = ">=1.4.0,<2"
-ipywidgets = ">=8.1.7,<9"
-folium = ">=0.20.0,<0.21"
-fastcore = ">=1.8.12,<2"
-dynaconf = ">=3.2.11,<4"
-diskcache = ">=5.6.3,<6"
-deepdiff = ">=8.6.1,<9"
-click = ">=8.3.0,<9"
-burr = ">=0.40.2,<0.41"
-bs4 = ">=4.14.2,<5"
-beartype = ">=0.22.2,<0.23"
-autograd = ">=1.8.0,<2"
-arrow = ">=1.3.0,<2"
-altair = ">=5.5.0,<6"
+xeus-python = "*"  # Jupyter kernel for JupyterLite
+ipywidgets = ">=8.1.7,<9"  # Interactive widgets for notebooks
+nbformat = ">=5.10.4,<6"  # Jupyter notebook format
+jupytext = ">=1.17.3,<2"  # Jupyter notebooks as plain text
+
+# ============================================================================
+# Data & Numerical Computing
+# ============================================================================
+numpy = "==1.25.2"  # Core numerical computing
+pandas = "==1.5.3"  # Data manipulation and analysis
+scipy = "==1.11.1"  # Scientific computing (optimization, integration, etc.)
+
+# ============================================================================
+# Machine Learning & Statistics
+# ============================================================================
+autograd = ">=1.8.0,<2"  # Automatic differentiation
+mlxtend = ">=0.23.4,<0.24"  # ML extensions
+pygad = ">=3.5.0,<4"  # Genetic algorithms
+scikit-learn = ">=1.1.3,<2"  # Machine learning algorithms
+
+# ============================================================================
+# Visualization
+# ============================================================================
+altair = ">=5.5.0,<6"  # Declarative statistical visualization
+folium = ">=0.20.0,<0.21"  # Interactive maps
+matplotlib = "==3.5.2"  # Plotting library
+plotly = ">=6.3.0,<7"  # Interactive visualizations
+seaborn = ">=0.13.2,<0.14"  # Statistical data visualization
+
+# ============================================================================
+# File I/O & Formats
+# ============================================================================
+openpyxl = ">=3.0.9,<4"  # Excel file reader/writer (xlsx/xlsm)
+pillow = ">=10.3.0,<11"  # Image processing
+
+# ============================================================================
+# Web & HTTP
+# ============================================================================
+requests = ">=2.32.3,<3"  # HTTP library for API requests
+bs4 = ">=4.14.2,<5"  # BeautifulSoup - HTML/XML parser
+lxml = ">=4.9.4,<5"  # XML/HTML processing
+
+# ============================================================================
+# Data Validation & Schemas
+# ============================================================================
+beartype = ">=0.22.2,<0.23"  # Runtime type checking
+jsonschema = ">=4.17.3,<5"  # JSON schema validation
+marshmallow = ">=3.26.1,<4"  # Object serialization/validation
+pydantic = ">=2.8.2,<3"  # Data validation using type hints
+param = ">=2.2.0,<3"  # Declarative parameters
+
+# ============================================================================
+# Data Formats & Serialization
+# ============================================================================
+json5 = ">=0.12.1,<0.13"  # JSON5 format support
+orjson = ">=3.10.6,<4"  # Fast JSON serialization
+pyaml = ">=25.7.0,<26"  # YAML parsing
+
+# ============================================================================
+# Database & ORM
+# ============================================================================
+peewee = ">=3.17.3,<4"  # Lightweight ORM
+
+# ============================================================================
+# Utilities & Functional Programming
+# ============================================================================
+arrow = ">=1.3.0,<2"  # Better date/time handling
+fastcore = ">=1.8.12,<2"  # Utility functions
+pathspec = ">=0.12.1,<0.13"  # Path pattern matching
+pytz = ">=2025.2,<2026"  # Timezone definitions
+toolz = ">=1.0.0,<2"  # Functional programming utilities
+
+# ============================================================================
+# Math & Optimization
+# ============================================================================
+networkx = ">=3.2,<4"  # Graph theory and networks
+optlang = ">=1.8.2,<2"  # Mathematical optimization
+swiglpk = ">=5.0.10,<6"  # Linear programming solver
+sympy = ">=1.14.0,<2"  # Symbolic mathematics
+
+# ============================================================================
+# SQL & Query
+# ============================================================================
+sqlglot = ">=27.20.0,<28"  # SQL parser and transpiler
+
+# ============================================================================
+# CLI & Terminal UI
+# ============================================================================
+click = ">=8.3.0,<9"  # Command-line interface creation
+rich = ">=14.1.0,<15"  # Rich text and formatting in terminal
+tqdm = ">=4.67.1,<5"  # Progress bars
+typer = ">=0.19.2,<0.20"  # CLI framework built on Click
+
+# ============================================================================
+# Workflow & State Management
+# ============================================================================
+burr = ">=0.40.2,<0.41"  # State machine framework
+langgraph = ">=0.2.28,<0.3"  # Graph-based workflow for LLMs
+
+# ============================================================================
+# System & Performance
+# ============================================================================
+deepdiff = ">=8.6.1,<9"  # Deep difference and search of objects
+diskcache = ">=5.6.3,<6"  # Disk-based caching
+dynaconf = ">=3.2.11,<4"  # Configuration management
+joblib = ">=1.4.0,<2"  # Parallel computing and caching
+tenacity = ">=9.1.2,<10"  # Retry library
 
 [feature.host]
 channels = ["conda-forge"]
