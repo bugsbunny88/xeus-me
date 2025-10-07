@@ -23,7 +23,6 @@ dependencies:
   - deepdiff
   - diskcache
   - dynaconf
-  - einops
   - fastcore
   - joblib
   - json5
@@ -39,6 +38,23 @@ dependencies:
   - burr
   - sf-hamilton
   - langgraph
+  - swiglpk
+  - optlang
+  - peewee
+  - pillow
+  - sympy
+  - networkx
+  - lxml
+  - bs4
+  - pygad
+  - mlxtend
+  - autograd
+  - sqlglot
+  - pathspec
+  - pyaml
+  - tenacity
+  - toolz
+  - pytz
 
  
 
