@@ -36,6 +36,9 @@ dependencies:
   - tenacity
   - tqdm
   - typer
+  - burr
+  - sf-hamilton
+  - langgraph
 
  
 
