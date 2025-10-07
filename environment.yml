@@ -55,6 +55,8 @@ dependencies:
   - tenacity
   - toolz
   - pytz
+  - scikit-learn
+  - pydantic
 
  
 
