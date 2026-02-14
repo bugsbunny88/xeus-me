@@ -1,6 +1,6 @@
 # WASM experiments
 
-# Pyodide Package Audit — Flat 7-Column Table
+# Pyodide Package Audit
 
 | type | id | name | version/range | status | notes | extra_info |
 | --- | ---: | --- | --- | --- | --- | --- |
@@ -8,6 +8,7 @@
 | meta | 2 | Channel Target | Python 3.11 | Info | emscripten-forge/Pyodide channel | compare vs minimal bundle |
 | meta | 3 | Minimal Bundle | Python 3.13 | Info | custom minimal bundle | path: `assets/pyodide-minimal/`; target: `pyodide_2025_0_wasm32` |
 
+| type | id | name | version/range | status | notes | extra_info |
 | sum | 1 | Stats | Total packages | 201 | aggregate | unique packages audited |
 | sum | 2 | Stats | Available in channel | 188 | aggregate | Avail: ✓ |
 | sum | 3 | Stats | Not in channel | 13 | aggregate | Avail: ✗ |
